@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="metric_definition">
+    <metric_definition action="DELETE">
+        <active>true</active>
+        <description/>
+        <field>cpu_name</field>
+        <name>Win Server - CPU Name</name>
+        <number>MTRC0010004</number>
+        <order>100</order>
+        <script><![CDATA[var mi = new MetricInstance(definition, current);
+
+var gr = mi.getNewRecord();
+gr.start = new glideDateTime();
+gr.end = new glideDateTime();
+gr.value = current.cpu_name;
+gr.calculation_complete = true;
+gr.insert();
+]]></script>
+        <sys_class_name>metric_definition</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-13 14:52:52</sys_created_on>
+        <sys_id>b5f619fb1b6d2858366610229b4bcbc7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Win Server - CPU Name</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>metric_definition_b5f619fb1b6d2858366610229b4bcbc7</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-13 15:03:02</sys_updated_on>
+        <table>cmdb_ci_win_server</table>
+        <timeline>true</timeline>
+        <type>calculation</type>
+    </metric_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</application>
+        <file_path/>
+        <instance_id>8c26c91edbb5e2007e55f5b0cf96191c</instance_id>
+        <instance_name>mrsnowdev02</instance_name>
+        <name>metric_definition_b5f619fb1b6d2858366610229b4bcbc7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="metric_definition"&gt;&lt;metric_definition action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;field&gt;cpu_name&lt;/field&gt;&lt;name&gt;Win Server - CPU Name&lt;/name&gt;&lt;number&gt;MTRC0010004&lt;/number&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[var mi = new MetricInstance(definition, current);
+
+var gr = mi.getNewRecord();
+gr.start = new glideDateTime();
+gr.end = new glideDateTime();
+gr.value = current.cpu_name;
+gr.calculation_complete = true;
+gr.insert();
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;metric_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;shay.faingold@cloudstratex.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-13 14:52:52&lt;/sys_created_on&gt;&lt;sys_id&gt;b5f619fb1b6d2858366610229b4bcbc7&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Win Server - CPU Name&lt;/sys_name&gt;&lt;sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec"&gt;3dca6607dbe1a85ca997ba03f39619ec&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CMDB Copy"&gt;3dca6607dbe1a85ca997ba03f39619ec&lt;/sys_scope&gt;&lt;sys_update_name&gt;metric_definition_b5f619fb1b6d2858366610229b4bcbc7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;shay.faingold@cloudstratex.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-13 15:03:02&lt;/sys_updated_on&gt;&lt;table&gt;cmdb_ci_win_server&lt;/table&gt;&lt;timeline&gt;true&lt;/timeline&gt;&lt;type&gt;calculation&lt;/type&gt;&lt;/metric_definition&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-744867371</payload_hash>
+        <record_name>Win Server - CPU Name</record_name>
+        <reverted_from/>
+        <source>21a20e96dbd10010a1ba30d6f496193d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-13 15:03:02</sys_created_on>
+        <sys_id>7579917f1bad2858366610229b4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176fc45833c0000001</sys_recorded_at>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-13 15:03:02</sys_updated_on>
+        <type>Metric Definition</type>
+        <update_guid>f979917fe1ad285862171c03f9d392ed</update_guid>
+        <update_guid_history>f979917fe1ad285862171c03f9d392ed:-744867371,b9b75973a66d2858448b3ed6cf09d60c:1717395959,b827153b952d2858ce1e08a2429715ed:-170699461</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Win Server - CPU Name">9df947c41b7de098366610229b4bcb42</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-14 17:53:00</sys_created_on>
+        <sys_db_object display_value="" name="metric_definition">metric_definition</sys_db_object>
+        <sys_id>534c85d16d6e4ffc9b71c1faba286601</sys_id>
+        <sys_metadata>b5f619fb1b6d2858366610229b4bcbc7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Win Server - CPU Name</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_parent display_value="Windows Server">f74006dadb110010a1ba30d6f49619d8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_scope_delete display_value="">1436e6296bbe42089309e21154006864</sys_scope_delete>
+        <sys_update_name>metric_definition_b5f619fb1b6d2858366610229b4bcbc7</sys_update_name>
+        <sys_update_version display_value="metric_definition_b5f619fb1b6d2858366610229b4bcbc7">7579917f1bad2858366610229b4bcbee</sys_update_version>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-14 17:53:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

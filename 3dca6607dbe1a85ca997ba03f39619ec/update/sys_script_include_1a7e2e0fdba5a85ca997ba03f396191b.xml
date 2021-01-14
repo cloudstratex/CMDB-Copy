@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.MainScript</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MainScript</name>
+        <script><![CDATA[var MainScript = Class.create();
+MainScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    initialize: function() {
+
+        this.tables = ['cmdb_ci_disk', 'cmdb_ci_disk_partition', 'cmdb_ci_docker_container', 'cmdb_ci_fc_disk', 'cmdb_ci_file_system', 'cmdb_ci_nas_file_system', 'cmdb_ci_oslv_container', 'cmdb_ci_san_disk', 'cmdb_ci_storage_device', 'cmdb_ci_storage_hba', 'cmdb_ci_storage_pool', 'cmdb_ci_storage_pool_member', 'cmdb_ci_storage_volume', 'cmdb_ci_ip_router', 'cmdb_ci_ip_switch', 'cmdb_ci_ip_address', 'cmdb_ci_fc_port', 'cmdb_ci_dns_name', 'cmdb_ci_lb_haproxy', 'cmdb_ci_lb_pool', 'cmdb_ci_lb_pool_member', 'cmdb_ci_lb_service', 'cmdb_ci_netgear', 'cmdb_ci_outofband_device', 'cmdb_ci_computer', 'cmdb_ci_server', 'cmdb_ci_win_server', 'cmdb_ci_virtualization_server', 'cmdb_ci_vm', 'cmdb_ci_web_server', 'cmdb_ci_cluster', 'cmdb_ci_cluster_node', 'cmdb_ci_cluster_resource', 'cmdb_ci_cluster_vip', 'cmdb_ci_win_cluster', 'cmdb_ci_win_cluster_node', 'cmdb_ci_win_cluster_resource', 'cmdb_ci_db_instance', 'cmdb_ci_db_hbase_instance', 'cmdb_ci_db_mongodb_instance', 'cmdb_ci_db_mssql_database', 'cmdb_ci_db_mssql_instance', 'cmdb_ci_db_mysql_instance', 'cmdb_ci_db_ora_instance', 'cmdb_ci_db_ora_listener','cmdb_ci_network_adapter','cmdb_ci_vm_object'];
+//        this.networkTable = ['cmdb_ci_network_adapter'];
+  //      this.vmObject = ['cmdb_ci_vm_object'];
+
+        this.fields = ['vendor', 'asset_tag', 'attested', 'can_print', 'category', 'computer', 'cost_cc', 'device_bus_id', 'device_host_id', 'device_id', 'device_interface', 'device_lun', 'device_major_minor', 'device_target_id', 'discovery_source', 'disk_space', 'drive_type', 'fault_count', 'first_discovered', 'install_status', 'last_discovered', 'manufacturer', 'model_id', 'monitor', 'name', 'operational_status', 'serial_number', 'short_description', 'size', 'size_bytes', 'skip_sync', 'storage_type', 'subcategory', 'unverified', 'disk', 'end_offset', 'partition_number', 'start_offset', 'command', 'container_created_at', 'container_id', 'image_id', 'status', 'provided_by', 'available_space', 'capacity', 'delete_on_termination', 'file_system', 'free_space', 'free_space_bytes', 'label', 'media_type', 'mount_point', 'sharable', 'type', 'volume_id', 'nas_hostname', 'nas_ip_address', 'nas_path', 'nas_protocol', 'hosted_by', 'pool_id', 'comments', 'pool', 'source_end_offset', 'source_start_offset', 'storage', 'asset', 'can_hub', 'can_partitionvlans', 'can_route', 'can_switch', 'cpu_count', 'discovery_proto_id', 'discovery_proto_type', 'dns_domain', 'hardware_status', 'internet_facing', 'ip_address', 'physical_interface_count', 'ports', 'stack', 'stack_mode', 'duplicate_of', 'ip_version', 'mac_address', 'netmask', 'nic', 'controller', 'port_type', 'speed', 'wwnn', 'wwpn', 'agent', 'fqdn', 'classifier', 'config_file', 'is_clustered', 'running_process', 'running_process_command', 'running_process_key_parameters', 'used_for', 'version', 'load_balancer', 'load_balancing_method', 'service_port', 'hit_count', 'port', 'alias', 'cmdb_ci', 'dhcp_enabled', 'ip_default_gateway', 'mac_manufacturer', 'virtual', 'dns_url', 'firmware_version', 'host', 'product_version', 'url', 'cd_rom', 'chassis_type', 'cpu_core_count', 'cpu_core_thread', 'cpu_manufacturer', 'cpu_name', 'cpu_speed', 'cpu_type', 'default_gateway', 'model_number', 'object_id', 'os', 'os_address_width', 'os_domain', 'os_service_pack', 'os_version', 'ram', 'start_date', 'classification', 'firewall_status', 'host_name', 'server', 'install_directory', 'pid', 'tcp_port', 'cluster_id', 'cluster_status', 'cluster_type', 'cluster', 'resource_type', 'node', 'node_state', 'config_directory', 'edition', 'hbase_home', 'root_dir', 'site_xml', 'zookeeper', 'mongodb_conf', 'database', 'engine_edition', 'instance_name', 'port_dynamic', 'service_pack', 'version_name', 'data_directory', 'jdbc_port', 'myconf', 'oracle_home', 'pfile', 'sid', 'configuration', 'scan_listener_name', 'environment', 'location', 'install_date', 'maintenance_schedule', 'company', 'owned_by', 'support_group'];
+
+    },
+
+    getFieldsInfo: function() {
+
+        var fieldsArray = this.fields;
+        gs.info('FIELDS: ' + fieldsArray.length);
+        for (a = 0; a < fieldsArray.length; a++) {
+            var getField = new GlideRecord('u_cmdb_tables_fields');
+            getField.query();
+
+            var tablesArray = this.tables;
+            for (i = 0; i < tablesArray.length; i++) {
+                var getCMDBField = new GlideRecord('sys_dictionary');
+                getCMDBField.addQuery('name', tablesArray[i]);
+                getCMDBField.addQuery('element', getField.u_field_name);
+                getCMDBField.query();
+
+                if (getCMDBField.next()) {
+                    getField.u_field_name = fieldsArray[a];
+                    getField.u_field_label = getCMDBField.column_label;
+                    getField.u_reference = getCMDBField.reference;
+                    getField.u_field_type = getCMDBField.internal_type;
+                    getField.update();
+                }
+            }
+        }
+    },
+
+    createFields: function() {
+
+        var getFields = new GlideRecord('u_cmdb_tables_fields');
+        // getFields.setLimit(3);
+        getFields.query();
+
+        while (getFields.next()) {
+
+            gs.info('createFields: Field: ' + getFields.u_field_label);
+            var grNewDictionaryEntry = new GlideRecord('sys_dictionary');
+            grNewDictionaryEntry.addQuery('name', 'u_vm_object');
+            grNewDictionaryEntry.addQuery('element', getFields.u_field_name.toString());
+            grNewDictionaryEntry.query();
+
+            if (!grNewDictionaryEntry.next()) {
+                gs.info('createFields: Field to update: ' + getFields.u_field_label);
+                grNewDictionaryEntry.name = 'u_vm_object'; //Table name
+                grNewDictionaryEntry.internal_type = getFields.u_field_type.toString();
+                grNewDictionaryEntry.column_label = getFields.u_field_label.toString();
+                grNewDictionaryEntry.element = getFields.u_field_name.toString();
+                grNewDictionaryEntry.reference = getFields.u_reference.toString();
+                grNewDictionaryEntry.update();
+
+            } else if (!grNewDictionaryEntry.next()) {
+                //
+            }
+        }
+    },
+
+    getDataFromCMDB: function() {
+
+        gs.info('getDataFromCMDB: STARTED');
+        //Run for each Table
+        //        var tableArrayString = this.tablesArray.toString();
+        var CMDBTables = this.tables; //tableArrayString.split(',');
+        //  gs.info('getDataFromCMDB: tables: ' + CMDBTables.length);
+        for (var i = 0; i < CMDBTables.length; i++) {
+            if (CMDBTables[i] != '') {
+                //Find each Field from each table
+                var fieldArray = [];
+                var getTableFields = new GlideRecord('sys_dictionary');
+                getTableFields.addQuery('name', CMDBTables[i]);
+                getTableFields.addQuery('internal_type', '!=', 'collection');
+                getTableFields.query();
+
+                while (getTableFields.next()) {
+                    fieldArray += getTableFields.element + ',';
+                }
+                //      gs.info('getDataFromCMDB: Fields: ' + fieldArray);
+                var fieldsArrayString = fieldArray.toString();
+                var CMDBFields = fieldsArrayString.split(',');
+
+                var getCMDB = new GlideRecord(CMDBTables[i]);
+                getCMDB.query();
+
+                while (getCMDB.next()) {
+                    //    gs.info('getDataFromCMDB: For Table: ' + getCMDB.sys_class_name + ' Length of fields: ' + CMDBFields.length);
+                    var cmdbArray = [];
+                    for (var a = 0; a < CMDBFields.length; a++) {
+                        var fieldID = CMDBFields[a];
+                        var fieldIDForCopy = 'u_' + CMDBFields[a];
+                        if (fieldID.indexOf('sys_') == -1 && getCMDB.getValue(fieldID) != '' && getCMDB.getValue(fieldID) != null) {
+                            cmdbArray.push("'" + fieldIDForCopy + "':'" + getCMDB.getValue(fieldID) + "'");
+                        }
+                    }
+                    cmdbArray.push("'u_correlation_id':'" + getCMDB.getValue('sys_id') + "'");
+                    cmdbArray.push("'u_class':'" + CMDBTables[i] + "'");
+                    //                    gs.info('getDataFromCMDB: Array to Push: ' + cmdbArray);
+                    this.pushREST(cmdbArray);
+                    gs.sleep(200);
+
+                }
+            }
+        }
+        gs.info('getDataFromCMDB: FINISHED');
+    },
+
+    pushREST: function(fields) {
+
+        var request = new sn_ws.RESTMessageV2();
+        request.setEndpoint('https://mrsnowdev02.service-now.com/api/now/table/u_cmdb_copy');
+        request.setHttpMethod('POST');
+
+        //Eg. UserName="admin", Password="admin" for this code sample.
+     
+        request.setBasicAuth(user, password);
+        request.setRequestHeader("Accept", "application/json");
+        request.setRequestHeader('Content-Type', 'application/json');
+        request.setRequestBody("{" + fields + "}");
+        var response = request.execute();
+        //  gs.info('pushREST: response header: ' + response.getStatusCode());
+        //  gs.info('pushREST: response body: ' + response.getBody());
+
+    },
+
+    copyTable: function() {
+
+        var tablesArray = this.networkTable;
+        var bCopyIndexes = true;
+
+        for (i = 0; i < tablesArray.length; i++) {
+            var strOldTable = tablesArray[i];
+            var strNewTable = 'u_' + tablesArray[i];
+            var tu = new TableUtils(strNewTable);
+            var bNewTableAlreadyExists = tu.tableExists();
+            if (bNewTableAlreadyExists) {
+                gs.print("WARNING: Target Table " + strNewTable + " already exists!  Please choose a new target table name");
+            } else {
+                var gr = new GlideRecord(strOldTable);
+                gr.initialize();
+                var td = GlideTableDescriptor.get(strOldTable);
+                var tdNewTable = new SNC.TableRotationBootstrap(strNewTable, gr.getLabel());
+                var dbo = new GlideRecord("sys_db_object");
+                dbo.addEncodedQuery("super_classISNOTEMPTY^name=" + strOldTable);
+                dbo.setLimit(1);
+                dbo.query();
+                if (dbo.next()) {
+                    tdNewTable.setExtends(dbo.super_class + '');
+                }
+                tdNewTable.setFields(gr);
+                tdNewTable.copyAttributes(td);
+                tdNewTable.create();
+                if (bCopyIndexes) {
+                    tdNewTable.copyIndexes(strOldTable, strNewTable);
+                }
+            }
+        }
+    },
+
+    copyData: function(discoveryRun) {
+
+		var networkCopyTable = 'u_network_adapter';
+		var vmObjectCopyTable = 'u_vm_object';
+		var allClassCopyTable = 'u_cmdb_copy';
+		var copyTable = 'u_cmdb_copy';
+        var tablesArray = this.tables;
+
+        for (i = 0; i < tablesArray.length; i++) {
+			
+			if (tablesArray[i] == 'cmdb_ci_network_adapter') {
+				copyTable = networkCopyTable;
+			}
+			if (tablesArray[i] == 'cmdb_ci_vm_object'){
+				copyTable = vmObjectCopyTable;
+			}
+			else {
+				copyTable = allClassCopyTable;
+			}
+
+            var cmdbCi = new GlideRecord(tablesArray[i]);
+            //  cmdbCI.setLimit(100);
+            cmdbCi.query();
+            while (cmdbCi.next()) {
+                var ciCopy = new GlideRecord(copyTable);
+                ciCopy.initialize();
+                ciCopy.u_vendor = cmdbCi.vendor;
+                ciCopy.u_asset_tag = cmdbCi.asset_tag;
+                ciCopy.u_attested = cmdbCi.attested;
+                ciCopy.u_can_print = cmdbCi.can_print;
+                ciCopy.u_category = cmdbCi.category;
+                ciCopy.u_computer = cmdbCi.computer;
+                ciCopy.u_cost_cc = cmdbCi.cost_cc;
+                ciCopy.u_device_bus_id = cmdbCi.device_bus_id;
+                ciCopy.u_device_host_id = cmdbCi.device_host_id;
+                ciCopy.u_device_id = cmdbCi.device_id;
+                ciCopy.u_device_interface = cmdbCi.device_interface;
+                ciCopy.u_device_lun = cmdbCi.device_lun;
+                ciCopy.u_device_major_minor = cmdbCi.device_major_minor;
+                ciCopy.u_device_target_id = cmdbCi.device_target_id;
+                ciCopy.u_discovery_source = cmdbCi.discovery_source;
+                ciCopy.u_disk_space = cmdbCi.disk_space;
+                ciCopy.u_drive_type = cmdbCi.drive_type;
+                ciCopy.u_fault_count = cmdbCi.fault_count;
+                ciCopy.u_first_discovered = cmdbCi.first_discovered;
+                ciCopy.u_install_status = cmdbCi.install_status;
+                ciCopy.u_last_discovered = cmdbCi.last_discovered;
+                ciCopy.u_manufacturer = cmdbCi.manufacturer;
+                ciCopy.u_model_id = cmdbCi.model_id;
+                ciCopy.u_monitor = cmdbCi.monitor;
+                ciCopy.u_name = cmdbCi.name;
+                ciCopy.u_operational_status = cmdbCi.operational_status;
+                ciCopy.u_serial_number = cmdbCi.serial_number;
+                ciCopy.u_short_description = cmdbCi.short_description;
+                ciCopy.u_size = cmdbCi.size;
+                ciCopy.u_size_bytes = cmdbCi.size_bytes;
+                ciCopy.u_skip_sync = cmdbCi.skip_sync;
+                ciCopy.u_storage_type = cmdbCi.storage_type;
+                ciCopy.u_subcategory = cmdbCi.subcategory;
+                ciCopy.u_unverified = cmdbCi.unverified;
+                ciCopy.u_disk = cmdbCi.disk;
+                ciCopy.u_end_offset = cmdbCi.end_offset;
+                ciCopy.u_partition_number = cmdbCi.partition_number;
+                ciCopy.u_start_offset = cmdbCi.start_offset;
+                ciCopy.u_command = cmdbCi.command;
+                ciCopy.u_container_created_at = cmdbCi.container_created_at;
+                ciCopy.u_container_id = cmdbCi.container_id;
+                ciCopy.u_image_id = cmdbCi.image_id;
+                ciCopy.u_status = cmdbCi.status;
+                ciCopy.u_provided_by = cmdbCi.provided_by;
+                ciCopy.u_available_space = cmdbCi.available_space;
+                ciCopy.u_capacity = cmdbCi.capacity;
+                ciCopy.u_delete_on_termination = cmdbCi.delete_on_termination;
+                ciCopy.u_file_system = cmdbCi.file_system;
+                ciCopy.u_free_space = cmdbCi.free_space;
+                ciCopy.u_free_space_bytes = cmdbCi.free_space_bytes;
+                ciCopy.u_label = cmdbCi.label;
+                ciCopy.u_media_type = cmdbCi.media_type;
+                ciCopy.u_mount_point = cmdbCi.mount_point;
+                ciCopy.u_sharable = cmdbCi.sharable;
+                ciCopy.u_type = cmdbCi.type;
+                ciCopy.u_volume_id = cmdbCi.volume_id;
+                ciCopy.u_nas_hostname = cmdbCi.nas_hostname;
+                ciCopy.u_nas_ip_address = cmdbCi.nas_ip_address;
+                ciCopy.u_nas_path = cmdbCi.nas_path;
+                ciCopy.u_nas_protocol = cmdbCi.nas_protocol;
+                ciCopy.u_hosted_by = cmdbCi.hosted_by;
+                ciCopy.u_pool_id = cmdbCi.pool_id;
+                ciCopy.u_comments = cmdbCi.comments;
+                ciCopy.u_pool = cmdbCi.pool;
+                ciCopy.u_source_end_offset = cmdbCi.source_end_offset;
+                ciCopy.u_source_start_offset = cmdbCi.source_start_offset;
+                ciCopy.u_storage = cmdbCi.storage;
+                ciCopy.u_asset = cmdbCi.asset;
+                ciCopy.u_can_hub = cmdbCi.can_hub;
+                ciCopy.u_can_partitionvlans = cmdbCi.can_partitionvlans;
+                ciCopy.u_can_route = cmdbCi.can_route;
+                ciCopy.u_can_switch = cmdbCi.can_switch;
+                ciCopy.u_cpu_count = cmdbCi.cpu_count;
+                ciCopy.u_discovery_proto_id = cmdbCi.discovery_proto_id;
+                ciCopy.u_discovery_proto_type = cmdbCi.discovery_proto_type;
+                ciCopy.u_dns_domain = cmdbCi.dns_domain;
+                ciCopy.u_hardware_status = cmdbCi.hardware_status;
+                ciCopy.u_internet_facing = cmdbCi.internet_facing;
+                ciCopy.u_ip_address = cmdbCi.ip_address;
+                ciCopy.u_physical_interface_count = cmdbCi.physical_interface_count;
+                ciCopy.u_ports = cmdbCi.ports;
+                ciCopy.u_stack = cmdbCi.stack;
+                ciCopy.u_stack_mode = cmdbCi.stack_mode;
+                ciCopy.u_duplicate_of = cmdbCi.duplicate_of;
+                ciCopy.u_ip_version = cmdbCi.ip_version;
+                ciCopy.u_mac_address = cmdbCi.mac_address;
+                ciCopy.u_netmask = cmdbCi.netmask;
+                ciCopy.u_nic = cmdbCi.nic;
+                ciCopy.u_controller = cmdbCi.controller;
+                ciCopy.u_port_type = cmdbCi.port_type;
+                ciCopy.u_speed = cmdbCi.speed;
+                ciCopy.u_wwnn = cmdbCi.wwnn;
+                ciCopy.u_wwpn = cmdbCi.wwpn;
+                ciCopy.u_agent = cmdbCi.agent;
+                ciCopy.u_fqdn = cmdbCi.fqdn;
+                ciCopy.u_classifier = cmdbCi.classifier;
+                ciCopy.u_config_file = cmdbCi.config_file;
+                ciCopy.u_is_clustered = cmdbCi.is_clustered;
+                ciCopy.u_running_process = cmdbCi.running_process;
+                ciCopy.u_running_process_command = cmdbCi.running_process_command;
+                ciCopy.u_running_process_key_parameters = cmdbCi.running_process_key_parameters;
+                ciCopy.u_used_for = cmdbCi.used_for;
+                ciCopy.u_version = cmdbCi.version;
+                ciCopy.u_load_balancer = cmdbCi.load_balancer;
+                ciCopy.u_load_balancing_method = cmdbCi.load_balancing_method;
+                ciCopy.u_service_port = cmdbCi.service_port;
+                ciCopy.u_hit_count = cmdbCi.hit_count;
+                ciCopy.u_port = cmdbCi.port;
+                ciCopy.u_alias = cmdbCi.alias;
+                ciCopy.u_cmdb_ci = cmdbCi.cmdb_ci;
+                ciCopy.u_dhcp_enabled = cmdbCi.dhcp_enabled;
+                ciCopy.u_ip_default_gateway = cmdbCi.ip_default_gateway;
+                ciCopy.u_mac_manufacturer = cmdbCi.mac_manufacturer;
+                ciCopy.u_virtual = cmdbCi.virtual;
+                ciCopy.u_dns_url = cmdbCi.dns_url;
+                ciCopy.u_firmware_version = cmdbCi.firmware_version;
+                ciCopy.u_host = cmdbCi.host;
+                ciCopy.u_product_version = cmdbCi.product_version;
+                ciCopy.u_url = cmdbCi.url;
+                ciCopy.u_cd_rom = cmdbCi.cd_rom;
+                ciCopy.u_chassis_type = cmdbCi.chassis_type;
+                ciCopy.u_cpu_core_count = cmdbCi.cpu_core_count;
+                ciCopy.u_cpu_core_thread = cmdbCi.cpu_core_thread;
+                ciCopy.u_cpu_manufacturer = cmdbCi.cpu_manufacturer;
+                ciCopy.u_cpu_name = cmdbCi.cpu_name;
+                ciCopy.u_cpu_speed = cmdbCi.cpu_speed;
+                ciCopy.u_cpu_type = cmdbCi.cpu_type;
+                ciCopy.u_default_gateway = cmdbCi.default_gateway;
+                ciCopy.u_model_number = cmdbCi.model_number;
+                ciCopy.u_object_id = cmdbCi.object_id;
+                ciCopy.u_os = cmdbCi.os;
+                ciCopy.u_os_address_width = cmdbCi.os_address_width;
+                ciCopy.u_os_domain = cmdbCi.os_domain;
+                ciCopy.u_os_service_pack = cmdbCi.os_service_pack;
+                ciCopy.u_os_version = cmdbCi.os_version;
+                ciCopy.u_ram = cmdbCi.ram;
+                ciCopy.u_start_date = cmdbCi.start_date;
+                ciCopy.u_classification = cmdbCi.classification;
+                ciCopy.u_firewall_status = cmdbCi.firewall_status;
+                ciCopy.u_host_name = cmdbCi.host_name;
+                ciCopy.u_server = cmdbCi.server;
+                ciCopy.u_install_directory = cmdbCi.install_directory;
+                ciCopy.u_pid = cmdbCi.pid;
+                ciCopy.u_tcp_port = cmdbCi.tcp_port;
+                ciCopy.u_cluster_id = cmdbCi.cluster_id;
+                ciCopy.u_cluster_status = cmdbCi.cluster_status;
+                ciCopy.u_cluster_type = cmdbCi.cluster_type;
+                ciCopy.u_cluster = cmdbCi.cluster;
+                ciCopy.u_resource_type = cmdbCi.resource_type;
+                ciCopy.u_node = cmdbCi.node;
+                ciCopy.u_node_state = cmdbCi.node_state;
+                ciCopy.u_config_directory = cmdbCi.config_directory;
+                ciCopy.u_edition = cmdbCi.edition;
+                ciCopy.u_hbase_home = cmdbCi.hbase_home;
+                ciCopy.u_root_dir = cmdbCi.root_dir;
+                ciCopy.u_site_xml = cmdbCi.site_xml;
+                ciCopy.u_zookeeper = cmdbCi.zookeeper;
+                ciCopy.u_mongodb_conf = cmdbCi.mongodb_conf;
+                ciCopy.u_database = cmdbCi.database;
+                ciCopy.u_engine_edition = cmdbCi.engine_edition;
+                ciCopy.u_instance_name = cmdbCi.instance_name;
+                ciCopy.u_port_dynamic = cmdbCi.port_dynamic;
+                ciCopy.u_service_pack = cmdbCi.service_pack;
+                ciCopy.u_version_name = cmdbCi.version_name;
+                ciCopy.u_data_directory = cmdbCi.data_directory;
+                ciCopy.u_jdbc_port = cmdbCi.jdbc_port;
+                ciCopy.u_myconf = cmdbCi.myconf;
+                ciCopy.u_oracle_home = cmdbCi.oracle_home;
+                ciCopy.u_pfile = cmdbCi.pfile;
+                ciCopy.u_sid = cmdbCi.sid;
+                ciCopy.u_configuration = cmdbCi.configuration;
+                ciCopy.u_scan_listener_name = cmdbCi.scan_listener_name;
+
+                ciCopy.u_class = tablesArray[i];
+                ciCopy.u_correlation_id = cmdbCi.sys_id;
+				ciCopy.u_discovery_run = discoveryRun;
+                ciCopy.insert();
+            }
+        }
+		this.copyRelTableSimple(discoveryRun);
+    },
+
+    copyRelTable: function() {
+
+        var newRel = new GlideRecord('u_cmdb_relationship_copy');
+
+        var getRel = new GlideRecord('cmdb_rel_ci');
+        getRel.query();
+
+        while (getRel.next()) {
+            var saveRecord = false;
+            newRel.initialize();
+
+            var getNewCiParent = new GlideRecord('u_cmdb_copy');
+            if (getNewCiParent.get('u_correlation_id', getRel.parent)) {
+                saveRecord = true;
+                newRel.u_parent = getNewCiParent.sys_id;
+            }
+            newRel.u_parent_sys_id = getRel.parent;
+
+            var getNewCiChild = new GlideRecord('u_cmdb_copy');
+            if (getNewCiChild.get('u_correlation_id', getRel.child)) {
+                saveRecord = true;
+                newRel.u_child = getNewCiChild.sys_id;
+            }
+            newRel.u_child_sys_id = getRel.child;
+
+            newRel.u_type = getRel.getDisplayValue('type');
+            newRel.u_correlation_id = getRel.sys_id;
+            if (saveRecord) {
+                newRel.insert();
+            }
+        }
+
+    },
+
+    copyRelTableSimple: function(discoveryRun) {
+
+        var newRel = new GlideRecord('u_cmdb_relationship_copy');
+
+        var getRel = new GlideRecord('cmdb_rel_ci');
+        getRel.query();
+
+        while (getRel.next()) {
+            newRel.initialize();
+
+            newRel.u_parent_sys_id = getRel.parent;
+            newRel.u_child_sys_id = getRel.child;
+
+            newRel.u_type = getRel.getDisplayValue('type');
+            newRel.u_correlation_id = getRel.sys_id;
+			newRel.u_discovery_run = discoveryRun;
+            newRel.insert();
+
+        }
+    },
+
+    type: 'MainScript'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-11 13:50:11</sys_created_on>
+        <sys_id>1a7e2e0fdba5a85ca997ba03f396191b</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>MainScript</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_script_include_1a7e2e0fdba5a85ca997ba03f396191b</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-14 17:58:04</sys_updated_on>
+    </sys_script_include>
+</record_update>

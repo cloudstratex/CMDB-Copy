@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_myconf" label="Myconf" language="en" table="u_cmdb_copy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_myconf</element>
+            <help/>
+            <hint/>
+            <label>Myconf</label>
+            <language>en</language>
+            <name>u_cmdb_copy</name>
+            <plural>Myconfs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-11 14:27:48</sys_created_on>
+            <sys_id>463e3e831be96c94366610229b4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Myconf</sys_name>
+            <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+            <sys_update_name>sys_documentation_u_cmdb_copy_u_myconf_en</sys_update_name>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-11 14:27:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

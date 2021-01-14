@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e63a72cfdba9a85ca997ba03f396190e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_cmdb_tables_fields">
+    <u_cmdb_tables_fields action="INSERT_OR_UPDATE">
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-11 14:10:21</sys_created_on>
+        <sys_id>e63a72cfdba9a85ca997ba03f396190e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-11 14:11:22</sys_updated_on>
+        <u_active>true</u_active>
+        <u_field_label>OS Service Pack</u_field_label>
+        <u_field_name>os_service_pack</u_field_name>
+        <u_field_type>string</u_field_type>
+        <u_reference/>
+    </u_cmdb_tables_fields>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-14 16:01:26</sys_created_on>
+        <sys_id>4f60f6881b79e098366610229b4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2021-01-11 15:10:21</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_metadata_link_4f60f6881b79e098366610229b4bcb27</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-14 16:01:26</sys_updated_on>
+        <tablename>u_cmdb_tables_fields</tablename>
+    </sys_metadata_link>
+</record_update>

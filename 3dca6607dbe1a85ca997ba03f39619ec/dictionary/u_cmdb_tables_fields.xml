@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="CMDB Tables fields" max_length="40" name="u_cmdb_tables_fields" sizeclass="172" type="collection">
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Field Label" max_length="250" name="u_field_label" type="string"/>
+        <element label="Field Name" max_length="250" name="u_field_name" type="string"/>
+        <element label="Field Type" max_length="120" name="u_field_type" type="string"/>
+        <element label="Reference" max_length="80" name="u_reference" type="table_name"/>
+    </element>
+</database>

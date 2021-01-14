@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_service_pack" label="Service pack" language="en" table="u_network_adapter">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_service_pack</element>
+            <help/>
+            <hint/>
+            <label>Service pack</label>
+            <language>en</language>
+            <name>u_network_adapter</name>
+            <plural>Service packs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:27:08</sys_created_on>
+            <sys_id>8b082cb71be16058366610229b4bcb5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Service pack</sys_name>
+            <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+            <sys_update_name>sys_documentation_u_network_adapter_u_service_pack_en</sys_update_name>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:27:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

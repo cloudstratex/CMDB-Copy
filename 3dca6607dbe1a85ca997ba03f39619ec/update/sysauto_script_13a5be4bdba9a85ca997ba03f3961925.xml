@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Run Scripts - CMDB Copy</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Shay_Admin Faingold">50785ce51b254810e8cb0edacd4bcbe2</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-01-11 13:50:29</run_start>
+        <run_time>1969-12-31 23:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[//new global.MainScript().getFieldsInfo();
+
+//new global.MainScript().createFields();
+
+//new global.MainScript().getDataFromCMDB();
+
+//new global.MainScript().copyTable();
+
+
+//Run this script - Please include the SYS_ID of the Discovery run for that specific date
+new global.MainScript().copyData(SYD_ID_OF_DISCOVERY_RUN);
+
+//new global.MainScript().copyRelTable();
+
+/* var a = new GlideRecord('u_cmdb_copy');
+a.addEncodedQuery('u_class=cmdb_ci_network_adapter');
+a.query();
+a.deleteMultiple(); */
+
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-11 13:51:34</sys_created_on>
+        <sys_id>13a5be4bdba9a85ca997ba03f3961925</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Run Scripts - CMDB Copy</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sysauto_script_13a5be4bdba9a85ca997ba03f3961925</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-14 17:49:50</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

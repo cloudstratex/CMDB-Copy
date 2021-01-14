@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_site_xml" label="Site XML" language="en" table="u_cmdb_copy">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_site_xml</element>
+            <help/>
+            <hint/>
+            <label>Site XML</label>
+            <language>en</language>
+            <name>u_cmdb_copy</name>
+            <plural>Site XMLs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-11 14:27:37</sys_created_on>
+            <sys_id>d32ef6831be96c94366610229b4bcb05</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Site XML</sys_name>
+            <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+            <sys_update_name>sys_documentation_u_cmdb_copy_u_site_xml_en</sys_update_name>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-11 14:27:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

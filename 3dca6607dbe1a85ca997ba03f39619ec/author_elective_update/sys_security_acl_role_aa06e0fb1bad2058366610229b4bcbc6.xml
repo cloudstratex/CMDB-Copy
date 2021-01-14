@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-13 11:18:22</sys_created_on>
+        <sys_id>aa06e0fb1bad2058366610229b4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_cmdb_ci_network_adapter.company.admin</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_security_acl display_value="u_cmdb_ci_network_adapter.company">a206e0fb1bad2058366610229b4bcb5a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_aa06e0fb1bad2058366610229b4bcbc6</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-13 11:18:22</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</application>
+        <file_path/>
+        <instance_id>8c26c91edbb5e2007e55f5b0cf96191c</instance_id>
+        <instance_name>mrsnowdev02</instance_name>
+        <name>sys_security_acl_role_aa06e0fb1bad2058366610229b4bcbc6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>shay.faingold@cloudstratex.com</sys_created_by><sys_created_on>2021-01-13 11:18:22</sys_created_on><sys_id>aa06e0fb1bad2058366610229b4bcbc6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_cmdb_ci_network_adapter.company.admin</sys_name><sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package><sys_policy/><sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope><sys_security_acl display_value="u_cmdb_ci_network_adapter.company">a206e0fb1bad2058366610229b4bcb5a</sys_security_acl><sys_update_name>sys_security_acl_role_aa06e0fb1bad2058366610229b4bcbc6</sys_update_name><sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by><sys_updated_on>2021-01-13 11:18:22</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1309950929</payload_hash>
+        <record_name>u_cmdb_ci_network_adapter.company.admin</record_name>
+        <reverted_from/>
+        <source>21a20e96dbd10010a1ba30d6f496193d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-13 11:18:22</sys_created_on>
+        <sys_id>e20624fb1bad2058366610229b4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176fb77d0940000001</sys_recorded_at>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-13 11:18:22</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ea0624fbe6ad2058cb49f662cdc0de53</update_guid>
+        <update_guid_history>ea0624fbe6ad2058cb49f662cdc0de53:-1309950929</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="u_cmdb_ci_network_adapter.company.admin">3f36a0f31bed2058366610229b4bcbc6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-13 11:19:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>27039692b500443492ed253558c6e871</sys_id>
+        <sys_metadata>aa06e0fb1bad2058366610229b4bcbc6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_cmdb_ci_network_adapter.company.admin</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_parent display_value="">a206e0fb1bad2058366610229b4bcb5a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_scope_delete display_value="">1436e6296bbe42089309e21154006864</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_aa06e0fb1bad2058366610229b4bcbc6</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_aa06e0fb1bad2058366610229b4bcbc6">e20624fb1bad2058366610229b4bcb54</sys_update_version>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-13 11:19:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

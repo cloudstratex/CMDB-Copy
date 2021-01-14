@@ -1,0 +1,2591 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="7f5b283b1b2d6058366610229b4bcb20" sys_domain="global" table="u_network_adapter" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_name</element>
+            <position>1</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_can_print</element>
+            <position>2</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_drive_type</element>
+            <position>3</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_duplicate_of</element>
+            <position>4</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_agent</element>
+            <position>5</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_major_minor</element>
+            <position>6</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_classifier</element>
+            <position>7</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_wwnn</element>
+            <position>8</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_discovery_source</element>
+            <position>9</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_physical_interface_count</element>
+            <position>10</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mac_address</element>
+            <position>11</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cpu_core_thread</element>
+            <position>12</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_last_discovered</element>
+            <position>13</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_monitor</element>
+            <position>14</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_service_port</element>
+            <position>15</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cmdb_ci</element>
+            <position>16</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_provided_by</element>
+            <position>17</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_running_process_command</element>
+            <position>18</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cpu_name</element>
+            <position>19</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_virtual</element>
+            <position>20</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_short_description</element>
+            <position>21</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_file_system</element>
+            <position>22</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_firewall_status</element>
+            <position>23</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_capacity</element>
+            <position>24</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ram</element>
+            <position>25</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_host_name</element>
+            <position>26</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cpu_type</element>
+            <position>27</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_install_directory</element>
+            <position>28</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cluster</element>
+            <position>29</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_config_directory</element>
+            <position>30</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>31</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_storage_type</element>
+            <position>32</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_model_number</element>
+            <position>33</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_os_domain</element>
+            <position>34</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_node</element>
+            <position>35</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_media_type</element>
+            <position>36</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sharable</element>
+            <position>37</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_port_dynamic</element>
+            <position>38</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_site_xml</element>
+            <position>39</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dns_domain</element>
+            <position>40</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nas_ip_address</element>
+            <position>41</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pool_id</element>
+            <position>42</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_scan_listener_name</element>
+            <position>43</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_free_space_bytes</element>
+            <position>44</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_jdbc_port</element>
+            <position>45</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_can_switch</element>
+            <position>46</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_source_end_offset</element>
+            <position>47</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_attested</element>
+            <position>48</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_computer</element>
+            <position>49</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_bus_id</element>
+            <position>50</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ports</element>
+            <position>51</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_config_file</element>
+            <position>52</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_install_status</element>
+            <position>53</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ip_address</element>
+            <position>54</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fqdn</element>
+            <position>55</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cpu_core_count</element>
+            <position>56</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_model_id</element>
+            <position>57</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_serial_number</element>
+            <position>58</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_running_process_key_parameters</element>
+            <position>59</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hit_count</element>
+            <position>60</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_host</element>
+            <position>61</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>62</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dns_url</element>
+            <position>63</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>64</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_available_space</element>
+            <position>65</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_version</element>
+            <position>66</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_dhcp_enabled</element>
+            <position>67</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_command</element>
+            <position>68</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_free_space</element>
+            <position>69</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cluster_type</element>
+            <position>70</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pid</element>
+            <position>71</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_os_address_width</element>
+            <position>72</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_start_date</element>
+            <position>73</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_resource_type</element>
+            <position>74</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_disk</element>
+            <position>75</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_partition_number</element>
+            <position>76</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <position>77</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_edition</element>
+            <position>78</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_os_version</element>
+            <position>79</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_source_start_offset</element>
+            <position>80</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_default_gateway</element>
+            <position>81</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_skip_sync</element>
+            <position>82</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vendor</element>
+            <position>83</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cpu_count</element>
+            <position>84</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_type</element>
+            <position>85</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcb4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mount_point</element>
+            <position>86</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nas_path</element>
+            <position>87</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comments</element>
+            <position>88</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pfile</element>
+            <position>89</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_service_pack</element>
+            <position>90</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_zookeeper</element>
+            <position>91</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nic</element>
+            <position>92</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_myconf</element>
+            <position>93</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcb4d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_host_id</element>
+            <position>94</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cost_cc</element>
+            <position>95</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_interface</element>
+            <position>96</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_internet_facing</element>
+            <position>97</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_first_discovered</element>
+            <position>98</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_stack</element>
+            <position>99</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_port_type</element>
+            <position>100</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ip_default_gateway</element>
+            <position>101</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_operational_status</element>
+            <position>102</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_load_balancer</element>
+            <position>103</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_manufacturer</element>
+            <position>104</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_used_for</element>
+            <position>105</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_port</element>
+            <position>106</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>107</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_is_clustered</element>
+            <position>108</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_chassis_type</element>
+            <position>109</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_product_version</element>
+            <position>110</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_image_id</element>
+            <position>111</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_firmware_version</element>
+            <position>112</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_size_bytes</element>
+            <position>113</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_container_created_at</element>
+            <position>114</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_unverified</element>
+            <position>115</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_os</element>
+            <position>116</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_start_offset</element>
+            <position>117</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_tcp_port</element>
+            <position>118</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cluster_status</element>
+            <position>119</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_end_offset</element>
+            <position>120</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_asset_tag</element>
+            <position>121</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_volume_id</element>
+            <position>122</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcbcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_oracle_home</element>
+            <position>123</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_discovery_proto_id</element>
+            <position>124</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_storage</element>
+            <position>125</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_can_hub</element>
+            <position>126</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_engine_edition</element>
+            <position>127</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hbase_home</element>
+            <position>128</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_can_partitionvlans</element>
+            <position>129</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mongodb_conf</element>
+            <position>130</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcbce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_version_name</element>
+            <position>131</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcbcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nas_protocol</element>
+            <position>132</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcbcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sid</element>
+            <position>133</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcbcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_stack_mode</element>
+            <position>134</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcbcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_target_id</element>
+            <position>135</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcbcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_speed</element>
+            <position>136</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcbcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ip_version</element>
+            <position>137</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcbcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_controller</element>
+            <position>138</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcbcf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hardware_status</element>
+            <position>139</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_netmask</element>
+            <position>140</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_id</element>
+            <position>141</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_disk_space</element>
+            <position>142</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_wwpn</element>
+            <position>143</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_device_lun</element>
+            <position>144</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_category</element>
+            <position>145</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_running_process</element>
+            <position>146</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_alias</element>
+            <position>147</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcbd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_fault_count</element>
+            <position>148</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcbd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>149</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcbd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_url</element>
+            <position>150</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcbd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>151</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcbd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cpu_speed</element>
+            <position>152</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcbd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_mac_manufacturer</element>
+            <position>153</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcbd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cpu_manufacturer</element>
+            <position>154</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcbd1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cd_rom</element>
+            <position>155</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cluster_id</element>
+            <position>156</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_load_balancing_method</element>
+            <position>157</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_size</element>
+            <position>158</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_os_service_pack</element>
+            <position>159</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_subcategory</element>
+            <position>160</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_node_state</element>
+            <position>161</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_delete_on_termination</element>
+            <position>162</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_classification</element>
+            <position>163</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_object_id</element>
+            <position>164</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_container_id</element>
+            <position>165</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>166</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_server</element>
+            <position>167</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hosted_by</element>
+            <position>168</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pool</element>
+            <position>169</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_can_route</element>
+            <position>170</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_database</element>
+            <position>171</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_configuration</element>
+            <position>172</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_data_directory</element>
+            <position>173</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>775b203f1b6d6058366610229b4bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_label</element>
+            <position>174</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f75b203f1b6d6058366610229b4bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_discovery_proto_type</element>
+            <position>175</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7b5b203f1b6d6058366610229b4bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_asset</element>
+            <position>176</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>fb5b203f1b6d6058366610229b4bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nas_hostname</element>
+            <position>177</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>7f5b203f1b6d6058366610229b4bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_instance_name</element>
+            <position>178</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>ff5b203f1b6d6058366610229b4bcbd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_root_dir</element>
+            <position>179</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>735b203f1b6d6058366610229b4bcbd5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>180</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_id>f35b203f1b6d6058366610229b4bcbd5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_correlation_id</element>
+            <position>181</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 17:06:21</sys_created_on>
+            <sys_id>c0b5713f1be9a858366610229b4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 17:06:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_discovery_run</element>
+            <position>182</position>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-14 17:37:20</sys_created_on>
+            <sys_id>b7564fcc1b3de098366610229b4bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="u_network_adapter" sys_domain="global" view="Default view">7f5b283b1b2d6058366610229b4bcb20</sys_ui_section>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-14 17:37:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>u_network_adapter</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:41:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f5b283b1b2d6058366610229b4bcb20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_network_adapter</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+            <sys_update_name>sys_ui_section_7f5b283b1b2d6058366610229b4bcb20</sys_update_name>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:41:39</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model>class</extension_model>
+        <is_extendable>true</is_extendable>
+        <label>57a04a52db510010a1ba30d6f4961943</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>57a04a52db510010a1ba30d6f4961943</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-12 12:23:17</sys_created_on>
+        <sys_id>f74b6f1b1be1acd4366610229b4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>57a04a52db510010a1ba30d6f4961943</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_db_object_f74b6f1b1be1acd4366610229b4bcb78</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-12 12:23:17</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</claim_owner_scope>
+        <claim_timestamp>177020e899f0000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_f74b6f1b1be1acd4366610229b4bcb78</metadata_update_name>
+        <previous_claim_app_version>5.0.11</previous_claim_app_version>
+        <previous_claim_name>CMDB Copy</previous_claim_name>
+        <previous_claim_scope>3dca6607dbe1a85ca997ba03f39619ec</previous_claim_scope>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-14 18:00:43</sys_created_on>
+        <sys_id>16bb430c1b7de098366610229b4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-14 18:00:43</sys_updated_on>
+    </sys_claim>
+</record_update>

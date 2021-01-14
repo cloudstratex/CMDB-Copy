@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Network adapter" max_length="40" name="u_network_adapter" sizeclass="3420547" type="collection">
+        <element label="Agent" max_length="40" name="u_agent" type="string"/>
+        <element label="Alias" max_length="40" name="u_alias" type="string"/>
+        <element label="Asset" max_length="32" name="u_asset" reference="alm_asset" type="reference"/>
+        <element label="Asset tag" max_length="40" name="u_asset_tag" type="string"/>
+        <element label="Attested" max_length="40" name="u_attested" type="boolean"/>
+        <element label="Available space (MB)" max_length="40" name="u_available_space" type="integer"/>
+        <element label="Can hub IP" max_length="40" name="u_can_hub" type="boolean"/>
+        <element label="Can partition VLANs" max_length="40" name="u_can_partitionvlans" type="boolean"/>
+        <element label="Can Print" max_length="40" name="u_can_print" type="boolean"/>
+        <element label="Can route IP" max_length="40" name="u_can_route" type="boolean"/>
+        <element label="Can switch IP" max_length="40" name="u_can_switch" type="boolean"/>
+        <element label="Capacity (MB)" max_length="40" name="u_capacity" type="integer"/>
+        <element label="Category" max_length="40" name="u_category" type="string"/>
+        <element label="CD" max_length="40" name="u_cd_rom" type="boolean"/>
+        <element label="Chassis type" max_length="40" name="u_chassis_type" type="string"/>
+        <element label="Classification" max_length="40" name="u_classification" type="string"/>
+        <element label="Classifier" max_length="32" name="u_classifier" reference="discovery_classy_proc" type="reference"/>
+        <element label="Cluster" max_length="32" name="u_cluster" reference="cmdb_ci_cluster" type="reference"/>
+        <element label="Cluster ID" max_length="40" name="u_cluster_id" type="string"/>
+        <element label="Cluster Status" max_length="40" name="u_cluster_status" type="string"/>
+        <element label="Cluster Type" max_length="40" name="u_cluster_type" type="string"/>
+        <element label="Configuration Item" max_length="32" name="u_cmdb_ci" reference="cmdb_ci" type="reference"/>
+        <element label="Command" max_length="40" name="u_command" type="string"/>
+        <element label="Comments" max_length="40" name="u_comments" type="string"/>
+        <element label="Computer" max_length="32" name="u_computer" reference="cmdb_ci_computer" type="reference"/>
+        <element label="Configuration" max_length="40" name="u_configuration" type="string"/>
+        <element label="Configuration directory" max_length="40" name="u_config_directory" type="string"/>
+        <element label="Configuration file" max_length="40" name="u_config_file" type="string"/>
+        <element label="Container created" max_length="40" name="u_container_created_at" type="glide_date_time"/>
+        <element label="Container id" max_length="40" name="u_container_id" type="string"/>
+        <element label="Controller" max_length="32" name="u_controller" reference="cmdb_ci" type="reference"/>
+        <element label="Correlation ID" max_length="40" name="u_correlation_id" type="string"/>
+        <element label="Cost currency" max_length="40" name="u_cost_cc" type="string"/>
+        <element label="CPU core count" max_length="40" name="u_cpu_core_count" type="integer"/>
+        <element label="CPU core thread" max_length="40" name="u_cpu_core_thread" type="integer"/>
+        <element label="CPU count" max_length="40" name="u_cpu_count" type="integer"/>
+        <element label="CPU manufacturer" max_length="32" name="u_cpu_manufacturer" reference="core_company" type="reference"/>
+        <element label="CPU name" max_length="40" name="u_cpu_name" type="string"/>
+        <element label="CPU speed (MHz)" max_length="20" name="u_cpu_speed" type="decimal"/>
+        <element label="CPU type" max_length="40" name="u_cpu_type" type="string"/>
+        <element label="DataBase" max_length="40" name="u_database" type="string"/>
+        <element label="Data directory" max_length="40" name="u_data_directory" type="string"/>
+        <element label="Default Gateway" max_length="40" name="u_default_gateway" type="string"/>
+        <element label="Delete on termination" max_length="40" name="u_delete_on_termination" type="boolean"/>
+        <element label="Device bus ID" max_length="40" name="u_device_bus_id" type="string"/>
+        <element label="Device host ID" max_length="40" name="u_device_host_id" type="string"/>
+        <element label="Device ID" max_length="40" name="u_device_id" type="string"/>
+        <element label="Device interface" max_length="40" name="u_device_interface" type="string"/>
+        <element label="Device LUN" max_length="40" name="u_device_lun" type="string"/>
+        <element label="Device Major:Minor" max_length="40" name="u_device_major_minor" type="string"/>
+        <element label="Device target ID" max_length="40" name="u_device_target_id" type="string"/>
+        <element label="DHCP Enabled" max_length="40" name="u_dhcp_enabled" type="boolean"/>
+        <element label="Discovery Protocol ID" max_length="40" name="u_discovery_proto_id" type="string"/>
+        <element label="Discovery Protocol Type" max_length="40" name="u_discovery_proto_type" type="string"/>
+        <element label="Discovery Run" max_length="32" name="u_discovery_run" reference="u_discovery_run" type="reference"/>
+        <element label="Discovery source" max_length="40" name="u_discovery_source" type="string"/>
+        <element label="Disk" max_length="32" name="u_disk" reference="cmdb_ci_storage_device" type="reference"/>
+        <element label="Disk space (GB)" max_length="20" name="u_disk_space" type="decimal"/>
+        <element label="DNS Domain" max_length="40" name="u_dns_domain" type="string"/>
+        <element label="DNS URL" max_length="1024" name="u_dns_url" type="url"/>
+        <element label="Duplicate Of" max_length="32" name="u_duplicate_of" reference="cmdb_ci" type="reference"/>
+        <element label="Edition" max_length="40" name="u_edition" type="string"/>
+        <element label="End offset" max_length="40" name="u_end_offset" type="string"/>
+        <element choice="1" label="Engine edition" max_length="40" name="u_engine_edition" type="choice">
+            <choice/>
+        </element>
+        <element label="Fault count" max_length="40" name="u_fault_count" type="integer"/>
+        <element label="File system" max_length="40" name="u_file_system" type="string"/>
+        <element label="Firewall status" max_length="40" name="u_firewall_status" type="string"/>
+        <element label="Firmware version" max_length="40" name="u_firmware_version" type="string"/>
+        <element label="First discovered" max_length="40" name="u_first_discovered" type="glide_date_time"/>
+        <element label="Fully qualified domain name" max_length="40" name="u_fqdn" type="string"/>
+        <element label="Free space" max_length="40" name="u_free_space" type="string"/>
+        <element label="Free space bytes" max_length="20" name="u_free_space_bytes" type="decimal"/>
+        <element label="Hardware Status" max_length="40" name="u_hardware_status" type="string"/>
+        <element label="HBase Home" max_length="40" name="u_hbase_home" type="string"/>
+        <element label="Hit Count" max_length="40" name="u_hit_count" type="integer"/>
+        <element label="Host" max_length="32" name="u_host" reference="cmdb_ci_computer" type="reference"/>
+        <element label="Hosted by" max_length="32" name="u_hosted_by" reference="cmdb_ci" type="reference"/>
+        <element label="Host name" max_length="40" name="u_host_name" type="string"/>
+        <element label="Image id" max_length="40" name="u_image_id" type="string"/>
+        <element label="Installation directory" max_length="40" name="u_install_directory" type="string"/>
+        <element label="Status" max_length="40" name="u_install_status" type="integer"/>
+        <element label="Instance Name" max_length="40" name="u_instance_name" type="string"/>
+        <element label="Internet Facing" max_length="40" name="u_internet_facing" type="boolean"/>
+        <element label="IP Address" max_length="40" name="u_ip_address" type="string"/>
+        <element label="IP default gateway" max_length="40" name="u_ip_default_gateway" type="string"/>
+        <element label="IP version" max_length="40" name="u_ip_version" type="integer"/>
+        <element label="Is clustered" max_length="40" name="u_is_clustered" type="boolean"/>
+        <element label="JDBC port" max_length="40" name="u_jdbc_port" type="string"/>
+        <element label="Label" max_length="40" name="u_label" type="string"/>
+        <element label="Most recent discovery" max_length="40" name="u_last_discovered" type="glide_date_time"/>
+        <element label="Load balancer" max_length="32" name="u_load_balancer" reference="cmdb_ci" type="reference"/>
+        <element label="Load balancing method" max_length="40" name="u_load_balancing_method" type="string"/>
+        <element label="MAC Address" max_length="40" name="u_mac_address" type="string"/>
+        <element label="Mac manufacturer" max_length="32" name="u_mac_manufacturer" reference="core_company" type="reference"/>
+        <element label="Manufacturer" max_length="32" name="u_manufacturer" reference="core_company" type="reference"/>
+        <element label="Media type" max_length="40" name="u_media_type" type="string"/>
+        <element label="Model ID" max_length="32" name="u_model_id" reference="cmdb_model" type="reference"/>
+        <element label="Model number" max_length="40" name="u_model_number" type="string"/>
+        <element label="MongoDB configuration" max_length="40" name="u_mongodb_conf" type="string"/>
+        <element label="Monitor" max_length="40" name="u_monitor" type="boolean"/>
+        <element label="Mount point" max_length="40" name="u_mount_point" type="string"/>
+        <element label="Myconf" max_length="40" name="u_myconf" type="string"/>
+        <element label="Name" max_length="40" name="u_name" type="string"/>
+        <element label="NAS Hostname" max_length="40" name="u_nas_hostname" type="string"/>
+        <element label="NAS IP Address" max_length="40" name="u_nas_ip_address" type="string"/>
+        <element label="NAS Path" max_length="40" name="u_nas_path" type="string"/>
+        <element label="NAS Protocol" max_length="40" name="u_nas_protocol" type="string"/>
+        <element label="Netmask" max_length="40" name="u_netmask" type="string"/>
+        <element label="Nic" max_length="32" name="u_nic" reference="cmdb_ci_network_adapter" type="reference"/>
+        <element label="Node" max_length="32" name="u_node" reference="cmdb_ci_cluster_node" type="reference"/>
+        <element label="Node State" max_length="40" name="u_node_state" type="integer"/>
+        <element label="Object ID" max_length="40" name="u_object_id" type="string"/>
+        <element label="Operational status" max_length="40" name="u_operational_status" type="integer"/>
+        <element label="Oracle Home" max_length="40" name="u_oracle_home" type="string"/>
+        <element label="Operating System" max_length="40" name="u_os" type="string"/>
+        <element label="OS Address Width (bits)" max_length="40" name="u_os_address_width" type="integer"/>
+        <element label="OS Domain" max_length="40" name="u_os_domain" type="string"/>
+        <element label="OS Service Pack" max_length="40" name="u_os_service_pack" type="string"/>
+        <element label="OS Version" max_length="40" name="u_os_version" type="string"/>
+        <element label="Partition number" max_length="40" name="u_partition_number" type="integer"/>
+        <element label="Pfile" max_length="40" name="u_pfile" type="string"/>
+        <element label="Physical interface count" max_length="40" name="u_physical_interface_count" type="integer"/>
+        <element label="PID" max_length="40" name="u_pid" type="integer"/>
+        <element label="Pool" max_length="32" name="u_pool" reference="cmdb_ci_lb_pool" type="reference"/>
+        <element label="Pool ID" max_length="40" name="u_pool_id" type="string"/>
+        <element label="Port" max_length="40" name="u_port" type="integer"/>
+        <element label="Ports" max_length="40" name="u_ports" type="integer"/>
+        <element label="Port dynamic" max_length="40" name="u_port_dynamic" type="boolean"/>
+        <element label="Port type" max_length="40" name="u_port_type" type="string"/>
+        <element label="Product version" max_length="40" name="u_product_version" type="string"/>
+        <element label="Provided by" max_length="32" name="u_provided_by" reference="cmdb_ci_computer" type="reference"/>
+        <element label="RAM (MB)" max_length="40" name="u_ram" type="integer"/>
+        <element label="Resource Type" max_length="40" name="u_resource_type" type="string"/>
+        <element label="Root Directory" max_length="40" name="u_root_dir" type="string"/>
+        <element label="Running process" max_length="32" name="u_running_process" reference="cmdb_running_process" type="reference"/>
+        <element label="Running process command" max_length="40" name="u_running_process_command" type="string"/>
+        <element label="Running process key parameters" max_length="40" name="u_running_process_key_parameters" type="string"/>
+        <element label="Scan Listener Name" max_length="40" name="u_scan_listener_name" type="string"/>
+        <element label="Serial number" max_length="40" name="u_serial_number" type="string"/>
+        <element label="Server" max_length="32" name="u_server" reference="cmdb_ci_server" type="reference"/>
+        <element label="Service pack" max_length="40" name="u_service_pack" type="string"/>
+        <element label="Service port" max_length="40" name="u_service_port" type="integer"/>
+        <element label="Sharable" max_length="40" name="u_sharable" type="boolean"/>
+        <element label="Description" max_length="40" name="u_short_description" type="string"/>
+        <element label="SID" max_length="40" name="u_sid" type="string"/>
+        <element label="Site XML" max_length="40" name="u_site_xml" type="string"/>
+        <element label="Size" max_length="40" name="u_size" type="string"/>
+        <element label="Size bytes" max_length="20" name="u_size_bytes" type="decimal"/>
+        <element label="Skip sync" max_length="40" name="u_skip_sync" type="boolean"/>
+        <element label="Source end offset" max_length="40" name="u_source_end_offset" type="string"/>
+        <element label="Source start offset" max_length="40" name="u_source_start_offset" type="string"/>
+        <element label="Speed" max_length="40" name="u_speed" type="string"/>
+        <element label="Stack" max_length="40" name="u_stack" type="boolean"/>
+        <element label="Stack Mode" max_length="40" name="u_stack_mode" type="string"/>
+        <element label="Start date" max_length="40" name="u_start_date" type="glide_date_time"/>
+        <element label="Start offset" max_length="40" name="u_start_offset" type="string"/>
+        <element label="Status" max_length="40" name="u_status" type="string"/>
+        <element label="Storage" max_length="32" name="u_storage" reference="cmdb_ci" type="reference"/>
+        <element label="Storage type" max_length="40" name="u_storage_type" type="string"/>
+        <element label="Subcategory" max_length="40" name="u_subcategory" type="string"/>
+        <element label="TCP port(s)" max_length="40" name="u_tcp_port" type="string"/>
+        <element label="Installation Type" max_length="40" name="u_type" type="string"/>
+        <element label="Requires verification" max_length="40" name="u_unverified" type="boolean"/>
+        <element label="URL" max_length="1024" name="u_url" type="url"/>
+        <element label="Used for" max_length="40" name="u_used_for" type="string"/>
+        <element label="Vendor" max_length="32" name="u_vendor" reference="core_company" type="reference"/>
+        <element label="Version" max_length="40" name="u_version" type="string"/>
+        <element choice="1" label="Version name" max_length="40" name="u_version_name" type="choice">
+            <choice/>
+        </element>
+        <element label="Is Virtual" max_length="40" name="u_virtual" type="boolean"/>
+        <element label="Volume ID" max_length="40" name="u_volume_id" type="string"/>
+        <element label="WWNN" max_length="40" name="u_wwnn" type="string"/>
+        <element label="WWPN" max_length="40" name="u_wwpn" type="string"/>
+        <element label="ZooKeeper Quorum" max_length="40" name="u_zookeeper" type="string"/>
+        <index name="index">
+            <element name="u_manufacturer"/>
+        </index>
+        <index name="index2">
+            <element name="u_asset"/>
+        </index>
+        <index name="index3">
+            <element name="u_hosted_by"/>
+        </index>
+        <index name="index4">
+            <element name="u_server"/>
+        </index>
+        <index name="index5">
+            <element name="u_node"/>
+        </index>
+        <index name="index6">
+            <element name="u_computer"/>
+        </index>
+        <index name="index7">
+            <element name="u_discovery_run"/>
+        </index>
+        <index name="index8">
+            <element name="u_running_process"/>
+        </index>
+        <index name="index9">
+            <element name="u_cmdb_ci"/>
+        </index>
+        <index name="index10">
+            <element name="u_host"/>
+        </index>
+        <index name="index11">
+            <element name="u_load_balancer"/>
+        </index>
+        <index name="index12">
+            <element name="u_cluster"/>
+        </index>
+        <index name="index13">
+            <element name="u_classifier"/>
+        </index>
+        <index name="index14">
+            <element name="u_nic"/>
+        </index>
+        <index name="index15">
+            <element name="u_cpu_manufacturer"/>
+        </index>
+        <index name="index16">
+            <element name="u_vendor"/>
+        </index>
+        <index name="index17">
+            <element name="u_controller"/>
+        </index>
+        <index name="index18">
+            <element name="u_model_id"/>
+        </index>
+        <index name="index19">
+            <element name="u_pool"/>
+        </index>
+        <index name="index20">
+            <element name="u_provided_by"/>
+        </index>
+        <index name="index21">
+            <element name="u_duplicate_of"/>
+        </index>
+        <index name="index22">
+            <element name="u_disk"/>
+        </index>
+        <index name="index23">
+            <element name="u_storage"/>
+        </index>
+        <index name="index24">
+            <element name="u_mac_manufacturer"/>
+        </index>
+    </element>
+</database>

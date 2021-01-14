@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="CMDB Relationship copy" max_length="40" name="u_cmdb_relationship_copy" sizeclass="9782" type="collection">
+        <element label="Child" max_length="40" name="u_child" reference="u_cmdb_copy" type="reference"/>
+        <element label="Child Sys ID" max_length="40" name="u_child_sys_id" type="string"/>
+        <element label="Correlation ID" max_length="40" name="u_correlation_id" type="string"/>
+        <element label="Discorvey Run" max_length="120" name="u_discorvey_run" reference="u_discovery_run" type="reference"/>
+        <element label="Parent" max_length="40" name="u_parent" reference="u_cmdb_copy" type="reference"/>
+        <element label="Parent Sys ID" max_length="40" name="u_parent_sys_id" type="string"/>
+        <element label="Type" max_length="120" name="u_type" type="string"/>
+    </element>
+</database>

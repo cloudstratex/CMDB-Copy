@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="discovery_range_item_ip">
+    <discovery_range_item_ip action="INSERT_OR_UPDATE">
+        <exclude_parent/>
+        <ip_address>10.251.91.10</ip_address>
+        <item_parent display_value="Discovery Pilot 10.24.7.207">81bb5973dbe5e4dca997ba03f396195f</item_parent>
+        <name/>
+        <sys_class_name>discovery_range_item_ip</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-13 15:15:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>de4c1d73dbe5e4dca997ba03f39619ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>discovery_range_item_ip_de4c1d73dbe5e4dca997ba03f39619ce</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-13 15:15:26</sys_updated_on>
+    </discovery_range_item_ip>
+</record_update>

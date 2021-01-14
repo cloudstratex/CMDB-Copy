@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="IP Router Firmware Version - Discoverable">4ddf6ac41b79e098366610229b4bcb0e</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-14 15:58:51</sys_created_on>
+        <sys_id>c1df6ac41b79e098366610229b4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4ddf6ac41b79e098366610229b4bcb0e</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_report_users_groups_c1df6ac41b79e098366610229b4bcb0f</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-14 15:58:51</sys_updated_on>
+        <user_id display_value="Daniel_Admin Mann">fae718291b254810e8cb0edacd4bcb09</user_id>
+    </sys_report_users_groups>
+</record_update>

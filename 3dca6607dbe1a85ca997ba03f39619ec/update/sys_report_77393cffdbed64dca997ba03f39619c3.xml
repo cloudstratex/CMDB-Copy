@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
+    <sys_report action="INSERT_OR_UPDATE">
+        <additional_groupby/>
+        <aggregate>COUNT</aggregate>
+        <aggregation_source>no_override</aggregation_source>
+        <allow_data_label_overlap>false</allow_data_label_overlap>
+        <apply_alias>false</apply_alias>
+        <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
+        <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
+        <bar_unstack>false</bar_unstack>
+        <chart_background_color/>
+        <chart_border_color/>
+        <chart_border_radius>0</chart_border_radius>
+        <chart_border_width>1</chart_border_width>
+        <chart_height>450</chart_height>
+        <chart_size>large</chart_size>
+        <chart_subtitle/>
+        <chart_subtitle_color/>
+        <chart_subtitle_size>14</chart_subtitle_size>
+        <chart_subtitle_style>normal</chart_subtitle_style>
+        <chart_title/>
+        <chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color>
+        <chart_title_size>16</chart_title_size>
+        <chart_title_style>normal</chart_title_style>
+        <chart_title_x_position>0</chart_title_x_position>
+        <chart_title_y_position>0</chart_title_y_position>
+        <chart_width>600</chart_width>
+        <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
+        <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
+        <colors/>
+        <column/>
+        <compute_percent>aggregate</compute_percent>
+        <content/>
+        <created_by_user display_value="Daniel_Admin Mann">fae718291b254810e8cb0edacd4bcb09</created_by_user>
+        <custom_chart_size>false</custom_chart_size>
+        <custom_chart_title_position>false</custom_chart_title_position>
+        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <decimal_precision>2</decimal_precision>
+        <description/>
+        <direction>minimize</direction>
+        <display_column_lines>false</display_column_lines>
+        <display_grid>false</display_grid>
+        <display_row_lines>false</display_row_lines>
+        <donut_width_percent>50</donut_width_percent>
+        <end_time/>
+        <exp_report_attrs>true</exp_report_attrs>
+        <field/>
+        <field_list>u_class,u_cmdb_ci,u_correlation_id,u_discovery_run,u_ip_address</field_list>
+        <filter table="u_cmdb_copy">u_class=cmdb_ci_win_server^u_nameINYZDS182003,VTORSPSDEV02,VTORSPSPRD02,VTORSQLDEV02,VTORSQLDEV05,VTORBODEV03,VTORDEPPRD01,VTORSQLTST01,VTOROWATST01,VTORSPSTST01,VTORSQLPRD02,VTOROWAPRD01,VTORSPSPRD01,VTORSQLPRD03,VTORCRMSTG02,VTORADMPRD05,TMRS080101,VTORJBDEV02,VTORCRMPRD02,YZDS080004,YZDS080005,YZDS080006,YZDS070002,VTORDCPRD04,VTORSTARPRD02,VTORJBPRD02,YZDS070003,YZDS070010,YZDS080009,YZDS080010,YZDS070011,YZDS080011,VTORSQLPRD05,VTORSQLPRD06,STORDCPRD01,VTORDCPRD02,YZDS090001,VTOROWADEV01,STORFPSPRD01,VTORBOPRD01,VTORJBTST02,VMTLFPSPRD01,YMXS090001,VMTLDCPRD03,VMTLDCPRD03,VMTLDCPRD03,YHMS090001,YHZS090001,YVRS090001,CELS090001,TMRS010055,TMRS010004,TMRS082007,TMRS082007,TMRS110004,TMLS008113,TMLS080010,TMLS082010,TMLS082085,TMLS008115,TMLS070011,TMLS000005,TMLS008116,TMLS080011,TMLS080012,TMRS100001,TMLS070013,TMRS088017,TMRS088075,TMRS070012,TMRS088005,TMRS008024,TMRS010005,TMRS082033,TMRS008010,TMRS110003,TMRS080100,TMRS082201,TMRS082133,TMLS070012,TMRV008400,TMRS082333,TMRS088117,YZDS070001,YZDS080001,YZDS080003,YZDS080002,TMRS070010,TMRS070011,TMRS060010,TMRS008035,TMRS008055,TMRS082301,TMRS008124,TMRS008301,TMRS082305,TMRV008089,TMRS088175,HMXS010001,HMXS008010,TMRS088296,TMRS008095,TMRS080058,TMRS110002,TMRS082001,TMRS010002,TMRS010002,TMRS080057,TMRS000105,TMRS000106^u_virtual=true^u_ip_addressISNOTEMPTY<item endquery="false" field="u_class" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_win_server"/>
+            <item endquery="false" field="u_name" goto="false" newquery="false" operator="IN" or="false" value="YZDS182003,VTORSPSDEV02,VTORSPSPRD02,VTORSQLDEV02,VTORSQLDEV05,VTORBODEV03,VTORDEPPRD01,VTORSQLTST01,VTOROWATST01,VTORSPSTST01,VTORSQLPRD02,VTOROWAPRD01,VTORSPSPRD01,VTORSQLPRD03,VTORCRMSTG02,VTORADMPRD05,TMRS080101,VTORJBDEV02,VTORCRMPRD02,YZDS080004,YZDS080005,YZDS080006,YZDS070002,VTORDCPRD04,VTORSTARPRD02,VTORJBPRD02,YZDS070003,YZDS070010,YZDS080009,YZDS080010,YZDS070011,YZDS080011,VTORSQLPRD05,VTORSQLPRD06,STORDCPRD01,VTORDCPRD02,YZDS090001,VTOROWADEV01,STORFPSPRD01,VTORBOPRD01,VTORJBTST02,VMTLFPSPRD01,YMXS090001,VMTLDCPRD03,VMTLDCPRD03,VMTLDCPRD03,YHMS090001,YHZS090001,YVRS090001,CELS090001,TMRS010055,TMRS010004,TMRS082007,TMRS082007,TMRS110004,TMLS008113,TMLS080010,TMLS082010,TMLS082085,TMLS008115,TMLS070011,TMLS000005,TMLS008116,TMLS080011,TMLS080012,TMRS100001,TMLS070013,TMRS088017,TMRS088075,TMRS070012,TMRS088005,TMRS008024,TMRS010005,TMRS082033,TMRS008010,TMRS110003,TMRS080100,TMRS082201,TMRS082133,TMLS070012,TMRV008400,TMRS082333,TMRS088117,YZDS070001,YZDS080001,YZDS080003,YZDS080002,TMRS070010,TMRS070011,TMRS060010,TMRS008035,TMRS008055,TMRS082301,TMRS008124,TMRS008301,TMRS082305,TMRV008089,TMRS088175,HMXS010001,HMXS008010,TMRS088296,TMRS008095,TMRS080058,TMRS110002,TMRS082001,TMRS010002,TMRS010002,TMRS080057,TMRS000105,TMRS000106"/>
+            <item endquery="false" field="u_virtual" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_ip_address" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </filter>
+        <from/>
+        <funnel_neck_percent>30</funnel_neck_percent>
+        <gauge_autoscale>true</gauge_autoscale>
+        <group/>
+        <import_table/>
+        <interval>year</interval>
+        <is_published>true</is_published>
+        <is_real_time>false</is_real_time>
+        <is_scheduled>false</is_scheduled>
+        <legend_align_columns>true</legend_align_columns>
+        <legend_background_color/>
+        <legend_border_color/>
+        <legend_border_radius>0</legend_border_radius>
+        <legend_border_width>1</legend_border_width>
+        <legend_horizontal_alignment>center</legend_horizontal_alignment>
+        <legend_items_left_align>false</legend_items_left_align>
+        <legend_vertical_alignment>bottom</legend_vertical_alignment>
+        <list_ui_view/>
+        <location_field/>
+        <lower_limit/>
+        <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
+        <map_source/>
+        <orderby_list/>
+        <other_threshold>-2</other_threshold>
+        <others>true</others>
+        <page_hdrftr/>
+        <pivot_expanded>true</pivot_expanded>
+        <report_drilldown/>
+        <report_source/>
+        <roles>public</roles>
+        <row/>
+        <sc_groupby_item_id/>
+        <sc_groupby_variable_id/>
+        <sc_stackby_item_id/>
+        <sc_stackby_variable_id/>
+        <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
+        <series_name_text/>
+        <set_color>null</set_color>
+        <show_chart_border>false</show_chart_border>
+        <show_chart_data_label>false</show_chart_data_label>
+        <show_chart_title>report</show_chart_title>
+        <show_chart_total>false</show_chart_total>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
+        <show_empty>false</show_empty>
+        <show_geographical_label>false</show_geographical_label>
+        <show_legend>true</show_legend>
+        <show_legend_border>false</show_legend_border>
+        <show_marker>false</show_marker>
+        <show_zero>true</show_zero>
+        <source_type>table</source_type>
+        <start_time/>
+        <style_config/>
+        <sumfield/>
+        <sys_class_name>sys_report</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-13 12:42:17</sys_created_on>
+        <sys_id>77393cffdbed64dca997ba03f39619c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Windows virtual server IP Address - Discoverable - (b) - T</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_report_77393cffdbed64dca997ba03f39619c3</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-13 12:42:20</sys_updated_on>
+        <table>u_cmdb_copy</table>
+        <title>Windows virtual server IP Address - Discoverable - (b) - T</title>
+        <title_horizontal_alignment>center</title_horizontal_alignment>
+        <title_vertical_alignment>top</title_vertical_alignment>
+        <to/>
+        <trend_field/>
+        <type>single_score</type>
+        <upper_limit/>
+        <use_color_heatmap>false</use_color_heatmap>
+        <use_null_in_trend>false</use_null_in_trend>
+        <user>fae718291b254810e8cb0edacd4bcb09</user>
+        <x_axis_allow_decimals>true</x_axis_allow_decimals>
+        <x_axis_display_grid>false</x_axis_display_grid>
+        <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
+        <x_axis_grid_dotted>false</x_axis_grid_dotted>
+        <x_axis_grid_width>1</x_axis_grid_width>
+        <x_axis_label_bold>false</x_axis_label_bold>
+        <x_axis_label_color/>
+        <x_axis_label_size>11</x_axis_label_size>
+        <x_axis_label_tilt>0</x_axis_label_tilt>
+        <x_axis_opposite>false</x_axis_opposite>
+        <x_axis_title/>
+        <x_axis_title_bold>true</x_axis_title_bold>
+        <x_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</x_axis_title_color>
+        <x_axis_title_size>12</x_axis_title_size>
+        <y_axis_allow_decimals>true</y_axis_allow_decimals>
+        <y_axis_display_grid>true</y_axis_display_grid>
+        <y_axis_from/>
+        <y_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</y_axis_grid_color>
+        <y_axis_grid_dotted>false</y_axis_grid_dotted>
+        <y_axis_grid_width>1</y_axis_grid_width>
+        <y_axis_label_bold>false</y_axis_label_bold>
+        <y_axis_label_color/>
+        <y_axis_label_size>11</y_axis_label_size>
+        <y_axis_label_tilt>0</y_axis_label_tilt>
+        <y_axis_opposite>false</y_axis_opposite>
+        <y_axis_title/>
+        <y_axis_title_bold>true</y_axis_title_bold>
+        <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
+        <y_axis_title_size>12</y_axis_title_size>
+        <y_axis_to/>
+    </sys_report>
+</record_update>

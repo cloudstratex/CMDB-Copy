@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_can_hub" label="Can hub IP" language="en" table="u_vm_object">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_can_hub</element>
+            <help/>
+            <hint/>
+            <label>Can hub IP</label>
+            <language>en</language>
+            <name>u_vm_object</name>
+            <plural>Can hub IPs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:31:49</sys_created_on>
+            <sys_id>7f19e0bbdb6d24dca997ba03f39619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Can hub IP</sys_name>
+            <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+            <sys_update_name>sys_documentation_u_vm_object_u_can_hub_en</sys_update_name>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:31:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

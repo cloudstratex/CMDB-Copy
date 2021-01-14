@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>279721ef1b1690d0366610229b4bcbcf</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ea_azure_credentials">
+    <ea_azure_credentials action="INSERT_OR_UPDATE">
+        <access_key>waZ/WObgSg6B+t01eV5Df/noTwGlfKwXPpqK1e3Uo4bI1dNNI85GPXG8G9YeGEdqtcGIEZDC8d6AveKmHKVrWTL1kcrfV6HP3Gt6ippT3ycq5EpY2uGGxovwWKXU65Tac4K9teiuCh3of8zuQRs1kkH7AHgZ95Z0sydq9cx4A7kYnn3OjMohdeYqaERk+0UtpDDq43StUQRFJavkv3ahfCF1vGH8zT5Jww6VimnsuehQ7pS7ZlTN3zpUN0xfEZIRPjcPCe5s/fYoX+kxeMJLsHc1eCSxpV/uCBvVib34mMRF32ZxQ9E7KLC1aOvvwh4ps+FCrvqM/bpDYjZkeOdbjbC1aOvvwh4pvmCS0ZHasgb9y1/hPvtw3XoUhBXVm132oKXnqkwxSupTh4ePwaU8FlT3FOLT0Cb2QDSkvGztcKlxQhhZeY7q4VQSMtubNO+d1JSZFLCzI43xGWW2Sgf3nj5BjRpJ5A7pexKukcuVt/zgMXxzgGl/7Xefg8KMOZLiMKO9kwb9VERIg1GIaggI886Sp0SZLGyydOEE35uBx+/DgrrFct0EW01nRqHvbcJCv1Iv6nGfzcnKM6u4twffotXXQ0FfgGuNIKLYdW24TkMsPxtjyUFnfBrHbUM4d0TFN+BUKeEL6pQuxOYam15eexIlW30aEBaH6Q9TxAaQG5FLKopS+P2fd0mOzryUKqKZw3NLMumxzo3JmCPqjqmeYgEz7ooCRu0KI1maWmWErEgMjvsDKj85OUiPe7BK8Gcll6XcUnw31IecYVwI3OmHjUmtNIqOe2xob5IRZFhi/u2qzYRdLW/0BvQdFDHVeoeoRx/6m3UNPvJM3ba5VNSkBi4K3yyGapNqH2xRemw3sVASxxmkM3Tywj0eWMojTdYzREjRGJcEtvvx4zpJmXCHxFDfq3DrMb+217Ns2DclJ6DCzuZMwTKcNWQJM6ox64EXMXpsP8/BBTEm+v10sKhBjh3FLFmxtySHJU5AbRPz/ohy/QpXZsWOM7K4sDyTbocI</access_key>
+        <active>true</active>
+        <application/>
+        <applies_to>all</applies_to>
+        <authentication_key/>
+        <authentication_protocol/>
+        <classification>ea_azure</classification>
+        <context_name/>
+        <enrollment_number>61696232</enrollment_number>
+        <mid_list/>
+        <name>MRE EA ACCT</name>
+        <order>100</order>
+        <password/>
+        <privacy_key/>
+        <privacy_protocol/>
+        <ssh_passphrase/>
+        <ssh_private_key/>
+        <sys_class_name>ea_azure_credentials</sys_class_name>
+        <sys_created_by>ny41333</sys_created_by>
+        <sys_created_on>2020-08-04 10:41:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>279721ef1b1690d0366610229b4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ny41333</sys_updated_by>
+        <sys_updated_on>2020-08-04 10:41:43</sys_updated_on>
+        <tag/>
+        <type>ea_azure</type>
+        <use_context>false</use_context>
+        <user_name/>
+    </ea_azure_credentials>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-14 17:53:22</sys_created_on>
+        <sys_id>220acfc41b7de098366610229b4bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MRE EA ACCT</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_metadata_link_220acfc41b7de098366610229b4bcb44</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-14 17:53:22</sys_updated_on>
+        <tablename>discovery_credentials</tablename>
+    </sys_metadata_link>
+</record_update>

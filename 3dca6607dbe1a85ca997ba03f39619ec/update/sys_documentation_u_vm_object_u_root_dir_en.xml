@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_root_dir" label="Root Directory" language="en" table="u_vm_object">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_root_dir</element>
+            <help/>
+            <hint/>
+            <label>Root Directory</label>
+            <language>en</language>
+            <name>u_vm_object</name>
+            <plural>Root Directories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-13 11:32:11</sys_created_on>
+            <sys_id>7039683fdb6d24dca997ba03f39619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Root Directory</sys_name>
+            <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+            <sys_update_name>sys_documentation_u_vm_object_u_root_dir_en</sys_update_name>
+            <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-13 11:32:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

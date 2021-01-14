@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>4352bb85db1c201078c37e8f299619a0</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="snmp_credentials">
+    <snmp_credentials action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Global">global</application>
+        <applies_to>all</applies_to>
+        <authentication_key/>
+        <authentication_protocol/>
+        <classification>snmp</classification>
+        <context_name/>
+        <mid_list/>
+        <name>amig</name>
+        <order>100</order>
+        <password>m334ZqXNfKo=</password>
+        <privacy_key/>
+        <privacy_protocol/>
+        <ssh_passphrase/>
+        <ssh_private_key/>
+        <sys_class_name>snmp_credentials</sys_class_name>
+        <sys_created_by>mrippel@munichre.com</sys_created_by>
+        <sys_created_on>2020-11-04 09:49:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4352bb85db1c201078c37e8f299619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mrippel@munichre.com</sys_updated_by>
+        <sys_updated_on>2020-11-04 09:49:22</sys_updated_on>
+        <tag/>
+        <type>snmp</type>
+        <use_context>false</use_context>
+        <user_name/>
+    </snmp_credentials>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-14 17:53:22</sys_created_on>
+        <sys_id>a20acfc41b7de098366610229b4bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>amig</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_metadata_link_a20acfc41b7de098366610229b4bcb48</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-14 17:53:22</sys_updated_on>
+        <tablename>discovery_credentials</tablename>
+    </sys_metadata_link>
+</record_update>
