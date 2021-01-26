@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>41ffe7941b7da010366610229b4bcb1e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_discovery_run">
+    <u_discovery_run action="INSERT_OR_UPDATE">
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-15 15:17:50</sys_created_on>
+        <sys_id>41ffe7941b7da010366610229b4bcb1e</sys_id>
+        <sys_mod_count>148</sys_mod_count>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-16 16:19:40</sys_updated_on>
+        <u_date>2021-01-15</u_date>
+        <u_end>2021-01-16 16:19:40</u_end>
+        <u_name>Friday 15.1.21</u_name>
+        <u_notes>Friday 15.1.21</u_notes>
+        <u_start>2021-01-16 10:42:54</u_start>
+        <u_status>Completed on 2021-01-16 17:19:40</u_status>
+    </u_discovery_run>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-26 14:53:29</sys_created_on>
+        <sys_id>98f354081bcaec50366610229b4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Friday 15.1.21</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_metadata_link_98f354081bcaec50366610229b4bcbf2</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-26 14:53:29</sys_updated_on>
+        <tablename>u_discovery_run</tablename>
+    </sys_metadata_link>
+</record_update>

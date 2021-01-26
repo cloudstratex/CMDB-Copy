@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA My  IP Router - New Tab">b6db844adb35a490a997ba03f3961924</canvas_page>
+        <name>My  IP Router - New Tab</name>
+        <page display_value="PA My  IP Router - New Tab">f2db844adb35a490a997ba03f3961923</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-20 09:10:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32db0c8edb35a490a997ba03f396191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My  IP Router - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>pa_tabs_32db0c8edb35a490a997ba03f396191a</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-20 09:10:18</sys_updated_on>
+    </pa_tabs>
+</record_update>

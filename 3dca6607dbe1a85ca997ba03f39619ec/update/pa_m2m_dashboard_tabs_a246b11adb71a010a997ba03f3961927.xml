@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="NAS Storage">a646f556db71a010a997ba03f396195d</dashboard>
+        <home>false</home>
+        <homepage display_value="My  NAS Storage">8794b152db71a010a997ba03f3961952</homepage>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-21 11:33:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a246b11adb71a010a997ba03f3961927</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>a646f556db71a010a997ba03f396195d</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_a246b11adb71a010a997ba03f3961927</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-21 11:33:50</sys_updated_on>
+        <tab display_value="My  NAS Storage - New Tab">ee46b11adb71a010a997ba03f3961923</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

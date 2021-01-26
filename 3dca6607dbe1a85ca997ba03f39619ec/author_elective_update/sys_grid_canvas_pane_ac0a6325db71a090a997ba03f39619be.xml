@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA Toronto - Windows Se - New Tab">040a2fe1db71a090a997ba03f3961902</grid_canvas>
+        <height>3</height>
+        <portal_widget display_value="Created 2021-01-19 12:03:55">1c0a6325db71a090a997ba03f3961935</portal_widget>
+        <posx>0</posx>
+        <posy>11</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-19 12:03:56</sys_created_on>
+        <sys_id>ac0a6325db71a090a997ba03f39619be</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>040a2fe1db71a090a997ba03f3961902</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_ac0a6325db71a090a997ba03f39619be</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-19 14:32:07</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</application>
+        <file_path/>
+        <instance_id>8c26c91edbb5e2007e55f5b0cf96191c</instance_id>
+        <instance_name>mrsnowdev02</instance_name>
+        <name>sys_grid_canvas_pane_ac0a6325db71a090a997ba03f39619be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Toronto - Windows Se - New Tab">040a2fe1db71a090a997ba03f3961902</grid_canvas><height>3</height><portal_widget display_value="Created 2021-01-19 12:03:55">1c0a6325db71a090a997ba03f3961935</portal_widget><posx>0</posx><posy>11</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>daniel.mann@cloudstratex.com</sys_created_by><sys_created_on>2021-01-19 12:03:56</sys_created_on><sys_id>ac0a6325db71a090a997ba03f39619be</sys_id><sys_mod_count>21</sys_mod_count><sys_name>040a2fe1db71a090a997ba03f3961902</sys_name><sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package><sys_policy/><sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope><sys_update_name>sys_grid_canvas_pane_ac0a6325db71a090a997ba03f39619be</sys_update_name><sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by><sys_updated_on>2021-01-19 14:32:07</sys_updated_on><width>6</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>-574908579</payload_hash>
+        <record_name>040a2fe1db71a090a997ba03f3961902</record_name>
+        <reverted_from/>
+        <source>b6afefd01b7da010366610229b4bcb03</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-19 14:32:07</sys_created_on>
+        <sys_id>8beb0c39db39a090a997ba03f39619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1771b0f5b1d0000001</sys_recorded_at>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-19 14:32:07</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>03eb0c39c739a09065f8ac545ae46ef8</update_guid>
+        <update_guid_history>03eb0c39c739a09065f8ac545ae46ef8:-574908579,e6ebc8395139a090c08b69180a8a1f40:-609483679,f3cbccf56839a090ca826260d49c045c:1373283237,ddab80f50239a09067a36bb8f8595863:-1611506226,ef9b8cb57a39a0908a46a75f881fa5a1:1425145887,74e2083902b5a09070e4ca578db561a7:-1611506226,8fd20439a0b5a09058f26db2e2d6b3b1:1373283237,c6b28cf5a2b5a0905330097dbec09507:-1611506226,9aa248f518b5a090e86dc586ca15ff60:1407858337,0c820cb5d8b5a0903706fe1fc59d70ed:-1576931126,34120c3534b5a0905764e7503f8b7c25:1407858337,2402043538b5a090cbe28b94fabaa61b:-1576931126,a6f140351db5a09017459299ed5b56a0:1407858337,4de108f10db5a0909308f658d89161e5:-1576931126,72d144f195b5a0909d4d6a8d9bd18d1c:1407858337,81c1ccb11cb5a09090cc23aaba57ee64:-1576931126,58c14cb13cb5a090f482f83600fe8bb7:561908747,6eb1c8b122b5a09072b34e4f00dc3776:579196297,209140b156b5a0904acc3ef4edcc9f2a:-730981536,5f31c83189b5a090243fd6038156333d:-973007236,ea0148fd0475a090b38f5795cdf49281:1442433437,740a63255671a0907ee6a5ba93fc87c1:-357360740</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-19 14:32:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>2fc4d07a0da540d0ac1182f03edb0891</sys_id>
+        <sys_metadata>ac0a6325db71a090a997ba03f39619be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>040a2fe1db71a090a997ba03f3961902</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_scope_delete display_value="">1436e6296bbe42089309e21154006864</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_ac0a6325db71a090a997ba03f39619be</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_ac0a6325db71a090a997ba03f39619be">8beb0c39db39a090a997ba03f39619f8</sys_update_version>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-19 14:32:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

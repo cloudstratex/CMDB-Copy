@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="SQL Database Instances">6491f9c61bf16c50366610229b4bcba7</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>8fbab2a31b2d4050e8cb0edacd4bcbf7</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-22 09:31:06</sys_created_on>
+        <sys_id>4fc3eaae1b7de410366610229b4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8fbab2a31b2d4050e8cb0edacd4bcbf7</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_4fc3eaae1b7de410366610229b4bcb96</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-22 09:31:06</sys_updated_on>
+        <type>3</type>
+        <user display_value="Hugo Baller">8fbab2a31b2d4050e8cb0edacd4bcbf7</user>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

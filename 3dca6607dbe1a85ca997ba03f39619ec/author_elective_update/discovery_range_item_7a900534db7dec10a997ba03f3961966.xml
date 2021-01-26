@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="discovery_range_item">
+    <discovery_range_item action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <end_ip_address/>
+        <name>167.15.216.10</name>
+        <netmask/>
+        <network_ip/>
+        <parent/>
+        <schedule display_value="Discovery - Toronto - 1">af5045f0db7dec10a997ba03f3961910</schedule>
+        <start_ip_address/>
+        <summary>167.15.216.10</summary>
+        <sys_class_name>discovery_range_item</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-16 15:48:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a900534db7dec10a997ba03f3961966</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>167.15.216.10</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>discovery_range_item_7a900534db7dec10a997ba03f3961966</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-16 17:51:22</sys_updated_on>
+        <type>IP Address List</type>
+    </discovery_range_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</application>
+        <file_path/>
+        <instance_id>8c26c91edbb5e2007e55f5b0cf96191c</instance_id>
+        <instance_name>mrsnowdev02</instance_name>
+        <name>discovery_range_item_7a900534db7dec10a997ba03f3961966</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="discovery_range_item"><discovery_range_item action="INSERT_OR_UPDATE"><active>true</active><attributes/><end_ip_address/><name>167.15.216.10</name><netmask/><network_ip/><parent/><schedule display_value="Discovery - Toronto - 1">af5045f0db7dec10a997ba03f3961910</schedule><start_ip_address/><summary>167.15.216.10</summary><sys_class_name>discovery_range_item</sys_class_name><sys_created_by>shay.faingold@cloudstratex.com</sys_created_by><sys_created_on>2021-01-16 15:48:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7a900534db7dec10a997ba03f3961966</sys_id><sys_mod_count>7</sys_mod_count><sys_name>167.15.216.10</sys_name><sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package><sys_policy/><sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope><sys_update_name>discovery_range_item_7a900534db7dec10a997ba03f3961966</sys_update_name><sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by><sys_updated_on>2021-01-16 17:51:22</sys_updated_on><type>IP Address List</type></discovery_range_item></record_update>]]></payload>
+        <payload_hash>-434402299</payload_hash>
+        <record_name>167.15.216.10</record_name>
+        <reverted_from/>
+        <source>b6afefd01b7da010366610229b4bcb03</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-16 17:51:22</sys_created_on>
+        <sys_id>f4ccd1b0dbf12050a997ba03f396199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1770c52b4b00000001</sys_recorded_at>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-16 17:51:22</sys_updated_on>
+        <type>Discovery IP Range</type>
+        <update_guid>7cccd1b0c9f120509ffc72310d62049c</update_guid>
+        <update_guid_history>7cccd1b0c9f120509ffc72310d62049c:-434402299,4d589570c0b12050a7f4f32a64f0b6de:-1413131036,b5ba01b4a8fdec10138237e988693d0c:-434402299,29a2097cf97dec10b46d2ae6860630a6:-1413131036,f64209f8a27dec101d8ab1bee3930e81:-434402299,ab314db4ff7dec100b58d2e6505d1efb:-1413131036,76900534cf7dec105809cdb28adb0f6e:-434402299,729005341e7dec107fb8be93462d0a69:291319107</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="167.15.216.10">dc220ab01b756810366610229b4bcb28</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ny41333</sys_created_by>
+        <sys_created_on>2021-01-16 20:34:38</sys_created_on>
+        <sys_db_object display_value="" name="discovery_range_item">discovery_range_item</sys_db_object>
+        <sys_id>100d61410acf422a82cab4f9f620ffa4</sys_id>
+        <sys_metadata>7a900534db7dec10a997ba03f3961966</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>167.15.216.10</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_scope_delete display_value="">1436e6296bbe42089309e21154006864</sys_scope_delete>
+        <sys_update_name>discovery_range_item_7a900534db7dec10a997ba03f3961966</sys_update_name>
+        <sys_update_version display_value="discovery_range_item_7a900534db7dec10a997ba03f3961966">f4ccd1b0dbf12050a997ba03f396199d</sys_update_version>
+        <sys_updated_by>ny41333</sys_updated_by>
+        <sys_updated_on>2021-01-16 20:34:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

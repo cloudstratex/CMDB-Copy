@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="bfc5073b1b75ac50366610229b4bcbe4" sys_domain="global" table="cmdb_ci_wap_network" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-26 09:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80d5473b1b75ac50366610229b4bcb57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_wap_network" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">bfc5073b1b75ac50366610229b4bcbe4</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">c8d5073b1b75ac50366610229b4bcbe9</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-26 09:12:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-26 09:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80d5473b1b75ac50366610229b4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="cmdb_ci_wap_network" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">bfc5073b1b75ac50366610229b4bcbe4</sys_ui_form>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">00d5473b1b75ac50366610229b4bcb58</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-26 09:12:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>cmdb_ci_wap_network</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-26 09:12:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfc5073b1b75ac50366610229b4bcbe4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_wap_network</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+            <sys_update_name>sys_ui_form_sections_bfc5073b1b75ac50366610229b4bcbe4</sys_update_name>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-26 09:12:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

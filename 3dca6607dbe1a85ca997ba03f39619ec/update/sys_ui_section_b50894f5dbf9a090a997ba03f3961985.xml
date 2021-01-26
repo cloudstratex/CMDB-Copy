@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b50894f5dbf9a090a997ba03f3961985" sys_domain="global" table="cmdb_ci_pdu" version="3" view="text_search">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>750894f5dbf9a090a997ba03f39619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hardware_version</element>
+            <position>1</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>f90894f5dbf9a090a997ba03f39619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>firmware_version</element>
+            <position>2</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>7d0894f5dbf9a090a997ba03f39619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_man</element>
+            <position>3</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>fd0894f5dbf9a090a997ba03f39619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>serial_number</element>
+            <position>4</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>710894f5dbf9a090a997ba03f39619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_id.name</element>
+            <position>5</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>f10894f5dbf9a090a997ba03f39619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>750894f5dbf9a090a997ba03f39619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outlet_count</element>
+            <position>7</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>f50894f5dbf9a090a997ba03f39619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_load_state</element>
+            <position>8</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>bd0894f5dbf9a090a997ba03f39619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>operational_status</element>
+            <position>9</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>310894f5dbf9a090a997ba03f39619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_load_amps</element>
+            <position>10</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>b10894f5dbf9a090a997ba03f39619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>350894f5dbf9a090a997ba03f39619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_data_centre</element>
+            <position>12</position>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:25:00</sys_created_on>
+            <sys_id>b50894f5dbf9a090a997ba03f39619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_pdu" sys_domain="global" view="0c029fc00a0a0b2c001aa3d4ed9f69e8">b50894f5dbf9a090a997ba03f3961985</sys_ui_section>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:25:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>cmdb_ci_pdu</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:24:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b50894f5dbf9a090a997ba03f3961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_pdu</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+            <sys_update_name>sys_ui_section_b50894f5dbf9a090a997ba03f3961985</sys_update_name>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:24:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Text_search" name="text_search">0c029fc00a0a0b2c001aa3d4ed9f69e8</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

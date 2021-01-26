@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA My  NAS Storage - New Tab">2a46f556db71a010a997ba03f396195f</canvas_page>
+        <name>My  NAS Storage - New Tab</name>
+        <page display_value="PA My  NAS Storage - New Tab">e646f556db71a010a997ba03f396195e</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-21 11:33:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ee46b11adb71a010a997ba03f3961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My  NAS Storage - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>pa_tabs_ee46b11adb71a010a997ba03f3961923</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-21 11:33:47</sys_updated_on>
+    </pa_tabs>
+</record_update>

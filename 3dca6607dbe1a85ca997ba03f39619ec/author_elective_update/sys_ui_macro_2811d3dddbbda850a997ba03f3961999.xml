@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description>This macro a reusable custom string filter typically used for searching a text field with CONTAINS.</description>
+        <media_type/>
+        <name>filter_string</name>
+        <scoped_name/>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-18 15:37:01</sys_created_on>
+        <sys_id>2811d3dddbbda850a997ba03f3961999</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>filter_string</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_ui_macro_2811d3dddbbda850a997ba03f3961999</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-18 15:38:12</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+<div id="${jvar_uuid}_display" style="display: none">
+    <input id='${jvar_uuid}_text' class="form-control widget-content" value="" />
+</div>
+
+<script>
+    customFilter${jvar_uuid}.displayInput();
+    // select input
+    customFilter${jvar_uuid}.elements.textField = $j('#${jvar_uuid}_text');
+    // handle the field changes
+    customFilter${jvar_uuid}.elements.textField.change(function()
+    {
+        var filterObj = {id: uuid${jvar_uuid}, filters: []};
+        if (customFilter${jvar_uuid}.elements.textField.val().length > 0) {
+            for(var t = 0; t ${AMP}lt; customFilter${jvar_uuid}.config.mapping.length; t++)
+            {
+                customFilter${jvar_uuid}.log('Adding filter for table: ' + customFilter${jvar_uuid}.config.mapping[t].table);
+                filterObj.filters.push({
+                    table: customFilter${jvar_uuid}.config.mapping[t].table,
+                    filter: customFilter${jvar_uuid}.config.mapping[t].filterPrepend + customFilter${jvar_uuid}.elements.textField.val() + customFilter${jvar_uuid}.config.mapping[t].filterAppend
+                });
+            }
+            // console.log(filterObj);
+            // add the filter
+            customFilter${jvar_uuid}.dashboardMessageHandler.publishMessage(filterObj.filters);
+            // set the default value for next reload
+            customFilter${jvar_uuid}.persistPublishedFilter(filterObj.filters);
+        } else {
+            customFilter${jvar_uuid}.removeFilter();
+            customFilter${jvar_uuid}.removePersistedFilter();
+        }
+    });
+
+    customFilter${jvar_uuid}.setDefaultValues =  function (persistedFilter)
+    {
+        //customFilter${jvar_uuid}.log('Setting initial values', persistedFilter);
+        if(persistedFilter)
+        {
+            customFilter${jvar_uuid}.elements.textField.val(persistedFilter);
+            customFilter${jvar_uuid}.elements.textField.change();
+            //customFilter${jvar_uuid}.log('String default set');
+        }
+    };
+</script>
+
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</application>
+        <file_path/>
+        <instance_id>8c26c91edbb5e2007e55f5b0cf96191c</instance_id>
+        <instance_name>mrsnowdev02</instance_name>
+        <name>sys_ui_macro_2811d3dddbbda850a997ba03f3961999</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description&gt;This macro a reusable custom string filter typically used for searching a text field with CONTAINS.&lt;/description&gt;&lt;media_type/&gt;&lt;name&gt;filter_string&lt;/name&gt;&lt;scoped_name/&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;daniel.mann@cloudstratex.com&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-18 15:37:01&lt;/sys_created_on&gt;&lt;sys_id&gt;2811d3dddbbda850a997ba03f3961999&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;filter_string&lt;/sys_name&gt;&lt;sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec"&gt;3dca6607dbe1a85ca997ba03f39619ec&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CMDB Copy"&gt;3dca6607dbe1a85ca997ba03f39619ec&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_2811d3dddbbda850a997ba03f3961999&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;daniel.mann@cloudstratex.com&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-01-18 15:38:12&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+
+&lt;div id="${jvar_uuid}_display" style="display: none"&gt;
+    &lt;input id='${jvar_uuid}_text' class="form-control widget-content" value="" /&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+    customFilter${jvar_uuid}.displayInput();
+    // select input
+    customFilter${jvar_uuid}.elements.textField = $j('#${jvar_uuid}_text');
+    // handle the field changes
+    customFilter${jvar_uuid}.elements.textField.change(function()
+    {
+        var filterObj = {id: uuid${jvar_uuid}, filters: []};
+        if (customFilter${jvar_uuid}.elements.textField.val().length &gt; 0) {
+            for(var t = 0; t ${AMP}lt; customFilter${jvar_uuid}.config.mapping.length; t++)
+            {
+                customFilter${jvar_uuid}.log('Adding filter for table: ' + customFilter${jvar_uuid}.config.mapping[t].table);
+                filterObj.filters.push({
+                    table: customFilter${jvar_uuid}.config.mapping[t].table,
+                    filter: customFilter${jvar_uuid}.config.mapping[t].filterPrepend + customFilter${jvar_uuid}.elements.textField.val() + customFilter${jvar_uuid}.config.mapping[t].filterAppend
+                });
+            }
+            // console.log(filterObj);
+            // add the filter
+            customFilter${jvar_uuid}.dashboardMessageHandler.publishMessage(filterObj.filters);
+            // set the default value for next reload
+            customFilter${jvar_uuid}.persistPublishedFilter(filterObj.filters);
+        } else {
+            customFilter${jvar_uuid}.removeFilter();
+            customFilter${jvar_uuid}.removePersistedFilter();
+        }
+    });
+
+    customFilter${jvar_uuid}.setDefaultValues =  function (persistedFilter)
+    {
+        //customFilter${jvar_uuid}.log('Setting initial values', persistedFilter);
+        if(persistedFilter)
+        {
+            customFilter${jvar_uuid}.elements.textField.val(persistedFilter);
+            customFilter${jvar_uuid}.elements.textField.change();
+            //customFilter${jvar_uuid}.log('String default set');
+        }
+    };
+&lt;/script&gt;
+
+&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-81126402</payload_hash>
+        <record_name>filter_string</record_name>
+        <reverted_from/>
+        <source>111320a01b7d2410366610229b4bcb61</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-18 15:38:12</sys_created_on>
+        <sys_id>e1719311dbfda850a997ba03f3961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1771625817f0000001</sys_recorded_at>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-18 15:38:12</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>2971931150fda850d8f79ec24475ad64</update_guid>
+        <update_guid_history>2971931150fda850d8f79ec24475ad64:-81126402,403153116cfda850a9572f186af477ef:710317621</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-18 18:42:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>c92d0fdc5fe84634a64d17d0254ef390</sys_id>
+        <sys_metadata>2811d3dddbbda850a997ba03f3961999</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>filter_string</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_scope_delete display_value="">1436e6296bbe42089309e21154006864</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_2811d3dddbbda850a997ba03f3961999</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_2811d3dddbbda850a997ba03f3961999">e1719311dbfda850a997ba03f3961965</sys_update_version>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-18 18:42:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

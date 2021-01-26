@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="cmdb_ci_azure_datacenter" name="cmdb_ci_azure_datacenter" sys_domain="global" view="Default view">369ce1c81bb9a098366610229b4bcbac</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_azure_datacenter" sys_domain="global" view="Default view">369cadc81bb9a098366610229b4bcb91</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_azure_datacenter" sys_domain="global" view="Default view">fd2fcac2d731320097eb6ccf6e6103bf</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-01-14 11:05:08</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="cmdb_ci_azure_datacenter" name="cmdb_ci_azure_datacenter" sys_domain="global" view="Default view">369ce1c81bb9a098366610229b4bcbac</sys_ui_form>
-            <sys_ui_section caption="Tenable.io Configuration" display_value="Tenable.io Configuration" name="cmdb_ci_azure_datacenter" sys_domain="global" view="Default view">7a9cadc81bb9a098366610229b4bcb98</sys_ui_section>
+            <sys_ui_section display_value="">7a9cadc81bb9a098366610229b4bcb98</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-01-14 11:05:09</sys_updated_on>
         </sys_ui_form_section>

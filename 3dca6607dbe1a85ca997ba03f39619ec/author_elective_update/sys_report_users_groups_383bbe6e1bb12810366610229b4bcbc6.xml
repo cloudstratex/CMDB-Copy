@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="">b03bbe6e1bb12810366610229b4bcbc6</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-22 11:13:21</sys_created_on>
+        <sys_id>383bbe6e1bb12810366610229b4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b03bbe6e1bb12810366610229b4bcbc6</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_report_users_groups_383bbe6e1bb12810366610229b4bcbc6</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-22 11:13:21</sys_updated_on>
+        <user_id display_value="Daniel_Admin Mann">fae718291b254810e8cb0edacd4bcb09</user_id>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</application>
+        <file_path/>
+        <instance_id>8c26c91edbb5e2007e55f5b0cf96191c</instance_id>
+        <instance_name>mrsnowdev02</instance_name>
+        <name>sys_report_users_groups_383bbe6e1bb12810366610229b4bcbc6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">b03bbe6e1bb12810366610229b4bcbc6</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>daniel.mann@cloudstratex.com</sys_created_by><sys_created_on>2021-01-22 11:13:21</sys_created_on><sys_id>383bbe6e1bb12810366610229b4bcbc6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>b03bbe6e1bb12810366610229b4bcbc6</sys_name><sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package><sys_policy/><sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope><sys_update_name>sys_report_users_groups_383bbe6e1bb12810366610229b4bcbc6</sys_update_name><sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by><sys_updated_on>2021-01-22 11:13:21</sys_updated_on><user_id display_value="Daniel_Admin Mann">fae718291b254810e8cb0edacd4bcb09</user_id></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>-259696201</payload_hash>
+        <record_name>b03bbe6e1bb12810366610229b4bcbc6</record_name>
+        <reverted_from/>
+        <source>111320a01b7d2410366610229b4bcb61</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-22 11:13:21</sys_created_on>
+        <sys_id>b03bbe6e1bb12810366610229b4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17729cc77530000001</sys_recorded_at>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-22 11:13:21</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>b83bbe6e1bb1281064ddd5de897eb9c8</update_guid>
+        <update_guid_history>b83bbe6e1bb1281064ddd5de897eb9c8:-259696201</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-22 11:41:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>1ec2b62d85294ada897611cb0e4f7084</sys_id>
+        <sys_metadata>383bbe6e1bb12810366610229b4bcbc6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b03bbe6e1bb12810366610229b4bcbc6</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_scope_delete display_value="">1436e6296bbe42089309e21154006864</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_383bbe6e1bb12810366610229b4bcbc6</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_383bbe6e1bb12810366610229b4bcbc6">b03bbe6e1bb12810366610229b4bcbc9</sys_update_version>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-22 11:41:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

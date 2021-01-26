@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Discovery Run" max_length="40" name="u_discovery_run" type="collection">
+    <element audit="true" label="Discovery Run" max_length="40" name="u_discovery_run" sizeclass="1" type="collection">
         <element label="Date" max_length="40" name="u_date" type="glide_date"/>
+        <element label="End" max_length="40" name="u_end" type="glide_date_time"/>
         <element label="Name" max_length="120" name="u_name" type="string"/>
         <element label="Notes" max_length="4000" name="u_notes" type="string"/>
+        <element label="Start" max_length="40" name="u_start" type="glide_date_time"/>
+        <element label="Status" max_length="160" name="u_status" type="string"/>
     </element>
 </database>

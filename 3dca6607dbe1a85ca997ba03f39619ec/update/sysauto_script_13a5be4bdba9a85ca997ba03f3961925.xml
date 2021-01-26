@@ -25,29 +25,38 @@
 //new global.MainScript().copyTable();
 
 
-//Run this script - Please include the SYS_ID of the Discovery run for that specific date
-new global.MainScript().copyData(SYD_ID_OF_DISCOVERY_RUN);
+//COPY CMDB DATA
+//Run this script - Please include the SYS_ID of the Discovery run for that specific date//
+//new global.MainScript().copyData('41ffe7941b7da010366610229b4bcb1e');
+
+//POPULATE DISCOVERY RESULT
+//Run this script to create the Discovery Report table - include SYS_ID of the Discovery RUn
+//new global.MainScript().discoveryCalc('41ffe7941b7da010366610229b4bcb1e');
+
+//new global.MainScript().checkTableParent();
+
+new global.MainScript().findDuplicates();
+
+//new global.MainScript().clearDuplicates('u_class=cmdb_ci_storage_volume^ORu_class=cmdb_ci_file_system^u_last_table=false');
+
+//new global.MainScript().discoveryUpdated('41ffe7941b7da010366610229b4bcb1e');
+
+//new global.MainScript().fixScriptCopyDataCenter();
 
 //new global.MainScript().copyRelTable();
-
-/* var a = new GlideRecord('u_cmdb_copy');
-a.addEncodedQuery('u_class=cmdb_ci_network_adapter');
-a.query();
-a.deleteMultiple(); */
-
 ]]></script>
         <sys_class_name>sysauto_script</sys_class_name>
         <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
         <sys_created_on>2021-01-11 13:51:34</sys_created_on>
         <sys_id>13a5be4bdba9a85ca997ba03f3961925</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Run Scripts - CMDB Copy</sys_name>
         <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
         <sys_policy/>
         <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
         <sys_update_name>sysauto_script_13a5be4bdba9a85ca997ba03f3961925</sys_update_name>
         <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
-        <sys_updated_on>2021-01-14 17:49:50</sys_updated_on>
+        <sys_updated_on>2021-01-25 08:39:02</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>

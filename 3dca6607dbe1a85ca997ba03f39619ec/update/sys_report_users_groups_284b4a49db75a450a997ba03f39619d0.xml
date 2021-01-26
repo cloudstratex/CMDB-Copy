@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="IP Switch IP Address - Discoverable - T">a04b4a49db75a450a997ba03f39619d0</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-17 15:53:00</sys_created_on>
+        <sys_id>284b4a49db75a450a997ba03f39619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>a04b4a49db75a450a997ba03f39619d0</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_report_users_groups_284b4a49db75a450a997ba03f39619d0</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-17 15:53:00</sys_updated_on>
+        <user_id display_value="Daniel_Admin Mann">fae718291b254810e8cb0edacd4bcb09</user_id>
+    </sys_report_users_groups>
+</record_update>

@@ -46,9 +46,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>name,media_type,file_system,mount_point,size,computer,provided_by</field_list>
-        <filter table="cmdb_ci_nas_file_system">ip_addressSTARTSWITH10.24.40.^ORip_addressSTARTSWITH172.21.^disk_spaceISNOTEMPTY<item endquery="false" field="ip_address" goto="false" newquery="false" operator="STARTSWITH" or="false" value="10.24.40."/>
-            <item endquery="false" field="ip_address" goto="false" newquery="false" operator="STARTSWITH" or="true" value="172.21."/>
-            <item endquery="false" field="disk_space" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <filter table="cmdb_ci_nas_file_system">disk_spaceISNOTEMPTY^EQ<item endquery="false" field="disk_space" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -107,14 +106,14 @@
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
         <sys_created_on>2021-01-12 11:15:35</sys_created_on>
         <sys_id>84db57d3dbada49ca997ba03f3961937</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Nas Disk Space (GB) - Discoverable</sys_name>
         <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
         <sys_policy/>
         <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
         <sys_update_name>sys_report_84db57d3dbada49ca997ba03f3961937</sys_update_name>
         <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-        <sys_updated_on>2021-01-12 11:15:37</sys_updated_on>
+        <sys_updated_on>2021-01-20 11:25:15</sys_updated_on>
         <table>cmdb_ci_nas_file_system</table>
         <title>Nas Disk Space (GB) - Discoverable</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

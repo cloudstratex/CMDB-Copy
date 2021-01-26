@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="Oracle Database Instance">d187ad1edb7d6010a997ba03f39619cb</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>cb5c3663db614050228372e9f4961953</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-21 14:49:24</sys_created_on>
+        <sys_id>0813a256dbf9a010a997ba03f3961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cb5c3663db614050228372e9f4961953</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_0813a256dbf9a010a997ba03f3961983</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-21 14:49:24</sys_updated_on>
+        <type>3</type>
+        <user display_value="Dan Sullivan">cb5c3663db614050228372e9f4961953</user>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

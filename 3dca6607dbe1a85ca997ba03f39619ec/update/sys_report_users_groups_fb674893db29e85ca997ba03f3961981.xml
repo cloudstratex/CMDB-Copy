@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="Linux server Serial Number - Discoverable (b)">77674893db29e85ca997ba03f3961981</report_id>
+        <report_id display_value="Linux server Serial Number - Discoverable (b) - T">77674893db29e85ca997ba03f3961981</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
         <sys_created_on>2021-01-11 19:47:41</sys_created_on>

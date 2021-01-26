@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element element="u_drive_type" label="Drive type" max_length="40" name="u_cmdb_copy" type="collection">
+    <element label="CMDB Copy" max_length="40" name="u_cmdb_copy" sizeclass="277157" type="collection">
         <element label="Agent" max_length="40" name="u_agent" type="string"/>
         <element label="Alias" max_length="40" name="u_alias" type="string"/>
         <element label="Asset" max_length="32" name="u_asset" reference="alm_asset" type="reference"/>
@@ -43,6 +43,12 @@
         <element label="CPU speed (MHz)" max_length="20" name="u_cpu_speed" type="decimal"/>
         <element label="CPU type" max_length="40" name="u_cpu_type" type="string"/>
         <element label="DataBase" max_length="40" name="u_database" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Data Centre" max_length="40" name="u_data_centre" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Toronto" sequence="0" value="Toronto"/>
+                <element inactive_on_update="false" label="Toronto Legacy" sequence="1" value="Toronto Legacy"/>
+            </choice>
+        </element>
         <element label="Data directory" max_length="40" name="u_data_directory" type="string"/>
         <element label="Default Gateway" max_length="40" name="u_default_gateway" type="string"/>
         <element label="Delete on termination" max_length="40" name="u_delete_on_termination" type="boolean"/>
@@ -96,6 +102,7 @@
         <element label="JDBC port" max_length="40" name="u_jdbc_port" type="string"/>
         <element label="Label" max_length="40" name="u_label" type="string"/>
         <element label="Most recent discovery" max_length="40" name="u_last_discovered" type="glide_date_time"/>
+        <element label="Last Table" max_length="40" name="u_last_table" type="boolean"/>
         <element label="Load balancer" max_length="32" name="u_load_balancer" reference="cmdb_ci" type="reference"/>
         <element label="Load balancing method" max_length="40" name="u_load_balancing_method" type="string"/>
         <element label="Location" max_length="32" name="u_location" reference="cmn_location" type="reference"/>
@@ -152,7 +159,7 @@
         <element label="Service pack" max_length="40" name="u_service_pack" type="string"/>
         <element label="Service port" max_length="40" name="u_service_port" type="integer"/>
         <element label="Sharable" max_length="40" name="u_sharable" type="boolean"/>
-        <element label="Description" max_length="40" name="u_short_description" type="string"/>
+        <element label="Description" max_length="2500" name="u_short_description" type="string"/>
         <element label="SID" max_length="40" name="u_sid" type="string"/>
         <element label="Site XML" max_length="40" name="u_site_xml" type="string"/>
         <element label="Size" max_length="40" name="u_size" type="string"/>
@@ -165,7 +172,7 @@
         <element label="Stack Mode" max_length="40" name="u_stack_mode" type="string"/>
         <element label="Start date" max_length="40" name="u_start_date" type="glide_date_time"/>
         <element label="Start offset" max_length="40" name="u_start_offset" type="string"/>
-        <element label="Status" max_length="40" name="u_status" type="string"/>
+        <element label="Status" max_length="60" name="u_status" type="string"/>
         <element label="Storage" max_length="32" name="u_storage" reference="cmdb_ci" type="reference"/>
         <element label="Storage type" max_length="40" name="u_storage_type" type="string"/>
         <element label="Subcategory" max_length="40" name="u_subcategory" type="string"/>
@@ -210,63 +217,66 @@
             <element name="u_computer"/>
         </index>
         <index name="index9">
-            <element name="u_running_process"/>
+            <element name="u_discovery_run"/>
         </index>
         <index name="index10">
-            <element name="u_cmdb_ci"/>
+            <element name="u_running_process"/>
         </index>
         <index name="index11">
-            <element name="u_maintenance_schedule"/>
+            <element name="u_cmdb_ci"/>
         </index>
         <index name="index12">
-            <element name="u_host"/>
+            <element name="u_maintenance_schedule"/>
         </index>
         <index name="index13">
-            <element name="u_load_balancer"/>
+            <element name="u_host"/>
         </index>
         <index name="index14">
-            <element name="u_cluster"/>
+            <element name="u_load_balancer"/>
         </index>
         <index name="index15">
-            <element name="u_classifier"/>
+            <element name="u_cluster"/>
         </index>
         <index name="index16">
-            <element name="u_nic"/>
+            <element name="u_classifier"/>
         </index>
         <index name="index17">
-            <element name="u_cpu_manufacturer"/>
+            <element name="u_nic"/>
         </index>
         <index name="index18">
-            <element name="u_owned_by"/>
+            <element name="u_cpu_manufacturer"/>
         </index>
         <index name="index19">
-            <element name="u_vendor"/>
+            <element name="u_owned_by"/>
         </index>
         <index name="index20">
-            <element name="u_controller"/>
+            <element name="u_vendor"/>
         </index>
         <index name="index21">
-            <element name="u_model_id"/>
+            <element name="u_controller"/>
         </index>
         <index name="index22">
-            <element name="u_pool"/>
+            <element name="u_model_id"/>
         </index>
         <index name="index23">
-            <element name="u_provided_by"/>
+            <element name="u_pool"/>
         </index>
         <index name="index24">
-            <element name="u_duplicate_of"/>
+            <element name="u_provided_by"/>
         </index>
         <index name="index25">
-            <element name="u_disk"/>
+            <element name="u_duplicate_of"/>
         </index>
         <index name="index26">
-            <element name="u_storage"/>
+            <element name="u_disk"/>
         </index>
         <index name="index27">
-            <element name="u_location"/>
+            <element name="u_storage"/>
         </index>
         <index name="index28">
+            <element name="u_location"/>
+        </index>
+        <index name="index29">
             <element name="u_mac_manufacturer"/>
         </index>
     </element>

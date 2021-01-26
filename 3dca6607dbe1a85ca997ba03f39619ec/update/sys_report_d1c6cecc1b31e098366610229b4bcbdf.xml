@@ -46,8 +46,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>name</field>
         <field_list>number,contact_type,short_description,caller_id,priority,state,category,assignment_group,assigned_to</field_list>
-        <filter table="cmdb_ci_db_instance">nameINinsight enterprise_sql_proj_p@TMLS070011,tmls82010@TMLS082010,insgihtd_p@TMRS008024,tmrs8035@TMRS008035,insightd_i@TMRS008124,orcl8301@tmrs008301,tmrs8301@tmrs008301,tmrs82033@TMRS082033,tmrs82133@TMRS082133,tmrs82305@TMRS082305,tmrs82333@TMRS082333,BII MS license_db_project_p,BII SAP BO_db_proj_d@VTORBODEV03,BII SAP BO_db_proj_p@VTORBOPRD01,BII CRM_db_proj_p@VTORCRMPRD02,BII CRM_db_proj_t@VTORCRMSTG02,BII Travel &amp; Expense_db_proj_i@vtorspsdev02,BII Travel &amp; Expense_db_proj_p@VTORSPSPRD02,BII IICES_db_project_d@VTORSQLDEV02,BII IICES_db_project_d@VTORSQLDEV05,business.biico.com_db_project_p@VTORSQLPRD02,BII DW_db_proj_p@VTORSQLPRD03,BII Travel &amp; Expense_db_proj_p@VTORSQLPRD05,BII IICES_db_project_p@VTORSQLPRD06,BII DW_db_proj_d@VTORSQLTST01,BII Starteam_db_project_p@VTORSTARPRD02,BI&amp;I - ECM Digitalization_db_project_p@YZDS070002,BII IICES_db_project_p@YZDS070003,BI&amp;I - ECM Digitalization_db_project_p@YZDS080006,^sys_class_name=cmdb_ci_db_mssql_instance^versionISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="IN" or="false" value="insight enterprise_sql_proj_p@TMLS070011,tmls82010@TMLS082010,insgihtd_p@TMRS008024,tmrs8035@TMRS008035,insightd_i@TMRS008124,orcl8301@tmrs008301,tmrs8301@tmrs008301,tmrs82033@TMRS082033,tmrs82133@TMRS082133,tmrs82305@TMRS082305,tmrs82333@TMRS082333,BII MS license_db_project_p,BII SAP BO_db_proj_d@VTORBODEV03,BII SAP BO_db_proj_p@VTORBOPRD01,BII CRM_db_proj_p@VTORCRMPRD02,BII CRM_db_proj_t@VTORCRMSTG02,BII Travel &amp; Expense_db_proj_i@vtorspsdev02,BII Travel &amp; Expense_db_proj_p@VTORSPSPRD02,BII IICES_db_project_d@VTORSQLDEV02,BII IICES_db_project_d@VTORSQLDEV05,business.biico.com_db_project_p@VTORSQLPRD02,BII DW_db_proj_p@VTORSQLPRD03,BII Travel &amp; Expense_db_proj_p@VTORSQLPRD05,BII IICES_db_project_p@VTORSQLPRD06,BII DW_db_proj_d@VTORSQLTST01,BII Starteam_db_project_p@VTORSTARPRD02,BI&amp;I - ECM Digitalization_db_project_p@YZDS070002,BII IICES_db_project_p@YZDS070003,BI&amp;I - ECM Digitalization_db_project_p@YZDS080006,"/>
-            <item display_value="MSFT SQL Instance" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_db_mssql_instance"/>
+        <filter table="cmdb_ci_db_instance">sys_class_name=cmdb_ci_db_mssql_instance^versionISNOTEMPTY^EQ<item display_value="MSFT SQL Instance" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_db_mssql_instance"/>
             <item endquery="false" field="version" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
@@ -108,14 +107,14 @@
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
         <sys_created_on>2021-01-14 12:59:27</sys_created_on>
         <sys_id>d1c6cecc1b31e098366610229b4bcbdf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>SQL Database Instance Version - Discoverable</sys_name>
         <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
         <sys_policy/>
         <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
         <sys_update_name>sys_report_d1c6cecc1b31e098366610229b4bcbdf</sys_update_name>
         <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-        <sys_updated_on>2021-01-14 14:40:10</sys_updated_on>
+        <sys_updated_on>2021-01-20 16:17:43</sys_updated_on>
         <table>cmdb_ci_db_instance</table>
         <title>SQL Database Instance Version - Discoverable</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

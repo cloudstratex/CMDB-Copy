@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Oracle Database Instance">d187ad1edb7d6010a997ba03f39619cb</dashboard>
+        <home>false</home>
+        <homepage display_value="My  Oracle Database Instance">d406215adb7d6010a997ba03f3961906</homepage>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-21 10:29:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1187e19edb7d6010a997ba03f39619c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>d187ad1edb7d6010a997ba03f39619cb</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_1187e19edb7d6010a997ba03f39619c6</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-21 10:29:17</sys_updated_on>
+        <tab display_value="My  Oracle Database  - New Tab">5587e19edb7d6010a997ba03f39619c2</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

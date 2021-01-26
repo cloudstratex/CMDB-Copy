@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.FixScript</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>FixScript</name>
+        <script><![CDATA[var FixScript = Class.create();
+FixScript.prototype = {
+        initialize: function() {
+			
+			//this.main = new global.MainScript();
+			
+		},
+
+        findDuplicates: function() {
+			
+			this.debug('findDuplicates: Started');
+            var xx = new GlideAggregate('u_cmdb_copy');
+            //xx.addEncodedQuery('u_class=cmdb_ci_win_server^ORu_class=cmdb_ci_computer');
+			xx.addQuery('u_class', 'cmdb_ci_san_disk');
+			//xx.addQuery('u_last_table',true);
+            xx.addAggregate('COUNT', 'u_correlation_id');
+            xx.addAggregate('COUNT', 'u_class');
+			xx.addHaving('COUNT', 'u_correlation_id', '>', '1');
+            xx.query();
+            var answer = new Array();
+			var count = 0;
+            while (xx.next()) {
+				this.debug('findDuplicates: ' + xx.u_correlation_id + ' Class: ' + xx.getValue('u_class'));
+				count++;
+				var getDuplicate = new GlideRecord('u_cmdb_copy');
+				getDuplicate.addQuery('u_class','cmdb_ci_san_disk');
+				getDuplicate.addQuery('u_correlation_id',xx.u_correlation_id);
+				getDuplicate.setLimit(1);
+				getDuplicate.query();
+				
+				if (getDuplicate.next()){
+					getDuplicate.deleteRecord();
+//					getDuplicate.u_last_table = false;
+//					getDuplicate.update();
+				}
+            }
+			this.debug('findDuplicates: Finished - ' + count);
+    },
+	
+	clearDuplicates: function(query) {
+		
+		var getDuplicates = new GlideRecord('u_cmdb_copy');
+		getDuplicates.addEncodedQuery(query);
+		getDuplicates.query();
+		
+		getDuplicates.deleteMultiple();
+		
+	},
+
+
+    checkTableParent: function(tables) {
+
+        var tablesArray = tables;
+        gs.info('checkTableParent: STARTED');
+        for (a = 0; a < tablesArray.length; a++) {
+            var checkDBObject = new GlideRecord('sys_db_object');
+            checkDBObject.addQuery('super_class.name', tablesArray[a]);
+            checkDBObject.query();
+
+            while (checkDBObject.next()) {
+                //gs.log('checkTableParent: For: ' + tablesArray[a] + ' its: ' + checkDBObject.name + ' - ' + tablesArray.indexOf(checkDBObject.name));
+                if (tablesArray.indexOf(checkDBObject.name) == -1) {
+                    //gs.log('checkTableParent: FALSE TABLE: ' + tablesArray[a]);
+                    var updateCMDBCopy = new GlideRecord('u_cmdb_copy');
+                    updateCMDBCopy.addQuery('u_class', tablesArray[a]);
+                    updateCMDBCopy.query();
+
+                    while (updateCMDBCopy.next()) {
+                        updateCMDBCopy.u_last_table = true;
+                        updateCMDBCopy.update();
+                    }
+                }
+            }
+
+            //  if (!checkDBObject.next()) {
+            //
+            //	gs.log('checkTableParent: TABLE IS NOT EXTENDED IN SYS OBJECT ' +tablesArray[a] +' ghost in the house help please');
+            /* var updateCMDBCopy = new GlideRecord('u_cmdb_copy');
+             updateCMDBCopy.addQuery('u_class', tablesArray[a]);
+             updateCMDBCopy.query();
+
+             while (updateCMDBCopy.next()) {
+                 updateCMDBCopy.u_last_table = true;
+                 updateCMDBCopy.update();
+             }*/
+
+        }
+        gs.info('checkTableParent: FINISHED');
+    },
+
+    copyDataCenter: function() {
+
+        gs.log('copyDataCenter: STARTED');
+
+        var getCmdbCICopy = new GlideRecord('u_cmdb_copy');
+        // getCmdbCICopy.addEncodedQuery('u_class=cmdb_ci_win_server');
+        //getCmdbCICopy.setLimit(100);
+        getCmdbCICopy.query();
+
+        while (getCmdbCICopy.next()) {
+            var getCmdbCI = new GlideRecord(getCmdbCICopy.u_class);
+            getCmdbCI.get(getCmdbCICopy.u_correlation_id);
+            if (getCmdbCICopy.u_data_centre == '') {
+                getCmdbCICopy.u_data_centre = getCmdbCI.u_data_centre;
+                getCmdbCICopy.update();
+            }
+
+        }
+        gs.log('copyDataCenter: FINISHED');
+
+    },
+
+    getFieldsInfo: function(fields) {
+
+        var fieldsArray = fields;
+        gs.info('FIELDS: ' + fieldsArray.length);
+        for (a = 0; a < fieldsArray.length; a++) {
+            var getField = new GlideRecord('u_cmdb_tables_fields');
+            getField.query();
+
+            var tablesArray = this.tables;
+            for (i = 0; i < tablesArray.length; i++) {
+                var getCMDBField = new GlideRecord('sys_dictionary');
+                getCMDBField.addQuery('name', tablesArray[i]);
+                getCMDBField.addQuery('element', getField.u_field_name);
+                getCMDBField.query();
+
+                if (getCMDBField.next()) {
+                    getField.u_field_name = fieldsArray[a];
+                    getField.u_field_label = getCMDBField.column_label;
+                    getField.u_reference = getCMDBField.reference;
+                    getField.u_field_type = getCMDBField.internal_type;
+                    getField.update();
+                }
+            }
+        }
+    },
+
+    createFields: function() {
+
+        var getFields = new GlideRecord('u_cmdb_tables_fields');
+        // getFields.setLimit(3);
+        getFields.query();
+
+        while (getFields.next()) {
+
+            gs.info('createFields: Field: ' + getFields.u_field_label);
+            var grNewDictionaryEntry = new GlideRecord('sys_dictionary');
+            grNewDictionaryEntry.addQuery('name', 'u_discovery_results_table');
+            grNewDictionaryEntry.addQuery('element', getFields.u_field_name.toString());
+            grNewDictionaryEntry.query();
+
+            if (!grNewDictionaryEntry.next()) {
+                gs.info('createFields: Field to update: ' + getFields.u_field_label);
+                grNewDictionaryEntry.name = 'u_discovery_results_table'; //Table name
+                grNewDictionaryEntry.internal_type = getFields.u_field_type.toString();
+                grNewDictionaryEntry.column_label = getFields.u_field_label.toString();
+                grNewDictionaryEntry.element = getFields.u_field_name.toString();
+                grNewDictionaryEntry.reference = getFields.u_reference.toString();
+                grNewDictionaryEntry.update();
+
+            } else if (!grNewDictionaryEntry.next()) {
+                //
+            }
+        }
+    },
+
+    getDataFromCMDB: function(tables) {
+
+        gs.info('getDataFromCMDB: STARTED');
+        //Run for each Table
+        //        var tableArrayString = this.tablesArray.toString();
+        var CMDBTables = tables; //tableArrayString.split(',');
+        //  gs.info('getDataFromCMDB: tables: ' + CMDBTables.length);
+        for (var i = 0; i < CMDBTables.length; i++) {
+            if (CMDBTables[i] != '') {
+                //Find each Field from each table
+                var fieldArray = [];
+                var getTableFields = new GlideRecord('sys_dictionary');
+                getTableFields.addQuery('name', CMDBTables[i]);
+                getTableFields.addQuery('internal_type', '!=', 'collection');
+                getTableFields.query();
+
+                while (getTableFields.next()) {
+                    fieldArray += getTableFields.element + ',';
+                }
+                //      gs.info('getDataFromCMDB: Fields: ' + fieldArray);
+                var fieldsArrayString = fieldArray.toString();
+                var CMDBFields = fieldsArrayString.split(',');
+
+                var getCMDB = new GlideRecord(CMDBTables[i]);
+                getCMDB.query();
+
+                while (getCMDB.next()) {
+                    //    gs.info('getDataFromCMDB: For Table: ' + getCMDB.sys_class_name + ' Length of fields: ' + CMDBFields.length);
+                    var cmdbArray = [];
+                    for (var a = 0; a < CMDBFields.length; a++) {
+                        var fieldID = CMDBFields[a];
+                        var fieldIDForCopy = 'u_' + CMDBFields[a];
+                        if (fieldID.indexOf('sys_') == -1 && getCMDB.getValue(fieldID) != '' && getCMDB.getValue(fieldID) != null) {
+                            cmdbArray.push("'" + fieldIDForCopy + "':'" + getCMDB.getValue(fieldID) + "'");
+                        }
+                    }
+                    cmdbArray.push("'u_correlation_id':'" + getCMDB.getValue('sys_id') + "'");
+                    cmdbArray.push("'u_class':'" + CMDBTables[i] + "'");
+                    //                    gs.info('getDataFromCMDB: Array to Push: ' + cmdbArray);
+                    this.pushREST(cmdbArray);
+                    gs.sleep(200);
+
+                }
+            }
+        }
+        gs.info('getDataFromCMDB: FINISHED');
+    },
+
+    pushREST: function(fields) {
+
+        var request = new sn_ws.RESTMessageV2();
+        request.setEndpoint('https://mrsnowdev02.service-now.com/api/now/table/u_cmdb_copy');
+        request.setHttpMethod('POST');
+
+        //Eg. UserName="admin", Password="admin" for this code sample.
+
+        request.setBasicAuth(user, password);
+        request.setRequestHeader("Accept", "application/json");
+        request.setRequestHeader('Content-Type', 'application/json');
+        request.setRequestBody("{" + fields + "}");
+        var response = request.execute();
+        //  gs.info('pushREST: response header: ' + response.getStatusCode());
+        //  gs.info('pushREST: response body: ' + response.getBody());
+
+    },
+
+    copyTable: function(networkTable) {
+
+        var tablesArray = networkTable;
+        var bCopyIndexes = true;
+
+        for (i = 0; i < tablesArray.length; i++) {
+            var strOldTable = tablesArray[i];
+            var strNewTable = 'u_' + tablesArray[i];
+            var tu = new TableUtils(strNewTable);
+            var bNewTableAlreadyExists = tu.tableExists();
+            if (bNewTableAlreadyExists) {
+                gs.print("WARNING: Target Table " + strNewTable + " already exists!  Please choose a new target table name");
+            } else {
+                var gr = new GlideRecord(strOldTable);
+                gr.initialize();
+                var td = GlideTableDescriptor.get(strOldTable);
+                var tdNewTable = new SNC.TableRotationBootstrap(strNewTable, gr.getLabel());
+                var dbo = new GlideRecord("sys_db_object");
+                dbo.addEncodedQuery("super_classISNOTEMPTY^name=" + strOldTable);
+                dbo.setLimit(1);
+                dbo.query();
+                if (dbo.next()) {
+                    tdNewTable.setExtends(dbo.super_class + '');
+                }
+                tdNewTable.setFields(gr);
+                tdNewTable.copyAttributes(td);
+                tdNewTable.create();
+                if (bCopyIndexes) {
+                    tdNewTable.copyIndexes(strOldTable, strNewTable);
+                }
+            }
+        }
+    },
+	
+	debug: function(message) {
+		
+		gs.log(message,'CMDB Copy');
+		
+	},
+
+    type: 'FixScript'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-20 10:09:50</sys_created_on>
+        <sys_id>aa08580edb39a490a997ba03f39619a2</sys_id>
+        <sys_mod_count>85</sys_mod_count>
+        <sys_name>FixScript</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_script_include_aa08580edb39a490a997ba03f39619a2</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-26 12:25:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

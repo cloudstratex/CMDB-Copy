@@ -46,10 +46,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>u_class,u_correlation_id,u_discovery_run</field_list>
-        <filter table="u_cmdb_copy">u_virtual=false^u_ip_addressSTARTSWITH10.24.40.^ORu_ip_addressSTARTSWITH172.21.^u_os_service_packISNOTEMPTY^u_class=cmdb_ci_linux_server^EQ<item endquery="false" field="u_virtual" goto="false" newquery="false" operator="=" or="false" value="false"/>
-            <item endquery="false" field="u_ip_address" goto="false" newquery="false" operator="STARTSWITH" or="false" value="10.24.40."/>
-            <item endquery="false" field="u_ip_address" goto="false" newquery="false" operator="STARTSWITH" or="true" value="172.21."/>
-            <item endquery="false" field="u_os_service_pack" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <filter table="u_cmdb_copy">u_os_service_packISNOTEMPTY^u_class=cmdb_ci_linux_server^EQ<item endquery="false" field="u_os_service_pack" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="false" field="u_class" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_linux_server"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
@@ -110,16 +107,16 @@
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
         <sys_created_on>2021-01-11 19:46:21</sys_created_on>
         <sys_id>5027cc13db29e85ca997ba03f39619ab</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Linux server OS Service Pack - Discoverable (b)</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Linux server OS Service Pack - Discoverable (b) - T</sys_name>
         <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
         <sys_policy/>
         <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
         <sys_update_name>sys_report_5027cc13db29e85ca997ba03f39619ab</sys_update_name>
         <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-        <sys_updated_on>2021-01-11 20:05:20</sys_updated_on>
+        <sys_updated_on>2021-01-18 21:04:40</sys_updated_on>
         <table>u_cmdb_copy</table>
-        <title>Linux server OS Service Pack - Discoverable (b)</title>
+        <title>Linux server OS Service Pack - Discoverable (b) - T</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

@@ -34,7 +34,7 @@
         <created_by_user display_value="Daniel_Admin Mann">fae718291b254810e8cb0edacd4bcb09</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
-        <custom_config/>
+        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
         <decimal_precision>2</decimal_precision>
         <description/>
         <direction>minimize</direction>
@@ -44,12 +44,9 @@
         <donut_width_percent>50</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>name</field>
-        <field_list>number,contact_type,short_description,caller_id,priority,state,category,assignment_group,assigned_to</field_list>
-        <filter table="cmdb_ci_db_instance">nameINinsight enterprise_sql_proj_p@TMLS070011,tmls82010@TMLS082010,insgihtd_p@TMRS008024,tmrs8035@TMRS008035,insightd_i@TMRS008124,orcl8301@tmrs008301,tmrs8301@tmrs008301,tmrs82033@TMRS082033,tmrs82133@TMRS082133,tmrs82305@TMRS082305,tmrs82333@TMRS082333,BII MS license_db_project_p,BII SAP BO_db_proj_d@VTORBODEV03,BII SAP BO_db_proj_p@VTORBOPRD01,BII CRM_db_proj_p@VTORCRMPRD02,BII CRM_db_proj_t@VTORCRMSTG02,BII Travel &amp; Expense_db_proj_i@vtorspsdev02,BII Travel &amp; Expense_db_proj_p@VTORSPSPRD02,BII IICES_db_project_d@VTORSQLDEV02,BII IICES_db_project_d@VTORSQLDEV05,business.biico.com_db_project_p@VTORSQLPRD02,BII DW_db_proj_p@VTORSQLPRD03,BII Travel &amp; Expense_db_proj_p@VTORSQLPRD05,BII IICES_db_project_p@VTORSQLPRD06,BII DW_db_proj_d@VTORSQLTST01,BII Starteam_db_project_p@VTORSTARPRD02,BI&amp;I - ECM Digitalization_db_project_p@YZDS070002,BII IICES_db_project_p@YZDS070003,BI&amp;I - ECM Digitalization_db_project_p@YZDS080006,^sys_class_name=cmdb_ci_db_mssql_instance^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="IN" or="false" value="insight enterprise_sql_proj_p@TMLS070011,tmls82010@TMLS082010,insgihtd_p@TMRS008024,tmrs8035@TMRS008035,insightd_i@TMRS008124,orcl8301@tmrs008301,tmrs8301@tmrs008301,tmrs82033@TMRS082033,tmrs82133@TMRS082133,tmrs82305@TMRS082305,tmrs82333@TMRS082333,BII MS license_db_project_p,BII SAP BO_db_proj_d@VTORBODEV03,BII SAP BO_db_proj_p@VTORBOPRD01,BII CRM_db_proj_p@VTORCRMPRD02,BII CRM_db_proj_t@VTORCRMSTG02,BII Travel &amp; Expense_db_proj_i@vtorspsdev02,BII Travel &amp; Expense_db_proj_p@VTORSPSPRD02,BII IICES_db_project_d@VTORSQLDEV02,BII IICES_db_project_d@VTORSQLDEV05,business.biico.com_db_project_p@VTORSQLPRD02,BII DW_db_proj_p@VTORSQLPRD03,BII Travel &amp; Expense_db_proj_p@VTORSQLPRD05,BII IICES_db_project_p@VTORSQLPRD06,BII DW_db_proj_d@VTORSQLTST01,BII Starteam_db_project_p@VTORSTARPRD02,BI&amp;I - ECM Digitalization_db_project_p@YZDS070002,BII IICES_db_project_p@YZDS070003,BI&amp;I - ECM Digitalization_db_project_p@YZDS080006,"/>
-            <item display_value="MSFT SQL Instance" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_db_mssql_instance"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </filter>
+        <field/>
+        <field_list>name,instance_name,version_name,version,service_pack,edition,tcp_port</field_list>
+        <filter/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -87,7 +84,7 @@
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>one_color</set_color>
+        <set_color>null</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -107,15 +104,15 @@
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
         <sys_created_on>2021-01-14 13:03:17</sys_created_on>
         <sys_id>95a786801b71e098366610229b4bcb4e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>SQL Database Instance Total</sys_name>
         <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
         <sys_policy/>
         <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
         <sys_update_name>sys_report_95a786801b71e098366610229b4bcb4e</sys_update_name>
         <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-        <sys_updated_on>2021-01-14 14:39:11</sys_updated_on>
-        <table>cmdb_ci_db_instance</table>
+        <sys_updated_on>2021-01-20 16:44:59</sys_updated_on>
+        <table>cmdb_ci_db_mssql_instance</table>
         <title>SQL Database Instance Total</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA My  NAS Storage - New Tab">e646f556db71a010a997ba03f396195e</legacy_page>
+        <name>PA My  NAS Storage - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-21 11:33:47</sys_created_on>
+        <sys_id>2a46f556db71a010a997ba03f396195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA My  NAS Storage - New Tab</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_grid_canvas_2a46f556db71a010a997ba03f396195f</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-21 11:33:47</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>

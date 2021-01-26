@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="Linux server Is Virtual - Discoverable">70c048dbdba5e85ca997ba03f396190e</report_id>
+        <report_id display_value="Linux server Is Virtual - Discoverable - T">70c048dbdba5e85ca997ba03f396190e</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
         <sys_created_on>2021-01-11 19:18:32</sys_created_on>

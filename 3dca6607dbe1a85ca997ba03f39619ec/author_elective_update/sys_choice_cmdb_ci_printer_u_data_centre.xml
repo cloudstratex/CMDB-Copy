@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_data_centre" table="cmdb_ci_printer" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_data_centre</element>
+            <name>cmdb_ci_printer</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:27:46</sys_created_on>
+            <sys_id>d6a850f9dbf9a090a997ba03f3961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_data_centre</sys_name>
+            <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+            <sys_update_name>sys_choice_cmdb_ci_printer_u_data_centre</sys_update_name>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:27:46</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_data_centre</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Toronto</label>
+            <language>en</language>
+            <name>cmdb_ci_printer</name>
+            <sequence>0</sequence>
+            <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+            <sys_created_on>2021-01-19 15:27:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ea850f9dbf9a090a997ba03f3961937</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+            <sys_updated_on>2021-01-19 15:27:46</sys_updated_on>
+            <value>Toronto</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

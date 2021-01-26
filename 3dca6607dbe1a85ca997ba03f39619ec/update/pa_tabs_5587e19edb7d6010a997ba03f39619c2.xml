@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA My  Oracle Database  - New Tab">1d87e19edb7d6010a997ba03f39619be</canvas_page>
+        <name>My  Oracle Database  - New Tab</name>
+        <page display_value="PA My  Oracle Database  - New Tab">9d87e19edb7d6010a997ba03f39619bd</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-21 10:29:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5587e19edb7d6010a997ba03f39619c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My  Oracle Database  - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>pa_tabs_5587e19edb7d6010a997ba03f39619c2</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-21 10:29:15</sys_updated_on>
+    </pa_tabs>
+</record_update>

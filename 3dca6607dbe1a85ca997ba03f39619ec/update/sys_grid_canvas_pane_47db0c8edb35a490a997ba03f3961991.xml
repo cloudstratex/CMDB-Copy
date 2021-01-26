@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA My  IP Router - New Tab">b6db844adb35a490a997ba03f3961924</grid_canvas>
+        <height>3</height>
+        <portal_widget display_value="Created 2021-01-20 10:10:18">bedb0c8edb35a490a997ba03f3961931</portal_widget>
+        <posx>6</posx>
+        <posy>43</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-20 09:10:19</sys_created_on>
+        <sys_id>47db0c8edb35a490a997ba03f3961991</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>b6db844adb35a490a997ba03f3961924</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_47db0c8edb35a490a997ba03f3961991</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-20 09:23:31</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

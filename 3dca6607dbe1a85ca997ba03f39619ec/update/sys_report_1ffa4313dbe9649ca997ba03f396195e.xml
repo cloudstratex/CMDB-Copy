@@ -46,11 +46,8 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>u_class,u_correlation_id,u_discovery_run</field_list>
-        <filter table="u_cmdb_copy">u_ip_addressSTARTSWITH10.24.40.^ORu_ip_addressSTARTSWITH172.21.^u_class=cmdb_ci_nas_file_system^ORu_disk_spaceISNOTEMPTY^EQ<item endquery="false" field="u_ip_address" goto="false" newquery="false" operator="STARTSWITH" or="false" value="10.24.40."/>
-            <item endquery="false" field="u_ip_address" goto="false" newquery="false" operator="STARTSWITH" or="true" value="172.21."/>
+        <filter table="u_cmdb_copy">u_disk_spaceISNOTEMPTY^u_class=cmdb_ci_nas_file_system<item endquery="false" field="u_disk_space" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="false" field="u_class" goto="false" newquery="false" operator="=" or="false" value="cmdb_ci_nas_file_system"/>
-            <item endquery="false" field="u_disk_space" goto="false" newquery="false" operator="ISNOTEMPTY" or="true" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -109,14 +106,14 @@
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
         <sys_created_on>2021-01-12 10:02:04</sys_created_on>
         <sys_id>1ffa4313dbe9649ca997ba03f396195e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Nas Disk Space (GB) - Discoverable (b)</sys_name>
         <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
         <sys_policy/>
         <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
         <sys_update_name>sys_report_1ffa4313dbe9649ca997ba03f396195e</sys_update_name>
         <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-        <sys_updated_on>2021-01-12 11:00:33</sys_updated_on>
+        <sys_updated_on>2021-01-20 11:43:49</sys_updated_on>
         <table>u_cmdb_copy</table>
         <title>Nas Disk Space (GB) - Discoverable (b)</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

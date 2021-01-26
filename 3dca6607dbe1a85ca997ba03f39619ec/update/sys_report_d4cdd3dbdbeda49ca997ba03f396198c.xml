@@ -46,9 +46,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>name,media_type,file_system,mount_point,size,computer,provided_by</field_list>
-        <filter table="cmdb_ci_nas_file_system">ip_addressSTARTSWITH10.24.4^ORip_addressSTARTSWITH172.21.^storage_typeISNOTEMPTY^EQ<item endquery="false" field="ip_address" goto="false" newquery="false" operator="STARTSWITH" or="false" value="10.24.4"/>
-            <item endquery="false" field="ip_address" goto="false" newquery="false" operator="STARTSWITH" or="true" value="172.21."/>
-            <item endquery="false" field="storage_type" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        <filter table="cmdb_ci_nas_file_system">storage_typeISNOTEMPTY^EQ<item endquery="false" field="storage_type" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <from/>
@@ -108,14 +106,14 @@
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
         <sys_created_on>2021-01-12 11:24:04</sys_created_on>
         <sys_id>d4cdd3dbdbeda49ca997ba03f396198c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Nas Storage Type - Discoverable</sys_name>
         <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
         <sys_policy/>
         <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
         <sys_update_name>sys_report_d4cdd3dbdbeda49ca997ba03f396198c</sys_update_name>
         <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-        <sys_updated_on>2021-01-12 12:07:39</sys_updated_on>
+        <sys_updated_on>2021-01-20 11:39:41</sys_updated_on>
         <table>cmdb_ci_nas_file_system</table>
         <title>Nas Storage Type - Discoverable</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

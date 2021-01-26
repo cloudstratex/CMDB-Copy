@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="IP Switch">f1c860b1dbfda090a997ba03f39619b4</dashboard>
+        <delete>false</delete>
+        <group/>
+        <identity>18f422271be90050e8cb0edacd4bcbbb</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-21 14:42:45</sys_created_on>
+        <sys_id>2a81e29edbb9a010a997ba03f3961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>18f422271be90050e8cb0edacd4bcbbb</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_2a81e29edbb9a010a997ba03f3961933</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-21 14:42:45</sys_updated_on>
+        <type>3</type>
+        <user display_value="Sven Croy">18f422271be90050e8cb0edacd4bcbbb</user>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

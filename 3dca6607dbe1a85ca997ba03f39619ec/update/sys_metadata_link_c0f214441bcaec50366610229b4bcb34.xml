@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>051ea6da1bb5e010366610229b4bcb46</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="u_discovery_results_table">
+    <u_discovery_results_table action="INSERT_OR_UPDATE">
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-21 15:37:32</sys_created_on>
+        <sys_id>051ea6da1bb5e010366610229b4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-21 15:37:32</sys_updated_on>
+        <u_cmdb_base_line/>
+        <u_cmdb_class/>
+        <u_data_centre/>
+        <u_discovery_base_line/>
+        <u_discovery_delta>0</u_discovery_delta>
+        <u_discovery_run/>
+        <u_discovery_updated/>
+        <u_field_name/>
+    </u_discovery_results_table>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-26 14:49:05</sys_created_on>
+        <sys_id>c0f214441bcaec50366610229b4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2021-01-21 15:37:32</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_metadata_link_c0f214441bcaec50366610229b4bcb34</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-26 14:49:05</sys_updated_on>
+        <tablename>u_discovery_results_table</tablename>
+    </sys_metadata_link>
+</record_update>

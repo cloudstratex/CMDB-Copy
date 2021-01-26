@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA My  NAS Storage - New Tab">d6d2fc8edb71e490a997ba03f39619e8</grid_canvas>
+        <height>10</height>
+        <portal_widget display_value="Created 2021-01-20 13:05:12">70e37406dbb1e490a997ba03f3961945</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-20 12:05:12</sys_created_on>
+        <sys_id>7ce37406dbb1e490a997ba03f3961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d6d2fc8edb71e490a997ba03f39619e8</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_7ce37406dbb1e490a997ba03f3961947</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-20 12:05:12</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</application>
+        <file_path/>
+        <instance_id>8c26c91edbb5e2007e55f5b0cf96191c</instance_id>
+        <instance_name>mrsnowdev02</instance_name>
+        <name>sys_grid_canvas_pane_7ce37406dbb1e490a997ba03f3961947</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA My  NAS Storage - New Tab">d6d2fc8edb71e490a997ba03f39619e8</grid_canvas><height>10</height><portal_widget display_value="Created 2021-01-20 13:05:12">70e37406dbb1e490a997ba03f3961945</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>daniel.mann@cloudstratex.com</sys_created_by><sys_created_on>2021-01-20 12:05:12</sys_created_on><sys_id>7ce37406dbb1e490a997ba03f3961947</sys_id><sys_mod_count>0</sys_mod_count><sys_name>d6d2fc8edb71e490a997ba03f39619e8</sys_name><sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package><sys_policy/><sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope><sys_update_name>sys_grid_canvas_pane_7ce37406dbb1e490a997ba03f3961947</sys_update_name><sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by><sys_updated_on>2021-01-20 12:05:12</sys_updated_on><width>12</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>-413234617</payload_hash>
+        <record_name>d6d2fc8edb71e490a997ba03f39619e8</record_name>
+        <reverted_from/>
+        <source>111320a01b7d2410366610229b4bcb61</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-20 12:05:12</sys_created_on>
+        <sys_id>78e37406dbb1e490a997ba03f396194a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1771faf35dd0000001</sys_recorded_at>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-20 12:05:12</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>70e3740693b1e490f880a0f3ae6ab84a</update_guid>
+        <update_guid_history>70e3740693b1e490f880a0f3ae6ab84a:-413234617</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-20 12:05:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>6bc3a48644ed42288212415ecd67b840</sys_id>
+        <sys_metadata>7ce37406dbb1e490a997ba03f3961947</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d6d2fc8edb71e490a997ba03f39619e8</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_scope_delete display_value="">1436e6296bbe42089309e21154006864</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_7ce37406dbb1e490a997ba03f3961947</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_7ce37406dbb1e490a997ba03f3961947">78e37406dbb1e490a997ba03f396194a</sys_update_version>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-20 12:05:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

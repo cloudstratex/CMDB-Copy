@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA My  IP Switch - New Tab">b5c860b1dbfda090a997ba03f39619b6</canvas_page>
+        <name>My  IP Switch - New Tab</name>
+        <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-01-19 16:38:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>86c860b1dbfda090a997ba03f39619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My  IP Switch - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>pa_tabs_86c860b1dbfda090a997ba03f39619b9</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-01-19 16:38:11</sys_updated_on>
+    </pa_tabs>
+</record_update>
