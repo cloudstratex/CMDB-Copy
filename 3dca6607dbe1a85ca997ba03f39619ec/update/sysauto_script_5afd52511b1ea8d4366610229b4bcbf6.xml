@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>CMDB Copy - Find Orphan</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Shay_Admin Faingold">50785ce51b254810e8cb0edacd4bcbe2</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-02-12 08:24:39</run_start>
+        <run_time>1969-12-31 23:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[new global.calculateScript().findOrphan();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-02-12 08:25:33</sys_created_on>
+        <sys_id>5afd52511b1ea8d4366610229b4bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CMDB Copy - Find Orphan</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sysauto_script_5afd52511b1ea8d4366610229b4bcbf6</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-02-12 08:25:33</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

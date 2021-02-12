@@ -52,7 +52,7 @@
         <update_guid_history>7f8141382d7dec10ab06ba80ad33e6be:306872801,ea61c9f4797dec10b84cd2a0dcea0873:1068349216</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="167.15.216.0-167.15.216.20">50220ab01b756810366610229b4bcb32</sys_audit_delete>
+        <sys_audit_delete display_value="">50220ab01b756810366610229b4bcb32</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>ny41333</sys_created_by>
         <sys_created_on>2021-01-16 20:34:38</sys_created_on>

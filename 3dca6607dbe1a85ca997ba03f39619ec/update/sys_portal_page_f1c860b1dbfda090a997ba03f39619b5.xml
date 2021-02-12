@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2021-01-26 21:20:10">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2021-02-12 09:44:53">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
         <order/>
@@ -24,207 +24,6 @@
         <user/>
         <view>pa_my__ip_switch_-_new_tab</view>
         <related_items_node>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone>dropzone2</dropzone>
-                <offset>7</offset>
-                <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
-                <summary/>
-                <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                <sys_created_on>2021-01-19 16:38:11</sys_created_on>
-                <sys_id>02c824b1dbfda090a997ba03f396197e</sys_id>
-                <sys_mod_count>0</sys_mod_count>
-                <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                <sys_updated_on>2021-01-19 16:38:11</sys_updated_on>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:38:11</sys_created_on>
-                        <sys_id>0ec824b1dbfda090a997ba03f396197e</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:38:11</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>show_title</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:46:17</sys_created_on>
-                        <sys_id>20aa6c39dbfda090a997ba03f396198b</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:46:17</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>publisher_widget</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:46:17</sys_created_on>
-                        <sys_id>20aa6c39dbfda090a997ba03f396198c</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:46:17</sys_updated_on>
-                        <value>false</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>show_header</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:46:17</sys_created_on>
-                        <sys_id>24aa6c39dbfda090a997ba03f396198b</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:46:17</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>subscriber_widget</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:46:17</sys_created_on>
-                        <sys_id>24aa6c39dbfda090a997ba03f396198c</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:46:17</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title_align</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:46:17</sys_created_on>
-                        <sys_id>28aa6c39dbfda090a997ba03f396198b</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:46:17</sys_updated_on>
-                        <value>center</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>filter_indicator</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:46:17</sys_created_on>
-                        <sys_id>28aa6c39dbfda090a997ba03f396198c</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:46:17</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>show_border</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:46:17</sys_created_on>
-                        <sys_id>2caa6c39dbfda090a997ba03f396198b</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:46:17</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>real_time</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:46:17</sys_created_on>
-                        <sys_id>2caa6c39dbfda090a997ba03f396198c</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:46:17</sys_updated_on>
-                        <value>false</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:38:11</sys_created_on>
-                        <sys_id>46c824b1dbfda090a997ba03f396197f</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:38:11</sys_updated_on>
-                        <value>384d0a41dbb5a450a997ba03f3961904</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_real_time</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:38:11</sys_created_on>
-                        <sys_id>4ac824b1dbfda090a997ba03f396197e</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:38:11</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:38:11</sys_created_on>
-                        <sys_id>4ec824b1dbfda090a997ba03f396197f</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:38:11</sys_updated_on>
-                        <value>b4b7a4bddbbda090a997ba03f396190c</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>report_type</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:38:11</sys_created_on>
-                        <sys_id>82c824b1dbfda090a997ba03f396197f</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:38:11</sys_updated_on>
-                        <value>single_score</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:38:11</sys_created_on>
-                        <sys_id>86c824b1dbfda090a997ba03f396197e</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:38:11</sys_updated_on>
-                        <value>IP Switch Environment - Non Discoverable - T</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>is_using_database_view</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:38:11</sys_created_on>
-                        <sys_id>8ac824b1dbfda090a997ba03f396197f</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:38:11</sys_updated_on>
-                        <value>false</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>help_text_window</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:38:11</sys_created_on>
-                        <sys_id>c2c824b1dbfda090a997ba03f396197e</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:38:11</sys_updated_on>
-                        <value>report_widget_description</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 2021-01-19 17:38:11">02c824b1dbfda090a997ba03f396197e</portal_section>
-                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
-                        <sys_created_on>2021-01-19 16:38:11</sys_created_on>
-                        <sys_id>cec824b1dbfda090a997ba03f396197e</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:38:11</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderReport</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
             <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone>dropzone2</dropzone>
                 <offset>20</offset>
@@ -1227,6 +1026,576 @@
                         <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
                         <sys_updated_on>2021-01-19 16:46:37</sys_updated_on>
                         <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
+                <summary>IP Switch - Can Partition VLANs - Discoverable - T</summary>
+                <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                <sys_created_on>2021-02-11 12:40:05</sys_created_on>
+                <sys_id>12dec68d1bdaa0d4366610229b4bcb3a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                <sys_updated_on>2021-02-11 12:40:05</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:05</sys_created_on>
+                        <sys_id>12dec68d1bdaa0d4366610229b4bcb3b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:05</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:05</sys_created_on>
+                        <sys_id>1edec68d1bdaa0d4366610229b4bcb3b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:05</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:05</sys_created_on>
+                        <sys_id>5edec68d1bdaa0d4366610229b4bcb3a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:05</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:05</sys_created_on>
+                        <sys_id>92dec68d1bdaa0d4366610229b4bcb3a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:05</sys_updated_on>
+                        <value>db494a891b5aa0d4366610229b4bcb13</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:43</sys_created_on>
+                        <sys_id>92efc6c91b1ea0d4366610229b4bcbd1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:43</sys_created_on>
+                        <sys_id>92efc6c91b1ea0d4366610229b4bcbd2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:43</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:05</sys_created_on>
+                        <sys_id>96dec68d1bdaa0d4366610229b4bcb3b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:05</sys_updated_on>
+                        <value>IP Switch - Can Partition VLANs - Discoverable - T</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:43</sys_created_on>
+                        <sys_id>96efc6c91b1ea0d4366610229b4bcbd0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:43</sys_created_on>
+                        <sys_id>96efc6c91b1ea0d4366610229b4bcbd1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:43</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:05</sys_created_on>
+                        <sys_id>9adec68d1bdaa0d4366610229b4bcb3a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:05</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:43</sys_created_on>
+                        <sys_id>9aefc6c91b1ea0d4366610229b4bcbd0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:43</sys_created_on>
+                        <sys_id>9aefc6c91b1ea0d4366610229b4bcbd1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:43</sys_created_on>
+                        <sys_id>9eefc6c91b1ea0d4366610229b4bcbd0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:43</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:43</sys_created_on>
+                        <sys_id>9eefc6c91b1ea0d4366610229b4bcbd1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:05</sys_created_on>
+                        <sys_id>d2dec68d1bdaa0d4366610229b4bcb3b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:05</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:05">12dec68d1bdaa0d4366610229b4bcb3a</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:05</sys_created_on>
+                        <sys_id>d6dec68d1bdaa0d4366610229b4bcb3a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:05</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
+                <summary>IP Switch - Installed - Discoverable - T</summary>
+                <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                <sys_created_on>2021-02-11 12:38:52</sys_created_on>
+                <sys_id>289e8a0d1bdaa0d4366610229b4bcb95</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                <sys_updated_on>2021-02-11 12:38:52</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:52</sys_created_on>
+                        <sys_id>249e8a0d1bdaa0d4366610229b4bcb97</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:52</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:52</sys_created_on>
+                        <sys_id>289e8a0d1bdaa0d4366610229b4bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:52</sys_created_on>
+                        <sys_id>649e8a0d1bdaa0d4366610229b4bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:49</sys_created_on>
+                        <sys_id>81bfc2011b1ea0d4366610229b4bcb21</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:49</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:49</sys_created_on>
+                        <sys_id>85bfc2011b1ea0d4366610229b4bcb20</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:49</sys_created_on>
+                        <sys_id>85bfc2011b1ea0d4366610229b4bcb21</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:49</sys_created_on>
+                        <sys_id>89bfc2011b1ea0d4366610229b4bcb20</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:49</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:49</sys_created_on>
+                        <sys_id>89bfc2011b1ea0d4366610229b4bcb21</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:49</sys_created_on>
+                        <sys_id>8dbfc2011b1ea0d4366610229b4bcb1f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:49</sys_created_on>
+                        <sys_id>8dbfc2011b1ea0d4366610229b4bcb20</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:49</sys_created_on>
+                        <sys_id>8dbfc2011b1ea0d4366610229b4bcb21</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:49</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:52</sys_created_on>
+                        <sys_id>a09e8a0d1bdaa0d4366610229b4bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:52</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:52</sys_created_on>
+                        <sys_id>a89e8a0d1bdaa0d4366610229b4bcb95</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:52</sys_updated_on>
+                        <value>25a9860d1b5aa0d4366610229b4bcb4a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:52</sys_created_on>
+                        <sys_id>ac9e8a0d1bdaa0d4366610229b4bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:52</sys_updated_on>
+                        <value>IP Switch - Installed - Discoverable - T</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:52</sys_created_on>
+                        <sys_id>e89e8a0d1bdaa0d4366610229b4bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:52</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:52">289e8a0d1bdaa0d4366610229b4bcb95</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:52</sys_created_on>
+                        <sys_id>ec9e8a0d1bdaa0d4366610229b4bcb95</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:52</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
+                <summary>IP Switch - Can Hub IP - Discoverable - T</summary>
+                <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                <sys_created_on>2021-02-11 12:40:15</sys_created_on>
+                <sys_id>34ee8a8d1bdaa0d4366610229b4bcbae</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                <sys_updated_on>2021-02-11 12:40:15</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:15</sys_created_on>
+                        <sys_id>30ee8a8d1bdaa0d4366610229b4bcbb0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:15</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:15</sys_created_on>
+                        <sys_id>34ee8a8d1bdaa0d4366610229b4bcbaf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:15</sys_created_on>
+                        <sys_id>70ee8a8d1bdaa0d4366610229b4bcbaf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:15</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:39</sys_created_on>
+                        <sys_id>91ef82c11b1ea0d4366610229b4bcb89</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:39</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:39</sys_created_on>
+                        <sys_id>91ef82c11b1ea0d4366610229b4bcb8a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:39</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:39</sys_created_on>
+                        <sys_id>95ef82c11b1ea0d4366610229b4bcb88</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:39</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:39</sys_created_on>
+                        <sys_id>95ef82c11b1ea0d4366610229b4bcb89</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:39</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:39</sys_created_on>
+                        <sys_id>95ef82c11b1ea0d4366610229b4bcb8a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:39</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:39</sys_created_on>
+                        <sys_id>99ef82c11b1ea0d4366610229b4bcb89</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:39</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:39</sys_created_on>
+                        <sys_id>9def82c11b1ea0d4366610229b4bcb88</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:39</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:39</sys_created_on>
+                        <sys_id>9def82c11b1ea0d4366610229b4bcb89</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:39</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:15</sys_created_on>
+                        <sys_id>b4ee8a8d1bdaa0d4366610229b4bcbae</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:15</sys_updated_on>
+                        <value>9439c6c91b5aa0d4366610229b4bcb46</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:15</sys_created_on>
+                        <sys_id>b8ee8a8d1bdaa0d4366610229b4bcbaf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:15</sys_updated_on>
+                        <value>IP Switch - Can Hub IP - Discoverable - T</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:15</sys_created_on>
+                        <sys_id>bcee8a8d1bdaa0d4366610229b4bcbae</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:15</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:15</sys_created_on>
+                        <sys_id>f4ee8a8d1bdaa0d4366610229b4bcbaf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:15</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:15">34ee8a8d1bdaa0d4366610229b4bcbae</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:15</sys_created_on>
+                        <sys_id>f8ee8a8d1bdaa0d4366610229b4bcbae</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:15</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -2239,13 +2608,13 @@
                 <dropzone/>
                 <offset/>
                 <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
-                <summary>Data Centre</summary>
+                <summary>Data Center</summary>
                 <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
                 <sys_created_on>2021-01-19 16:39:15</sys_created_on>
                 <sys_id>610924f1dbfda090a997ba03f39619a7</sys_id>
-                <sys_mod_count>2</sys_mod_count>
+                <sys_mod_count>3</sys_mod_count>
                 <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                <sys_updated_on>2021-01-19 16:40:11</sys_updated_on>
+                <sys_updated_on>2021-02-01 09:13:37</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_publish</name>
@@ -2275,10 +2644,10 @@
                         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
                         <sys_created_on>2021-01-19 16:39:15</sys_created_on>
                         <sys_id>a10924f1dbfda090a997ba03f39619a8</sys_id>
-                        <sys_mod_count>1</sys_mod_count>
+                        <sys_mod_count>2</sys_mod_count>
                         <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
-                        <sys_updated_on>2021-01-19 16:40:11</sys_updated_on>
-                        <value>Data Centre</value>
+                        <sys_updated_on>2021-02-01 09:13:37</sys_updated_on>
+                        <value>Data Center</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>type</name>
@@ -2312,6 +2681,196 @@
                         <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
                         <sys_updated_on>2021-01-19 16:39:15</sys_updated_on>
                         <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
+                <summary>IP Switch - Can Switch IP - Discoverable - T</summary>
+                <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                <sys_created_on>2021-02-11 12:39:33</sys_created_on>
+                <sys_id>66be0a4d1bdaa0d4366610229b4bcb94</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                <sys_updated_on>2021-02-11 12:39:33</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:33</sys_created_on>
+                        <sys_id>2abe0a4d1bdaa0d4366610229b4bcb95</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:33</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:33</sys_created_on>
+                        <sys_id>2ebe0a4d1bdaa0d4366610229b4bcb94</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:33</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:33</sys_created_on>
+                        <sys_id>62be0a4d1bdaa0d4366610229b4bcb96</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:33</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:01</sys_created_on>
+                        <sys_id>62ffca891b1ea0d4366610229b4bcbeb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:01</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:01</sys_created_on>
+                        <sys_id>62ffca891b1ea0d4366610229b4bcbec</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:01</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:33</sys_created_on>
+                        <sys_id>66be0a4d1bdaa0d4366610229b4bcb95</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:33</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:01</sys_created_on>
+                        <sys_id>66ffca891b1ea0d4366610229b4bcbeb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:01</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:01</sys_created_on>
+                        <sys_id>66ffca891b1ea0d4366610229b4bcbec</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:01</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:01</sys_created_on>
+                        <sys_id>6affca891b1ea0d4366610229b4bcbeb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:01</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:01</sys_created_on>
+                        <sys_id>6affca891b1ea0d4366610229b4bcbec</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:01</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:01</sys_created_on>
+                        <sys_id>6effca891b1ea0d4366610229b4bcbea</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:01</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:01</sys_created_on>
+                        <sys_id>6effca891b1ea0d4366610229b4bcbeb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:01</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:33</sys_created_on>
+                        <sys_id>a2be0a4d1bdaa0d4366610229b4bcb95</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:33</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:33</sys_created_on>
+                        <sys_id>e6be0a4d1bdaa0d4366610229b4bcb94</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:33</sys_updated_on>
+                        <value>3389860d1b5aa0d4366610229b4bcb41</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:33</sys_created_on>
+                        <sys_id>eabe0a4d1bdaa0d4366610229b4bcb95</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:33</sys_updated_on>
+                        <value>IP Switch - Can Switch IP - Discoverable - T</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:33">66be0a4d1bdaa0d4366610229b4bcb94</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:33</sys_created_on>
+                        <sys_id>eebe0a4d1bdaa0d4366610229b4bcb94</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:33</sys_updated_on>
+                        <value>report_widget_description</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -2919,6 +3478,196 @@
                 </related_items_node>
             </sys_portal>
             <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
+                <summary>IP Switch - Owned By - Discoverable - T</summary>
+                <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                <sys_created_on>2021-02-11 12:38:33</sys_created_on>
+                <sys_id>888e0a4d1bdaa0d4366610229b4bcbfc</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                <sys_updated_on>2021-02-11 12:38:33</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:33</sys_created_on>
+                        <sys_id>008e0a4d1bdaa0d4366610229b4bcbfe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:33</sys_updated_on>
+                        <value>IP Switch - Owned By - Discoverable - T</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:33</sys_created_on>
+                        <sys_id>048e0a4d1bdaa0d4366610229b4bcbfd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:33</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:33</sys_created_on>
+                        <sys_id>0c8e0a4d1bdaa0d4366610229b4bcbfc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:33</sys_updated_on>
+                        <value>8ec98e491b5aa0d4366610229b4bcbaf</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:33</sys_created_on>
+                        <sys_id>408e0a4d1bdaa0d4366610229b4bcbfd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:33</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:33</sys_created_on>
+                        <sys_id>4c8e0a4d1bdaa0d4366610229b4bcbfd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:33</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:24</sys_created_on>
+                        <sys_id>729fc6811b1ea0d4366610229b4bcbf1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:24</sys_created_on>
+                        <sys_id>729fc6811b1ea0d4366610229b4bcbf2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:24</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:24</sys_created_on>
+                        <sys_id>769fc6811b1ea0d4366610229b4bcbf1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:24</sys_created_on>
+                        <sys_id>769fc6811b1ea0d4366610229b4bcbf2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:24</sys_created_on>
+                        <sys_id>7a9fc6811b1ea0d4366610229b4bcbf1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:24</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:24</sys_created_on>
+                        <sys_id>7a9fc6811b1ea0d4366610229b4bcbf2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:24</sys_created_on>
+                        <sys_id>7e9fc6811b1ea0d4366610229b4bcbf1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:24</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:43:24</sys_created_on>
+                        <sys_id>7e9fc6811b1ea0d4366610229b4bcbf2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:43:24</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:33</sys_created_on>
+                        <sys_id>848e0a4d1bdaa0d4366610229b4bcbfe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:33</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:33</sys_created_on>
+                        <sys_id>888e0a4d1bdaa0d4366610229b4bcbfd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:33</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:33">888e0a4d1bdaa0d4366610229b4bcbfc</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:33</sys_created_on>
+                        <sys_id>c48e0a4d1bdaa0d4366610229b4bcbfd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:33</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone>dropzone2</dropzone>
                 <offset>17</offset>
                 <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
@@ -3379,6 +4128,196 @@
                 </related_items_node>
             </sys_portal>
             <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
+                <summary>IP Switch - Asset - Non Discoverable - T</summary>
+                <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                <sys_created_on>2021-02-11 12:40:36</sys_created_on>
+                <sys_id>b9fecac91bdaa0d4366610229b4bcb3d</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                <sys_updated_on>2021-02-11 12:40:36</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:16</sys_created_on>
+                        <sys_id>1200964d1b1ea0d4366610229b4bcba3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:16</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:16</sys_created_on>
+                        <sys_id>1200964d1b1ea0d4366610229b4bcba4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:16</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:16</sys_created_on>
+                        <sys_id>1600964d1b1ea0d4366610229b4bcba3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:16</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:16</sys_created_on>
+                        <sys_id>1600964d1b1ea0d4366610229b4bcba4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:16</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:16</sys_created_on>
+                        <sys_id>1a00964d1b1ea0d4366610229b4bcba3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:16</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:16</sys_created_on>
+                        <sys_id>1a00964d1b1ea0d4366610229b4bcba4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:16</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:16</sys_created_on>
+                        <sys_id>1e00964d1b1ea0d4366610229b4bcba3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:16</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:16</sys_created_on>
+                        <sys_id>1e00964d1b1ea0d4366610229b4bcba4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:16</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:36</sys_created_on>
+                        <sys_id>35fecac91bdaa0d4366610229b4bcb3e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:36</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:36</sys_created_on>
+                        <sys_id>3dfecac91bdaa0d4366610229b4bcb3d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:36</sys_updated_on>
+                        <value>34e84ec51b5aa0d4366610229b4bcb11</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:36</sys_created_on>
+                        <sys_id>71fecac91bdaa0d4366610229b4bcb3e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:36</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:36</sys_created_on>
+                        <sys_id>7dfe4acd1bdaa0d4366610229b4bcbf7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:36</sys_updated_on>
+                        <value>IP Switch - Asset - Non Discoverable - T</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:36</sys_created_on>
+                        <sys_id>b9fe4acd1bdaa0d4366610229b4bcbf7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:36</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:36</sys_created_on>
+                        <sys_id>b9fecac91bdaa0d4366610229b4bcb3e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:36</sys_created_on>
+                        <sys_id>f1fe4acd1bdaa0d4366610229b4bcbf8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:36</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:36">b9fecac91bdaa0d4366610229b4bcb3d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:36</sys_created_on>
+                        <sys_id>f5fecac91bdaa0d4366610229b4bcb3e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone>dropzone2</dropzone>
                 <offset>15</offset>
                 <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
@@ -3777,6 +4716,196 @@
                         <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
                         <sys_updated_on>2021-01-19 16:38:12</sys_updated_on>
                         <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
+                <summary>IP Switch - Warrenty Expiration - Discoverable - T</summary>
+                <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                <sys_created_on>2021-02-11 12:38:21</sys_created_on>
+                <sys_id>c57e0a4d1bdaa0d4366610229b4bcb8d</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                <sys_updated_on>2021-02-11 12:38:21</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:21</sys_created_on>
+                        <sys_id>097e0a4d1bdaa0d4366610229b4bcb8e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:21</sys_created_on>
+                        <sys_id>417e0a4d1bdaa0d4366610229b4bcb8f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:21</sys_updated_on>
+                        <value>IP Switch - Warrenty Expiration - Discoverable - T</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:21</sys_created_on>
+                        <sys_id>457e0a4d1bdaa0d4366610229b4bcb8e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:21</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:21</sys_created_on>
+                        <sys_id>4d7e0a4d1bdaa0d4366610229b4bcb8d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:21</sys_updated_on>
+                        <value>0ce9860d1b5aa0d4366610229b4bcb5a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:21</sys_created_on>
+                        <sys_id>4d7e0a4d1bdaa0d4366610229b4bcb8f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:21</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:42:43</sys_created_on>
+                        <sys_id>707fca811b1ea0d4366610229b4bcb1e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:42:43</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:42:43</sys_created_on>
+                        <sys_id>747fca811b1ea0d4366610229b4bcb1d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:42:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:42:43</sys_created_on>
+                        <sys_id>747fca811b1ea0d4366610229b4bcb1e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:42:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:42:43</sys_created_on>
+                        <sys_id>787fca811b1ea0d4366610229b4bcb1d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:42:43</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:42:43</sys_created_on>
+                        <sys_id>787fca811b1ea0d4366610229b4bcb1e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:42:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:42:43</sys_created_on>
+                        <sys_id>7c7fca811b1ea0d4366610229b4bcb1c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:42:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:42:43</sys_created_on>
+                        <sys_id>7c7fca811b1ea0d4366610229b4bcb1d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:42:43</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:42:43</sys_created_on>
+                        <sys_id>7c7fca811b1ea0d4366610229b4bcb1e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:42:43</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:21</sys_created_on>
+                        <sys_id>817e0a4d1bdaa0d4366610229b4bcb8e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:21</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:21</sys_created_on>
+                        <sys_id>8d7e0a4d1bdaa0d4366610229b4bcb8e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:21</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-11 13:38:21">c57e0a4d1bdaa0d4366610229b4bcb8d</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:38:21</sys_created_on>
+                        <sys_id>c97e0a4d1bdaa0d4366610229b4bcb8e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:38:21</sys_updated_on>
+                        <value>true</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -4581,6 +5710,576 @@
                         <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
                         <sys_updated_on>2021-01-19 16:38:12</sys_updated_on>
                         <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
+                <summary>IP Switch - Can Route IP - Discoverable - T</summary>
+                <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                <sys_created_on>2021-02-11 12:39:46</sys_created_on>
+                <sys_id>e1cec68d1bdaa0d4366610229b4bcb45</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                <sys_updated_on>2021-02-11 12:39:46</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:46</sys_created_on>
+                        <sys_id>21cec68d1bdaa0d4366610229b4bcb46</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:46</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:54</sys_created_on>
+                        <sys_id>41ffc6c91b1ea0d4366610229b4bcbd4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:54</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:54</sys_created_on>
+                        <sys_id>41ffc6c91b1ea0d4366610229b4bcbd5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:54</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:54</sys_created_on>
+                        <sys_id>45ffc6c91b1ea0d4366610229b4bcbd4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:54</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:54</sys_created_on>
+                        <sys_id>49ffc6c91b1ea0d4366610229b4bcbd3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:54</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:54</sys_created_on>
+                        <sys_id>49ffc6c91b1ea0d4366610229b4bcbd4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:54</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:54</sys_created_on>
+                        <sys_id>4dffc6c91b1ea0d4366610229b4bcbd3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:54</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:54</sys_created_on>
+                        <sys_id>4dffc6c91b1ea0d4366610229b4bcbd4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:54</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:46</sys_created_on>
+                        <sys_id>65cec68d1bdaa0d4366610229b4bcb45</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:46</sys_updated_on>
+                        <value>e679460d1b5aa0d4366610229b4bcb4c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:46</sys_created_on>
+                        <sys_id>69cec68d1bdaa0d4366610229b4bcb46</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:46</sys_updated_on>
+                        <value>IP Switch - Can Route IP - Discoverable - T</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:46</sys_created_on>
+                        <sys_id>6dcec68d1bdaa0d4366610229b4bcb45</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:46</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:54</sys_created_on>
+                        <sys_id>89ff4e0d1b1ea0d4366610229b4bcbbe</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:54</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:46</sys_created_on>
+                        <sys_id>a5cec68d1bdaa0d4366610229b4bcb46</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:46</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:46</sys_created_on>
+                        <sys_id>a9cec68d1bdaa0d4366610229b4bcb45</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:46</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:46</sys_created_on>
+                        <sys_id>e1cec68d1bdaa0d4366610229b4bcb46</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:46</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:46">e1cec68d1bdaa0d4366610229b4bcb45</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:46</sys_created_on>
+                        <sys_id>edcec68d1bdaa0d4366610229b4bcb46</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:46</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
+                <summary>IP Switch - Can pRINT - Discoverable - T</summary>
+                <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                <sys_created_on>2021-02-11 12:39:53</sys_created_on>
+                <sys_id>e3ce828d1bdaa0d4366610229b4bcb8b</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                <sys_updated_on>2021-02-11 12:39:53</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:53</sys_created_on>
+                        <sys_id>23ce828d1bdaa0d4366610229b4bcb8c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:53</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:53</sys_created_on>
+                        <sys_id>23ce8a8d1bdaa0d4366610229b4bcbaa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:53</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:48</sys_created_on>
+                        <sys_id>23ef46051b1ea0d4366610229b4bcbc7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:48</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:48</sys_created_on>
+                        <sys_id>23ef46051b1ea0d4366610229b4bcbc8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:48</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:48</sys_created_on>
+                        <sys_id>27ef46051b1ea0d4366610229b4bcbc6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:48</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:48</sys_created_on>
+                        <sys_id>27ef46051b1ea0d4366610229b4bcbc7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:48</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:48</sys_created_on>
+                        <sys_id>2bef46051b1ea0d4366610229b4bcbc6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:48</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:48</sys_created_on>
+                        <sys_id>2bef46051b1ea0d4366610229b4bcbc7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:48</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:48</sys_created_on>
+                        <sys_id>2fef46051b1ea0d4366610229b4bcbc6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:48</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:44:48</sys_created_on>
+                        <sys_id>2fef46051b1ea0d4366610229b4bcbc7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:44:48</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:53</sys_created_on>
+                        <sys_id>67ce828d1bdaa0d4366610229b4bcb8b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:53</sys_updated_on>
+                        <value>6469c6c91b5aa0d4366610229b4bcb26</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:53</sys_created_on>
+                        <sys_id>6bce828d1bdaa0d4366610229b4bcb8c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:53</sys_updated_on>
+                        <value>IP Switch - Can pRINT - Discoverable - T</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:53</sys_created_on>
+                        <sys_id>6fce828d1bdaa0d4366610229b4bcb8b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:53</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:53</sys_created_on>
+                        <sys_id>a7ce828d1bdaa0d4366610229b4bcb8c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:53</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:53</sys_created_on>
+                        <sys_id>abce828d1bdaa0d4366610229b4bcb8b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:53</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-11 13:39:53">e3ce828d1bdaa0d4366610229b4bcb8b</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:39:53</sys_created_on>
+                        <sys_id>e3ce828d1bdaa0d4366610229b4bcb8c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:39:53</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA My  IP Switch - New Tab">f1c860b1dbfda090a997ba03f39619b5</page>
+                <summary>IP Switch - Asset Tag - Discoverable - T</summary>
+                <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                <sys_created_on>2021-02-11 12:40:27</sys_created_on>
+                <sys_id>ffee0a8d1bdaa0d4366610229b4bcbbf</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                <sys_updated_on>2021-02-11 12:40:27</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:27</sys_created_on>
+                        <sys_id>3fee0a8d1bdaa0d4366610229b4bcbc0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:27</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:21</sys_created_on>
+                        <sys_id>63001e851b1ea0d4366610229b4bcb50</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:21</sys_created_on>
+                        <sys_id>63001e851b1ea0d4366610229b4bcb51</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:21</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:21</sys_created_on>
+                        <sys_id>67001e851b1ea0d4366610229b4bcb50</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:21</sys_created_on>
+                        <sys_id>67001e851b1ea0d4366610229b4bcb51</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:21</sys_created_on>
+                        <sys_id>6b001e851b1ea0d4366610229b4bcb50</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:21</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:21</sys_created_on>
+                        <sys_id>6b001e851b1ea0d4366610229b4bcb51</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:21</sys_created_on>
+                        <sys_id>6f001e851b1ea0d4366610229b4bcb50</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:45:21</sys_created_on>
+                        <sys_id>6f001e851b1ea0d4366610229b4bcb51</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:45:21</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:27</sys_created_on>
+                        <sys_id>73ee0a8d1bdaa0d4366610229b4bcbc0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:27</sys_updated_on>
+                        <value>4209c6c91b5aa0d4366610229b4bcb3d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:27</sys_created_on>
+                        <sys_id>77ee0a8d1bdaa0d4366610229b4bcbc1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:27</sys_updated_on>
+                        <value>IP Switch - Asset Tag - Discoverable - T</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:27</sys_created_on>
+                        <sys_id>7bee0a8d1bdaa0d4366610229b4bcbc0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:27</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:27</sys_created_on>
+                        <sys_id>b3ee0a8d1bdaa0d4366610229b4bcbc1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:27</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:27</sys_created_on>
+                        <sys_id>b7ee0a8d1bdaa0d4366610229b4bcbc0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:27</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:27</sys_created_on>
+                        <sys_id>fbee0a8d1bdaa0d4366610229b4bcbc1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:27</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-02-11 13:40:27">ffee0a8d1bdaa0d4366610229b4bcbbf</portal_section>
+                        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+                        <sys_created_on>2021-02-11 12:40:27</sys_created_on>
+                        <sys_id>ffee0a8d1bdaa0d4366610229b4bcbc0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+                        <sys_updated_on>2021-02-11 12:40:27</sys_updated_on>
+                        <value>true</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>

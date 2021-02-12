@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.calculateScript</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>findOrphan: function() {&#13;
+		new global.calculateScript().findOrphan();&#13;
+	},</description>
+        <name>calculateScript</name>
+        <script><![CDATA[var calculateScript = Class.create();
+calculateScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    initialize: function() {
+        this.tables = ['cmdb_ci_server'];
+    },
+
+    findOrphan: function() {
+        gs.info('CMDB Copy: findOrphan STARTED');
+
+        var tablesArray = this.tables;
+        for (i = 0; i < tablesArray.length; i++) {
+
+            var getCIs = new GlideRecord(tablesArray[i]);
+            //getCIs.addQuery(); // **ACTION** need to set query
+            //getCIs.get('0005e8c5db71c890228372e9f49619fc');
+            //getCIs.setLimit(100);
+            getCIs.query();
+
+            while (getCIs.next()) {
+                var isBusApp = true;
+                var busApp = new global.MRChangeUtilsv2().getTopBusinessApplication(getCIs.sys_id);
+                if (busApp === undefined)
+                    isBusApp = false;
+                if (!isBusApp) {
+                    var setOrphanRecord = new GlideRecord('u_orphan_ci');
+                    setOrphanRecord.initialize();
+                    setOrphanRecord.u_ci = getCIs.sys_id;
+                    setOrphanRecord.u_discovered_on = new GlideDateTime();
+                    setOrphanRecord.u_active = true;
+                    setOrphanRecord.u_type = 'Missing Business Application';
+                    setOrphanRecord.insert();
+                }
+            }
+        }
+        gs.info('CMDB Copy: findOrphan FINISHED');
+
+    },
+
+    findOrphan1: function() {
+        var isOrphan = true; // Change this to False if find business app
+        var isEnd = false; // Change this to True if no more Rel exsit
+
+        var getCIs = new GlideRecord('cmdb_ci_win_server'); // **ACTION** table hard coded - need to set tables
+        //		getCIs.addQuery(); // **ACTION** need to set query
+        getCIs.setLimit(2);
+        getCIs.query();
+
+        while (getCIs.next()) {
+            if (!isEnd) {
+                isEnd = this.checkRel(getCIs.sys_id, isOrphan); //Check each CI and it's relationships
+            }
+            if (isOrphan && isEnd) {
+                var setOrphanRecord = new GlideRecord('u_orphan_ci');
+                setOrphanRecord.initialize();
+                setOrphanRecord.u_ci = getCIs.sys_id;
+                setOrphanRecord.u_discovered_on = new GlideDateTime();
+                setOrphanRecord.u_active = true;
+                setOrphanRecord.u_type = 'Missing Business Application';
+                setOrphanRecord.insert();
+            }
+        }
+    },
+
+    checkRel: function(ci, isOrphan) {
+
+        var endOfLine = false;
+
+        var getCIRel = new GlideRecord('cmdb_rel_ci');
+        getCIRel.addQuery('child', ci);
+        getCIRel.query();
+
+        while (getCIRel.next()) {
+            endOfLine = this.checkRelType(getCIRel.parent);
+        }
+
+    },
+
+    checkRelType: function(ci) {
+
+
+    },
+
+    type: 'calculateScript'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-02-11 17:58:48</sys_created_on>
+        <sys_id>d16197451b5ee0d4366610229b4bcbd0</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>calculateScript</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>sys_script_include_d16197451b5ee0d4366610229b4bcbd0</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-02-12 08:48:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

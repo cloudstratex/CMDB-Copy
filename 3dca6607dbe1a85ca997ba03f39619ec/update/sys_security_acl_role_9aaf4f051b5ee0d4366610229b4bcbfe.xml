@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-02-11 17:23:14</sys_created_on>
+        <sys_id>9aaf4f051b5ee0d4366610229b4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_orphan_ci.u_orphan_ci_s_user</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_security_acl display_value="u_orphan_ci">0eaf4f051b5ee0d4366610229b4bcb82</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_9aaf4f051b5ee0d4366610229b4bcbfe</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-02-11 17:23:14</sys_updated_on>
+        <sys_user_role display_value="u_orphan_ci_s_user" name="u_orphan_ci_s_user">bdaf87051b5ee0d4366610229b4bcb09</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

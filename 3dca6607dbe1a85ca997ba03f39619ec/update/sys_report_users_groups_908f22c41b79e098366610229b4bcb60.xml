@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
         <group_id/>
-        <report_id display_value="IP Router Short Description - Non Discoverable">1c8f22c41b79e098366610229b4bcb5f</report_id>
+        <report_id display_value="IP Router - Description - Non Discoverable">1c8f22c41b79e098366610229b4bcb5f</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
         <sys_created_on>2021-01-14 15:57:26</sys_created_on>

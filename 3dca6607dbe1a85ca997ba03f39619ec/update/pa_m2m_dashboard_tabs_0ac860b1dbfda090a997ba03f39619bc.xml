@@ -2,7 +2,7 @@
     <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
         <dashboard display_value="IP Switch">f1c860b1dbfda090a997ba03f39619b4</dashboard>
         <home>false</home>
-        <homepage display_value="My  IP Switch">06c7a4bddbbda090a997ba03f3961914</homepage>
+        <homepage display_value="">06c7a4bddbbda090a997ba03f3961914</homepage>
         <order>1</order>
         <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_recommended_fields">
+    <cmdb_recommended_fields action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <recommended>short_description,os_service_pack,os_domain,cpu_core_thread,cpu_manufacturer,manufacturer,cpu_count,cpu_type,company,model_number,install_date,ram,os,os_version,cpu_speed,owned_by,serial_number,model_id,ip_address,disk_space,support_group,maintenance_schedule,environment,install_status,dns_domain,location,cpu_core_count</recommended>
+        <sys_class_name>cmdb_recommended_fields</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-02-10 12:22:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7310db81b9ea894366610229b4bcbbc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>cmdb_ci_computer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>cmdb_recommended_fields_d7310db81b9ea894366610229b4bcbbc</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-02-10 12:44:05</sys_updated_on>
+        <table>cmdb_ci_computer</table>
+    </cmdb_recommended_fields>
+</record_update>

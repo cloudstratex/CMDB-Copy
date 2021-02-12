@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Discovery Results Table" max_length="40" name="u_discovery_results_table" sizeclass="5132" type="collection">
+    <element label="Discovery Results Table" max_length="40" name="u_discovery_results_table" sizeclass="484" type="collection">
         <element label="CMDB Base Line" max_length="40" name="u_cmdb_base_line" type="integer"/>
         <element label="CMDB Class" max_length="120" name="u_cmdb_class" type="string"/>
         <element label="Data Centre" max_length="40" name="u_data_centre" type="string"/>
         <element label="Discovery Base Line" max_length="10" name="u_discovery_base_line" type="integer"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    var diff = parseInt(current.u_discovery_base_line) - parseInt(current.u_cmdb_base_line);&#13;&#10;    return diff; // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Discovery Delta" max_length="40" name="u_discovery_delta" type="integer" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;    var diff = parseInt(current.u_discovery_base_line) - parseInt(current.u_cmdb_base_line);&#10;    return diff; // return the calculated value&#10;&#10;})(current);" label="Discovery Delta" max_length="40" name="u_discovery_delta" type="integer" virtual="true"/>
         <element label="Discovery Run" max_length="32" name="u_discovery_run" reference="u_discovery_run" type="reference"/>
         <element label="Discovery Updated" max_length="40" name="u_discovery_updated" type="integer"/>
         <element label="Field Name" max_length="120" name="u_field_name" type="string"/>

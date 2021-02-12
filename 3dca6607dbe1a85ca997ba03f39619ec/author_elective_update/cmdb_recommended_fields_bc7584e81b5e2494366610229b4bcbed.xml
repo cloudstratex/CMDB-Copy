@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_recommended_fields">
+    <cmdb_recommended_fields action="DELETE">
+        <active>true</active>
+        <recommended>short_description,os_service_pack,os_domain,cpu_core_thread,cpu_manufacturer,manufacturer,cpu_count,cpu_type,company,model_number,install_date,ram,os,os_version,cpu_speed,owned_by,serial_number,model_id,ip_address,disk_space,support_group,maintenance_schedule,environment,install_status,dns_domain,location,cpu_core_count</recommended>
+        <sys_class_name>cmdb_recommended_fields</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-02-09 13:22:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc7584e81b5e2494366610229b4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci_computer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>cmdb_recommended_fields_bc7584e81b5e2494366610229b4bcbed</sys_update_name>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-02-09 13:22:49</sys_updated_on>
+        <table>cmdb_ci_computer</table>
+    </cmdb_recommended_fields>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</application>
+        <file_path/>
+        <instance_id>8c26c91edbb5e2007e55f5b0cf96191c</instance_id>
+        <instance_name>mrsnowdev02</instance_name>
+        <name>cmdb_recommended_fields_bc7584e81b5e2494366610229b4bcbed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_recommended_fields"><cmdb_recommended_fields action="INSERT_OR_UPDATE"><active>true</active><recommended>short_description,os_service_pack,os_domain,cpu_core_thread,cpu_manufacturer,manufacturer,cpu_count,cpu_type,company,model_number,install_date,ram,os,os_version,cpu_speed,owned_by,serial_number,model_id,ip_address,disk_space,support_group,maintenance_schedule,environment,install_status,dns_domain,location,cpu_core_count</recommended><sys_class_name>cmdb_recommended_fields</sys_class_name><sys_created_by>shay.faingold@cloudstratex.com</sys_created_by><sys_created_on>2021-02-09 13:22:49</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bc7584e81b5e2494366610229b4bcbed</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_ci_computer</sys_name><sys_overrides/><sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package><sys_policy/><sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope><sys_update_name>cmdb_recommended_fields_bc7584e81b5e2494366610229b4bcbed</sys_update_name><sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by><sys_updated_on>2021-02-09 13:22:49</sys_updated_on><table>cmdb_ci_computer</table></cmdb_recommended_fields></record_update>]]></payload>
+        <payload_hash>-856863466</payload_hash>
+        <record_name>cmdb_ci_computer</record_name>
+        <reverted_from/>
+        <source>0bb6fa3cdbce6010a997ba03f3961987</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-02-09 13:22:49</sys_created_on>
+        <sys_id>3075c0ac1b5e2494366610229b4bcba3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17786f575150000001</sys_recorded_at>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-02-09 13:22:49</sys_updated_on>
+        <type>CMDB Recommended Field</type>
+        <update_guid>3875c0ac335e24948bbd99f8ab1927a2</update_guid>
+        <update_guid_history>3875c0ac335e24948bbd99f8ab1927a2:-856863466</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="cmdb_ci_computer">38da6de81b16a494366610229b4bcba2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-02-09 20:45:43</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_recommended_fields">cmdb_recommended_fields</sys_db_object>
+        <sys_id>099063dfcc124dca834a3b46b2b924c4</sys_id>
+        <sys_metadata>bc7584e81b5e2494366610229b4bcbed</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci_computer</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_scope_delete display_value="">1436e6296bbe42089309e21154006864</sys_scope_delete>
+        <sys_update_name>cmdb_recommended_fields_bc7584e81b5e2494366610229b4bcbed</sys_update_name>
+        <sys_update_version display_value="cmdb_recommended_fields_bc7584e81b5e2494366610229b4bcbed">3075c0ac1b5e2494366610229b4bcba3</sys_update_version>
+        <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-02-09 20:45:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

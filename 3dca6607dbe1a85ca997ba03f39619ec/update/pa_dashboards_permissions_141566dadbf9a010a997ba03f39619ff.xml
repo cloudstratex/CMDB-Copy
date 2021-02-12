@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="Toronto - Windows Server">880aebe1db71a090a997ba03f39619fe</dashboard>
+        <dashboard display_value="Windows Server">880aebe1db71a090a997ba03f39619fe</dashboard>
         <delete>false</delete>
         <group/>
         <identity>9c4154731b8344d0299adc2c9b4bcb1a</identity>

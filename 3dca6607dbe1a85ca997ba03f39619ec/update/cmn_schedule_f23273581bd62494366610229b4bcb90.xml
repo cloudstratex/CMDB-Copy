@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmn_schedule">
+    <cmn_schedule action="INSERT_OR_UPDATE">
+        <calendar_name/>
+        <description/>
+        <document/>
+        <document_key/>
+        <is_legacy_schedule>true</is_legacy_schedule>
+        <label/>
+        <name>r</name>
+        <parent/>
+        <plural_label/>
+        <read_only>false</read_only>
+        <sys_class_name>cmn_schedule</sys_class_name>
+        <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
+        <sys_created_on>2021-02-09 11:58:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f23273581bd62494366610229b4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>r</sys_name>
+        <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
+        <sys_update_name>cmn_schedule_f23273581bd62494366610229b4bcb90</sys_update_name>
+        <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
+        <sys_updated_on>2021-02-09 11:58:54</sys_updated_on>
+        <time_zone/>
+        <type/>
+    </cmn_schedule>
+</record_update>

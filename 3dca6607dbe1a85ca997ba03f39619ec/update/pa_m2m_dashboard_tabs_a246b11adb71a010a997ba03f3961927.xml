@@ -2,7 +2,7 @@
     <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
         <dashboard display_value="NAS Storage">a646f556db71a010a997ba03f396195d</dashboard>
         <home>false</home>
-        <homepage display_value="My  NAS Storage">8794b152db71a010a997ba03f3961952</homepage>
+        <homepage display_value="">8794b152db71a010a997ba03f3961952</homepage>
         <order>1</order>
         <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>

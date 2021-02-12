@@ -17,7 +17,7 @@
         <sys_updated_on>2021-01-18 17:48:20</sys_updated_on>
         <table>u_cmdb_copy</table>
         <variable_prefix>cmdbc</variable_prefix>
-        <view display_value="u_cmdb_copy_ci">97f3af91dbf1e850a997ba03f3961906</view>
+        <view display_value="">97f3af91dbf1e850a997ba03f3961906</view>
         <where_clause>cmdbc.u_class='cmdb_ci_win_server'</where_clause>
     </sys_db_view_table>
 </record_update>

@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="cmdb_ci_wap_network" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">bfc5073b1b75ac50366610229b4bcbe4</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">c8d5073b1b75ac50366610229b4bcbe9</sys_ui_section>
+            <sys_ui_section display_value="">c8d5073b1b75ac50366610229b4bcbe9</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-01-26 09:12:07</sys_updated_on>
         </sys_ui_form_section>
@@ -24,7 +24,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="cmdb_ci_wap_network" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">bfc5073b1b75ac50366610229b4bcbe4</sys_ui_form>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_wap_network" sys_domain="global" view="Default view">00d5473b1b75ac50366610229b4bcb58</sys_ui_section>
+            <sys_ui_section display_value="">00d5473b1b75ac50366610229b4bcb58</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-01-26 09:12:07</sys_updated_on>
         </sys_ui_form_section>

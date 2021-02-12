@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>source</element>
-            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="afb67006dbf1e490a997ba03f3961952">0ed63806dbf1e490a997ba03f39619e0</list_id>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="2173b670db0e6010a997ba03f3961915">0ed63806dbf1e490a997ba03f39619e0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>status</element>
-            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="afb67006dbf1e490a997ba03f3961952">0ed63806dbf1e490a997ba03f39619e0</list_id>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="2173b670db0e6010a997ba03f3961915">0ed63806dbf1e490a997ba03f39619e0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>status.description</element>
-            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="afb67006dbf1e490a997ba03f3961952">0ed63806dbf1e490a997ba03f39619e0</list_id>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="2173b670db0e6010a997ba03f3961915">0ed63806dbf1e490a997ba03f39619e0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>last_state</element>
-            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="afb67006dbf1e490a997ba03f3961952">0ed63806dbf1e490a997ba03f39619e0</list_id>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="2173b670db0e6010a997ba03f3961915">0ed63806dbf1e490a997ba03f39619e0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -63,7 +63,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>started</element>
-            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="afb67006dbf1e490a997ba03f3961952">0ed63806dbf1e490a997ba03f39619e0</list_id>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="2173b670db0e6010a997ba03f3961915">0ed63806dbf1e490a997ba03f39619e0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -78,7 +78,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>completed</element>
-            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="afb67006dbf1e490a997ba03f3961952">0ed63806dbf1e490a997ba03f39619e0</list_id>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="2173b670db0e6010a997ba03f3961915">0ed63806dbf1e490a997ba03f39619e0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -93,7 +93,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>scan_status</element>
-            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="afb67006dbf1e490a997ba03f3961952">0ed63806dbf1e490a997ba03f39619e0</list_id>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="2173b670db0e6010a997ba03f3961915">0ed63806dbf1e490a997ba03f39619e0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
@@ -108,7 +108,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_updated_on</element>
-            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="afb67006dbf1e490a997ba03f3961952">0ed63806dbf1e490a997ba03f39619e0</list_id>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="2173b670db0e6010a997ba03f3961915">0ed63806dbf1e490a997ba03f39619e0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>7</position>
@@ -123,7 +123,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_updated_by</element>
-            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="afb67006dbf1e490a997ba03f3961952">0ed63806dbf1e490a997ba03f39619e0</list_id>
+            <list_id display_value="discovery_device_history" element="NULL" name="discovery_device_history" parent="NULL" relationship="NULL" sys_domain="global" view="2173b670db0e6010a997ba03f3961915">0ed63806dbf1e490a997ba03f39619e0</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>8</position>
@@ -160,7 +160,7 @@
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-01-20 12:18:07</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt67b6fc42dbf1e490a997ba03f3961955" name="RPT67b6fc42dbf1e490a997ba03f3961955">afb67006dbf1e490a997ba03f3961952</view>
+            <view display_value="Rpt67b6fc42dbf1e490a997ba03f3961955" name="RPT67b6fc42dbf1e490a997ba03f3961955">2173b670db0e6010a997ba03f3961915</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

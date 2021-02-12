@@ -10,7 +10,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="cmdb_ci_nas_file_system" name="cmdb_ci_nas_file_system" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">c1feddd6dbb96010a997ba03f3961948</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_nas_file_system" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">ddfed59adbb96010a997ba03f396190a</sys_ui_section>
+            <sys_ui_section display_value="">ddfed59adbb96010a997ba03f396190a</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-01-21 09:51:51</sys_updated_on>
         </sys_ui_form_section>

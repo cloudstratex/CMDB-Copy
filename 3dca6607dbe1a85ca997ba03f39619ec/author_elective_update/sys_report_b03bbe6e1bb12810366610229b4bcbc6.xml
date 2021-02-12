@@ -181,7 +181,7 @@
         <update_guid_history>053b7eee5ab128103d6d86efc0936599:-942824711</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="MS SQL DataBase Company - Non Discoverable">e1b1cba21b352810366610229b4bcb47</sys_audit_delete>
+        <sys_audit_delete display_value="">e1b1cba21b352810366610229b4bcb47</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
         <sys_created_on>2021-01-22 11:41:48</sys_created_on>

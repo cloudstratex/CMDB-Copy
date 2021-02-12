@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Orphan CI's" max_length="40" name="u_orphan_ci" type="collection">
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="CI" max_length="32" name="u_ci" reference="cmdb_ci" type="reference"/>
+        <element label="Discovered on" max_length="40" name="u_discovered_on" type="glide_date_time"/>
+        <element label="Type" max_length="40" name="u_type" type="string"/>
+        <index name="index">
+            <element name="u_ci"/>
+        </index>
+    </element>
+</database>

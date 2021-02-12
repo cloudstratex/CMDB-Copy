@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="VM Object" max_length="40" name="u_vm_object" sizeclass="2132109" type="collection">
+    <element label="VM Object" max_length="40" name="u_vm_object" sizeclass="0" type="collection">
         <element label="Agent" max_length="40" name="u_agent" type="string"/>
         <element label="Alias" max_length="40" name="u_alias" type="string"/>
         <element label="Asset" max_length="32" name="u_asset" reference="alm_asset" type="reference"/>

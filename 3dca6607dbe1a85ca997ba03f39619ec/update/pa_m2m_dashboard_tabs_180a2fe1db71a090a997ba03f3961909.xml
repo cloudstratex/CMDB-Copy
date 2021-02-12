@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
     <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
-        <dashboard display_value="Toronto - Windows Server">880aebe1db71a090a997ba03f39619fe</dashboard>
+        <dashboard display_value="Windows Server">880aebe1db71a090a997ba03f39619fe</dashboard>
         <home>false</home>
-        <homepage display_value="Toronto - Windows Server">12f133dc1bbda010366610229b4bcb5d</homepage>
+        <homepage display_value="">12f133dc1bbda010366610229b4bcb5d</homepage>
         <order>1</order>
         <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
         <sys_created_by>daniel.mann@cloudstratex.com</sys_created_by>
