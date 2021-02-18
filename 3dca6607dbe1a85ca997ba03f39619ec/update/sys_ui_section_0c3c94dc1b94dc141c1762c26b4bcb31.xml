@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Configuration" section_id="a6e7c0dadb022090a997ba03f39619a1" sys_domain="global" table="cmdb_ci_linux_server" version="3" view="Default_MURE">
+    <sys_ui_section caption="Configuration" section_id="0c3c94dc1b94dc141c1762c26b4bcb31" sys_domain="global" table="cmdb_ci_linux_server" version="3" view="Default_MURE">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>host_name</element>
             <position>0</position>
@@ -8,7 +8,7 @@
             <sys_id>a6e7c0dadb022090a997ba03f39619a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>2ae7c0dadb022090a997ba03f39619a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>aae7c0dadb022090a997ba03f39619a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_id>2ee7c0dadb022090a997ba03f39619a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_id>aee7c0dadb022090a997ba03f39619a3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -78,7 +78,7 @@
             <sys_id>22e7c0dadb022090a997ba03f39619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -92,7 +92,7 @@
             <sys_id>a2e7c0dadb022090a997ba03f39619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -106,7 +106,7 @@
             <sys_id>26e7c0dadb022090a997ba03f39619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -120,7 +120,7 @@
             <sys_id>a6e7c0dadb022090a997ba03f39619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -134,7 +134,7 @@
             <sys_id>2ae7c0dadb022090a997ba03f39619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -148,7 +148,7 @@
             <sys_id>aae7c0dadb022090a997ba03f39619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -162,7 +162,7 @@
             <sys_id>2ee7c0dadb022090a997ba03f39619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -176,7 +176,7 @@
             <sys_id>aee7c0dadb022090a997ba03f39619a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -190,7 +190,7 @@
             <sys_id>22e7c0dadb022090a997ba03f39619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -204,7 +204,7 @@
             <sys_id>a2e7c0dadb022090a997ba03f39619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -218,7 +218,7 @@
             <sys_id>26e7c0dadb022090a997ba03f39619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -232,7 +232,7 @@
             <sys_id>a6e7c0dadb022090a997ba03f39619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -246,7 +246,7 @@
             <sys_id>2ae7c0dadb022090a997ba03f39619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -260,7 +260,7 @@
             <sys_id>aae7c0dadb022090a997ba03f39619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -274,7 +274,7 @@
             <sys_id>2ee7c0dadb022090a997ba03f39619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -288,7 +288,7 @@
             <sys_id>aee7c0dadb022090a997ba03f39619a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="CI Relations">b62309137f32310009fedf92bdfa912b</sys_ui_formatter>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -302,7 +302,7 @@
             <sys_id>22e7c0dadb022090a997ba03f39619a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
-            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">a6e7c0dadb022090a997ba03f39619a1</sys_ui_section>
+            <sys_ui_section caption="Configuration" display_value="Configuration" name="cmdb_ci_linux_server" sys_domain="global" view="eeeca0c01bc498501c1762c26b4bcb99">0c3c94dc1b94dc141c1762c26b4bcb31</sys_ui_section>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>
@@ -318,14 +318,14 @@
             <sys_created_on>2021-02-02 13:47:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a6e7c0dadb022090a997ba03f39619a1</sys_id>
+            <sys_id>0c3c94dc1b94dc141c1762c26b4bcb31</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>cmdb_ci_linux_server</sys_name>
             <sys_overrides/>
             <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
             <sys_policy/>
             <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
-            <sys_update_name>sys_ui_section_a6e7c0dadb022090a997ba03f39619a1</sys_update_name>
+            <sys_update_name>sys_ui_section_0c3c94dc1b94dc141c1762c26b4bcb31</sys_update_name>
             <sys_updated_by>daniel.mann@cloudstratex.com</sys_updated_by>
             <sys_updated_on>2021-02-02 13:47:15</sys_updated_on>
             <sys_user/>

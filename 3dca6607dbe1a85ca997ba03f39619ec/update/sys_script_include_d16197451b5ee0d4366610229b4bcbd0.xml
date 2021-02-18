@@ -12,7 +12,96 @@
         <script><![CDATA[var calculateScript = Class.create();
 calculateScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     initialize: function() {
-        this.tables = ['cmdb_ci_server'];
+        this.tables = ['cmdb_ci_win_server']; //, 'cmdb_ci_linux_server'];
+        this.functions = {
+            'getParentRelationships': {
+                'limit': 8,
+                'runCount': 0
+            }
+        };
+    },
+
+    findService: function() {
+        gs.log('findService: STARTED', 'shay');
+        var totalCount = 0;
+        var a = new GlideAggregate('cmdb_ci_server');
+        a.addEncodedQuery('install_status!=7^ORinstall_status=NULL^install_status!=100^ORinstall_status=NULL');
+        a.addAggregate('COUNT');
+        a.query();
+        while (a.next()) {
+            totalCount = a.getAggregate('COUNT');
+        }
+
+        var count = 0;
+        var countWithApp = 0;
+
+        //get a server record
+        var server = new GlideRecord("cmdb_ci_server");
+        server.addEncodedQuery('install_status!=7^ORinstall_status=NULL^install_status!=100^ORinstall_status=NULL');
+        // server.get("name", "tmls008102");
+        server.query();
+
+        while (server.next()) {
+            var CIUtil = new CIUtils();
+            var isBusApp = false;
+            var serviceIds;
+            count++;
+            var progress = (parseInt(count) / parseInt(totalCount)) * 100;
+            gs.log('findService: ' + progress + '%');
+            //get the affected services, array of ids
+            serviceIds = CIUtil.servicesAffectedByCI(server.getUniqueValue());
+            for (var i = 0; i < serviceIds.length; i++) {
+                //get the service record
+                var service = new GlideRecord("cmdb_ci_service_discovered");
+                service.get(serviceIds[i]);
+
+                if (service.isValidRecord()) {
+                    isBusApp = true;
+                }
+            }
+            if (isBusApp) {
+                this.markCI(server.sys_id);
+				countWithApp++;
+
+            }
+        }
+        gs.log('findService: ENDED ' + 'Total Records: ' + totalCount + ' Completed: ' + count + ' With Apps: ' + countWithApp, 'shay');
+
+    },
+
+    addFlagToBusinessApplication: function() {
+        gs.log('addFlagToBusinessApplication: STARTED');
+        var getCIs = new GlideRecord('cmdb_ci_business_app');
+        getCIs.query();
+
+        while (getCIs.next()) {
+            this.findChild(getCIs.sys_id);
+        }
+        gs.log('addFlagToBusinessApplication: FINISHED');
+
+    },
+
+    findChild: function(parentId) {
+        var getChildCi = new GlideRecord('cmdb_rel_ci');
+        getChildCi.addQuery('parent', parentId);
+        getChildCi.query();
+
+        while (getChildCi.next()) {
+            this.markCI(getChildCi.sys_id);
+            this.findChild(getChildCi.sys_id);
+        }
+
+    },
+
+    markCI: function(ci) {
+
+        var setCI = new GlideRecord('cmdb_ci_server');
+        setCI.get(ci);
+        setCI.u_relates_to_business_application = true;
+        setCI.setWorkflow(false);
+        setCI.autoSysFields(false);
+        setCI.update();
+
     },
 
     findOrphan: function() {
@@ -23,16 +112,18 @@ calculateScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
             var getCIs = new GlideRecord(tablesArray[i]);
             //getCIs.addQuery(); // **ACTION** need to set query
-            //getCIs.get('0005e8c5db71c890228372e9f49619fc');
-            //getCIs.setLimit(100);
+            //getCIs.get('009ca085db39c890228372e9f49619f9');//0005e8c5db71c890228372e9f49619fc');
+            //getCIs.setLimit(10);
             getCIs.query();
 
             while (getCIs.next()) {
                 var isBusApp = true;
-                var busApp = new global.MRChangeUtilsv2().getTopBusinessApplication(getCIs.sys_id);
+                var busApp = this.getTopBusinessApplication(getCIs.sys_id);
                 if (busApp === undefined)
                     isBusApp = false;
-                if (!isBusApp) {
+                //gs.log('busApp: ' + busApp + ' isBusApp: ' + isBusApp,'shay');
+                if (isBusApp == false) {
+                    //	gs.log('MISSING','shay');
                     var setOrphanRecord = new GlideRecord('u_orphan_ci');
                     setOrphanRecord.initialize();
                     setOrphanRecord.u_ci = getCIs.sys_id;
@@ -45,6 +136,101 @@ calculateScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         }
         gs.info('CMDB Copy: findOrphan FINISHED');
 
+    },
+
+    getTopBusinessApplication: function(childId) {
+        gs.log('checking: ' + childId, 'shay');
+        var parentRel = this.getRelatedBusinessServices(childId);
+        gs.log('parentRel for ' + childId + ' - ' + parentRel, 'shay1');
+        var grBusApp = new GlideRecord('cmdb_ci_business_app');
+        grBusApp.addQuery('sys_id', 'IN', parentRel);
+        grBusApp.setLimit(1);
+        grBusApp.query();
+
+        if (grBusApp.next()) {
+            return grBusApp;
+        }
+    },
+
+    getAllRelationCIs: function(childId) {
+
+        var getCIS = [];
+
+        var getRel = new GlideRecord('cmdb_rel_ci');
+        getRel.addQuery('child', childId);
+        getRel.addQuery('child', '!=', '').addOrCondition('parent', '!=', '');
+        getRel.addQuery('type', 'cb5592603751200032ff8c00dfbe5d17').addOrCondition('type', '60bc4e22c0a8010e01f074cbe6bd73c3').addOrCondition('type', '1a9cb166f1571100a92eb60da2bce5c5').addOrCondition('type', '41008aa6ef32010098d5925495c0fb94');
+        getRel.query();
+
+        while (getRel.next()) {
+            getCIS.push(getRel.sys_id.toString());
+            getCIS.push(this.getRelCIs(getRel).toString());
+        }
+
+
+    },
+
+    getRelCIs: function(childCi) {
+
+        var getCIS1 = [];
+        var getRel = new GlideRecord('cmdb_rel_ci');
+        getRel.addQuery('child', childCi);
+        getRel.addQuery('child', '!=', '').addOrCondition('parent', '!=', '');
+        getRel.addQuery('type', 'cb5592603751200032ff8c00dfbe5d17').addOrCondition('type', '60bc4e22c0a8010e01f074cbe6bd73c3').addOrCondition('type', '1a9cb166f1571100a92eb60da2bce5c5').addOrCondition('type', '41008aa6ef32010098d5925495c0fb94');
+        getRel.query();
+
+        while (getRel.next()) {
+            getCIS1.push(getRel.sys_id.toString());
+        }
+
+    },
+
+    getRelatedBusinessServices: function(childId) {
+        var services = [];
+        var rel = new GlideRecord('cmdb_rel_ci');
+        rel.addQuery('child', childId);
+        rel.addQuery('child', '!=', '').addOrCondition('parent', '!=', '');
+        rel.addQuery('type', 'cb5592603751200032ff8c00dfbe5d17').addOrCondition('type', '60bc4e22c0a8010e01f074cbe6bd73c3').addOrCondition('type', '1a9cb166f1571100a92eb60da2bce5c5').addOrCondition('type', '41008aa6ef32010098d5925495c0fb94');
+        rel.query();
+        while (rel.next()) {
+            gs.log('checking rel: ' + rel.sys_id, 'shay2');
+            services.push(rel.parent.sys_id.toString());
+            if (this._hasParentRelationships(rel.parent.sys_id.toString())) {
+                gs.log('hasParent: ' + rel.parent.sys_id, 'shay3');
+                this._getParentRelationships(rel.parent.sys_id.toString(), services);
+            }
+        }
+        return services.join();
+    },
+
+    _hasParentRelationships: function(childId) {
+        var rel = new GlideRecord('cmdb_rel_ci');
+        rel.addQuery('child', childId);
+        rel.addQuery('child', '!=', '').addOrCondition('parent', '!=', '');
+        rel.addQuery('child.sys_class_name', '!=', 'cmdb_ci_resource_group');
+        rel.query();
+        // gs.log(rel.parent.sys_id.toString(), 'DAN11.3');
+        if (rel.next())
+            return true;
+        else
+            return false;
+    },
+
+    _getParentRelationships: function(childId, services) {
+        // this.functions.getParentRelationships.runCount++;
+
+        var rel = new GlideRecord('cmdb_rel_ci');
+        rel.addQuery('child', childId);
+        rel.addQuery('child', '!=', '').addOrCondition('parent', '!=', '');
+        rel.addQuery('type', 'cb5592603751200032ff8c00dfbe5d17').addOrCondition('type', '60bc4e22c0a8010e01f074cbe6bd73c3').addOrCondition('type', '1a9cb166f1571100a92eb60da2bce5c5').addOrCondition('type', '41008aa6ef32010098d5925495c0fb94');
+        rel.query();
+        while (rel.next()) {
+            gs.log('the parnet: ' + rel.parent.sys_id, 'shay4');
+            services.push(rel.parent.sys_id.toString());
+            if (this._hasParentRelationships(rel.parent.sys_id.toString()))
+                return this._getParentRelationships(rel.parent.sys_id.toString(), services);
+
+        }
     },
 
     findOrphan1: function() {
@@ -97,13 +283,13 @@ calculateScript.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
         <sys_created_on>2021-02-11 17:58:48</sys_created_on>
         <sys_id>d16197451b5ee0d4366610229b4bcbd0</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>calculateScript</sys_name>
         <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
         <sys_policy/>
         <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
         <sys_update_name>sys_script_include_d16197451b5ee0d4366610229b4bcbd0</sys_update_name>
         <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
-        <sys_updated_on>2021-02-12 08:48:39</sys_updated_on>
+        <sys_updated_on>2021-02-17 14:23:07</sys_updated_on>
     </sys_script_include>
 </record_update>

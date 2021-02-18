@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="Linux Servers">ec47c7dddb3da850a997ba03f396191a</dashboard>
+        <dashboard display_value="">ec47c7dddb3da850a997ba03f396191a</dashboard>
         <delete>false</delete>
         <group/>
         <identity>37ebadfbdbad4050228372e9f496195d</identity>

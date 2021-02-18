@@ -11,9 +11,9 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Network adapter</label>
+        <label>Discovery Results Table</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>u_network_adapter</name>
+        <name>u_discovery_results_table</name>
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
@@ -23,18 +23,18 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>shay.faingold@cloudstratex.com</sys_created_by>
-        <sys_created_on>2021-01-13 11:25:47</sys_created_on>
-        <sys_id>ea9e6674db866010a997ba03f3961907</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Network adapter</sys_name>
+        <sys_created_on>2021-01-18 11:42:36</sys_created_on>
+        <sys_id>431517211b562810366610229b4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Discovery Results Table</sys_name>
         <sys_package display_value="CMDB Copy" source="3dca6607dbe1a85ca997ba03f39619ec">3dca6607dbe1a85ca997ba03f39619ec</sys_package>
         <sys_policy/>
         <sys_scope display_value="CMDB Copy">3dca6607dbe1a85ca997ba03f39619ec</sys_scope>
-        <sys_update_name>sys_db_object_ea9e6674db866010a997ba03f3961907</sys_update_name>
+        <sys_update_name>sys_db_object_431517211b562810366610229b4bcbf1</sys_update_name>
         <sys_updated_by>shay.faingold@cloudstratex.com</sys_updated_by>
-        <sys_updated_on>2021-01-14 17:40:39</sys_updated_on>
+        <sys_updated_on>2021-01-18 11:42:36</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="u_network_adapter_user" name="u_network_adapter_user">13b7acb71bed2058366610229b4bcbd1</user_role>
+        <user_role display_value="u_discovery_results_table_user" name="u_discovery_results_table_user">128b5615dbf1a850a997ba03f39619f9</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

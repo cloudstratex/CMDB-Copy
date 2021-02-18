@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="cmdb_ci_hardware" label="Out-of-Band Device" max_length="40" name="cmdb_ci_outofband_device" sizeclass="29" text_index="true" type="collection">
+    <element audit="true" extends="cmdb_ci_hardware" label="Out-of-Band Device" max_length="40" name="cmdb_ci_outofband_device" sizeclass="337" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Data Centre" max_length="40" name="u_data_centre" type="string">
             <choice>
                 <element inactive_on_update="false" label="Toronto" sequence="0" value="Toronto"/>
